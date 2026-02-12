@@ -1,6 +1,6 @@
 /*
 file: BMI.h
-Author: Raghavendran Srinivasan(s3656721), Srinkrishnan Srinivasan(s3603288SS)
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
 Group number: SDfR-PPD 16
 
 Description: This is the header file for the BMI calculator. It contains the function prototype for evaluating

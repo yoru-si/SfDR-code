@@ -15,5 +15,5 @@ Windows: .\assignment1.2.exe
 
 Locate files:
 - Functions src/BMI.cpp
-- Function Declarations include/BMI.height
+- Function Declarations include/BMI.h
 - Main file with user interactions src/main.cpp

@@ -1,6 +1,6 @@
 /*
 File: main.cpp
-Author: Raghavendran Srinivasan(s3656721), Srinkrishnan Srinivasan(s3603288)
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
 Group number: SDfR-PPD 16
 
 Description: This is the main file for the BMI calculator. 
