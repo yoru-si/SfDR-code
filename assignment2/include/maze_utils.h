@@ -2,19 +2,16 @@
 #define MAZE_UTILS_H
 
 #include <array>
-#include <utility>
- 
-template <typename T, std::size_t Row, std::size_t Col>
-std::pair<std::size_t, std::size_t> FindX(const std::array<std::array<T, Col>, Row> &maze)
-{
-    for (std::size_t r = 0; r<Row; ++r)
-    {
-        for (std::size_t c=0; c<Col; ++c)
-            if (maze[r][c] == 'X'){
-                return {r , c};
-            }
-    }
-    return {Row, Col};
-}
+#include <iostream>
+
+const int MAZE_SIZE = 12;
+
+using MazeGrid = std::array<std::array<char, MAZE_SIZE>, MAZE_SIZE>;
+
+enum class Direction { Right,Up,Left,Down };
+
+void printMaze(const MazeGrid& maze);
+std::pair<int,int> findX(const MazeGrid& maze);
+void traverseMaze(MazeGrid& maze, int r, int c, Direction dir);
 
 #endif
