@@ -44,6 +44,21 @@ void traverseMaze(MazeGrid& maze, int r, int c, Direction dir){
     maze[r][c] = 'X';
     printMaze(maze);
 
+    if (r - 1 >= 0 && maze[r - 1][c] == '.') {
+        traverseMaze(maze, r - 1, c, Direction::Right);
+    }
+    // Move Down
+    if (r + 1 < MAZE_SIZE && maze[r + 1][c] == '.') {
+        traverseMaze(maze, r + 1, c, Direction::Right);
+    }
+    // Move Left
+    if (c - 1 >= 0 && maze[r][c - 1] == '.') {
+        traverseMaze(maze, r, c - 1, Direction::Right);
+    }
+    // Move Right
+    if (c + 1 < MAZE_SIZE && maze[r][c + 1] == '.') {
+        traverseMaze(maze, r, c + 1, Direction::Right);
+    }
 
     
 }
