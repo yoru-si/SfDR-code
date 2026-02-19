@@ -12,6 +12,6 @@ enum class Direction { Right,Up,Left,Down };
 
 void printMaze(const MazeGrid& maze);
 std::pair<int,int> findX(const MazeGrid& maze);
-void traverseMaze(MazeGrid& maze, int r, int c, Direction dir);
+void traverseMaze(MazeGrid& maze, int r, int c, Direction dir, int steps);
 
 #endif

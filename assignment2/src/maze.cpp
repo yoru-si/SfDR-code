@@ -27,13 +27,23 @@ std::pair<int,int> findX(const MazeGrid& maze)
     return {-1, -1}; // Return an invalid position if 'X' is not found
 }
 
-void traverseMaze(MazeGrid& maze, int r, int c, Direction dir) {
+void traverseMaze(MazeGrid& maze, int r, int c, Direction dir, int steps = 0) {
 
+    // out of bounds or boxed into a wall edge case
+    if (r < 0 || r >= MAZE_SIZE || c < 0 || c >= MAZE_SIZE || maze[r][c] == '#') {
+        return; // Stop immediately
+    }
+
+    if (steps > 500) {
+        std::cout << "\nError: Maze has no exit!!\n";
+        exit(1); 
+    }
+    
     // Reach border and given that the cell is a dot for exit condition
     if ((r == 0 || r == MAZE_SIZE - 1 || c == 0 || c == MAZE_SIZE - 1) && maze[r][c] == '.') {
         maze[r][c] = 'X'; 
         printMaze(maze);
-        std::cout << "\nMaze Solved!\n";
+        std::cout << "\nMaze Solved!!\n";
         exit(0);
     }
 
@@ -67,20 +77,20 @@ void traverseMaze(MazeGrid& maze, int r, int c, Direction dir) {
     // Move based on priority: Right -> Straight -> Left -> Turn Around
     // We check != '#' so the algorithm can step on its own 'X' marks to escape dead ends.
     if (right_r >= 0 && right_r < MAZE_SIZE && right_c >= 0 && right_c < MAZE_SIZE && maze[right_r][right_c] != '#') {
-        traverseMaze(maze, right_r, right_c, right_dir);
+        traverseMaze(maze, right_r, right_c, right_dir, steps + 1);
     } 
     else if (straight_r >= 0 && straight_r < MAZE_SIZE && straight_c >= 0 && straight_c < MAZE_SIZE && maze[straight_r][straight_c] != '#') {
-        traverseMaze(maze, straight_r, straight_c, straight_dir);
+        traverseMaze(maze, straight_r, straight_c, straight_dir, steps + 1);
     } 
     else if (left_r >= 0 && left_r < MAZE_SIZE && left_c >= 0 && left_c < MAZE_SIZE && maze[left_r][left_c] != '#') {
-        traverseMaze(maze, left_r, left_c, left_dir);
+        traverseMaze(maze, left_r, left_c, left_dir, steps + 1);
     } 
     else {
         // Dead end: turn 180 degrees and step back
-        if (dir == Direction::Up) traverseMaze(maze, r + 1, c, Direction::Down);
-        else if (dir == Direction::Right) traverseMaze(maze, r, c - 1, Direction::Left);
-        else if (dir == Direction::Down) traverseMaze(maze, r - 1, c, Direction::Up);
-        else if (dir == Direction::Left) traverseMaze(maze, r, c + 1, Direction::Right);
+        if (dir == Direction::Up) traverseMaze(maze, r + 1, c, Direction::Down, steps + 1);
+        else if (dir == Direction::Right) traverseMaze(maze, r, c - 1, Direction::Left, steps + 1);
+        else if (dir == Direction::Down) traverseMaze(maze, r - 1, c, Direction::Up, steps + 1);
+        else if (dir == Direction::Left) traverseMaze(maze, r, c + 1, Direction::Right, steps + 1);
     }
 }
 
