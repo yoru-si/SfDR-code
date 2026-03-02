@@ -1,9 +1,9 @@
 //==============================================================
 // Filename    : main.cpp    
-// Authors     : Srikrishnan Srinivasan (s3603288), Raghavendran Srinivasan (s)
+// Authors     : Srikrishnan Srinivasan (s3603288), Raghavendran Srinivasan (s3656721)
 // Group       : Group 16
 // License     : N.A. or opensource license like LGPL
-// Description : Main File
+// Description : Main File, contains the fillList function definition and calls the concatenate function here.
 //==============================================================
 #include <iostream>
 #include "ListNode.h"
