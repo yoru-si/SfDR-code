@@ -11,7 +11,7 @@ Windows: output.exe
 - Asks for two input strings seperately.
 - Prints the two different lists seperately by traversing through the linked list.
 - Asks for two input strings seperately again.
-- Uses the concatenate function and prints a single list where the second is merged to the end of the first.
+- Uses the concatenate function and prints a single list where the two input strings are merged to the second string of the first set of in input strings.
 - Exits
 
 

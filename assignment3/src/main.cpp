@@ -33,6 +33,7 @@ int main() {
     fillList(conlist1);
     fillList(conlist2);
     conlist1.concatenate(conlist2);
-    conlist1.print();
+    newlist2.concatenate(conlist1);
+    newlist2.print();
     return 0;
 }
