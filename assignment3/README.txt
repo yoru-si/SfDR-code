@@ -2,10 +2,10 @@ Assignment 3 - Lists and Searching
 ________________________________
 
 1. Build Command:
-g++ -Iinclude src/*.cpp
+g++ src/*.cpp -iquote include -o output.exe
 
 2. Run Command
-Linux: ./a.out
+Windows: output.exe
 
 3. What it does:
 - Asks for two input strings seperately.
