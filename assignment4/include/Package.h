@@ -8,6 +8,7 @@
 #define PACKAGE_H
 
 #include <string>
+#include <vector>
 using namespace std;
 
 class Package{
@@ -46,4 +47,5 @@ class OvernightPackage : public TwoDayPackage{
     virtual double CalculateCost() override; //override specifier to indicate that this function overrides a virtual function in the base class
 };
 
+void printCosts(vector<Package*> packages); //Function prototype for printCosts function, defined in main.cpp to print the costs of the packages
 #endif

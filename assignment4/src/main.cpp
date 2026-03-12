@@ -2,7 +2,7 @@
 // Filename    : main.cpp
 // Authors     : Srikrishnan Srinivasan (s3603288), Raghavendran Srinivasan (s3656721)
 // Group       : Group 16
-// Description : Main function to demonstrate the usage of Package, TwoDayPackage and OvernightPackage classes. 
+// Description : Main file to demonstrate the usage of Package, TwoDayPackage and OvernightPackage classes. 
 //==============================================================
 #include "Package.h"
 #include <iostream>
