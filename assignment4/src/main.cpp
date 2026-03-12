@@ -26,6 +26,18 @@ int main() {
     packages.push_back(new TwoDayPackage("Charlie", "789 Oak St", "Dave", "321 Pine St", 5));
     packages.push_back(new OvernightPackage("Eve", "654 Maple St", "Frank", "987 Cedar St", 3));
 
+    cout << "\n test case\n";
+    // negative weight test case
+    packages.push_back(new TwoDayPackage("Charlie", "789 Oak St", "Dave", "321 Pine St", -5));
+
+    cout << "\n test case\n";
+    // empty string test case
+    packages.push_back(new OvernightPackage("", "111 Blank Ave", "", "222 Nowhere Rd", 2));
+
+    cout << "\n test case\n";
+    // identical addresses test case
+    packages.push_back(new TwoDayPackage("Gary", "Same House St", "Gina", "Same House St", 4));
+
     printCosts(packages);
 
     // Memory cleanup: delete the dynamically allocated packages
