@@ -9,7 +9,7 @@ Windows: o.exe
 
 3. What it does:
 - Contains the package information hard-coded.
-- If any vital information is found Invalud, asks for re-entering the details as user input.
+- If any vital information is found Invalid, asks for re-entering the details as user input.
 - Calculates the cost depending on type of package.
 - Prints the Cost with Sender and Reciever name.
 
