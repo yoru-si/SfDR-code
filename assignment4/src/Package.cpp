@@ -18,9 +18,7 @@ Package::Package(string s_Name, string s_Address, string r_Name, string r_Addres
       recieverAddress(r_Address),
       weight(w) {}
 
-double Package::CalculateCost() {
-    return 0;
-}
+
 
 //Constructor for TwoDayPackage class to initilize the member variables
 //Also calls the constructor of the base class to initilize the inherited member variables
