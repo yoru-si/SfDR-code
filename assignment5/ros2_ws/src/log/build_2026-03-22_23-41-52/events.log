@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (relbot2turtlesim) JobQueued: {'identifier': 'relbot2turtlesim', 'dependencies': OrderedDict()}
+[0.000669] (relbot_adapter) JobQueued: {'identifier': 'relbot_adapter', 'dependencies': OrderedDict()}
+[0.000682] (relbot_launch) JobQueued: {'identifier': 'relbot_launch', 'dependencies': OrderedDict()}
+[0.000692] (relbot_msgs) JobQueued: {'identifier': 'relbot_msgs', 'dependencies': OrderedDict()}
+[0.000701] (relbot_sequence_controller) JobQueued: {'identifier': 'relbot_sequence_controller', 'dependencies': OrderedDict()}
+[0.000710] (relbot_simulator) JobQueued: {'identifier': 'relbot_simulator', 'dependencies': OrderedDict([('relbot_msgs', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs')])}
+[0.000723] (relbot_msgs) JobStarted: {'identifier': 'relbot_msgs'}
+[0.004565] (relbot2turtlesim) JobStarted: {'identifier': 'relbot2turtlesim'}
+[0.005553] (relbot_adapter) JobStarted: {'identifier': 'relbot_adapter'}
+[0.006516] (relbot_launch) JobStarted: {'identifier': 'relbot_launch'}
+[0.007572] (relbot_sequence_controller) JobStarted: {'identifier': 'relbot_sequence_controller'}
+[0.009496] (relbot_msgs) JobProgress: {'identifier': 'relbot_msgs', 'progress': 'cmake'}
+[0.009705] (relbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs'], 'cwd': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav742'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/raghav742'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'raghav742'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav742'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/raghav742/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/RaghavPC:@/tmp/.ICE-unix/1665,unix/RaghavPC:/tmp/.ICE-unix/1665'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/717884ac_902e_43ef_8762_c2186a748d77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRTMM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.011373] (relbot2turtlesim) JobProgress: {'identifier': 'relbot2turtlesim', 'progress': 'cmake'}
+[0.012005] (relbot2turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim'], 'cwd': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav742'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/raghav742'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'raghav742'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav742'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/raghav742/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/RaghavPC:@/tmp/.ICE-unix/1665,unix/RaghavPC:/tmp/.ICE-unix/1665'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/717884ac_902e_43ef_8762_c2186a748d77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRTMM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.012863] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'cmake'}
+[0.012976] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter', '-DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter'], 'cwd': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav742'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/raghav742'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'raghav742'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav742'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/raghav742/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/RaghavPC:@/tmp/.ICE-unix/1665,unix/RaghavPC:/tmp/.ICE-unix/1665'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/717884ac_902e_43ef_8762_c2186a748d77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRTMM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.013961] (relbot_launch) JobProgress: {'identifier': 'relbot_launch', 'progress': 'cmake'}
+[0.014221] (relbot_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch', '-DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch'], 'cwd': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav742'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/raghav742'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'raghav742'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav742'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/raghav742/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/RaghavPC:@/tmp/.ICE-unix/1665,unix/RaghavPC:/tmp/.ICE-unix/1665'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/717884ac_902e_43ef_8762_c2186a748d77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRTMM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.015673] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'cmake'}
+[0.015909] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller', '-DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller'], 'cwd': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav742'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/raghav742'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'raghav742'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav742'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/raghav742/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/RaghavPC:@/tmp/.ICE-unix/1665,unix/RaghavPC:/tmp/.ICE-unix/1665'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/717884ac_902e_43ef_8762_c2186a748d77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WRTMM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca9ca0e7c7d27ae9e0cc7cc69c02e81'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.100021] (-) TimerEvent: {}
+[0.135888] (relbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.139816] (relbot_sequence_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.139996] (relbot_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.140737] (relbot_adapter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.140864] (relbot2turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200132] (-) TimerEvent: {}
+[0.217699] (relbot2turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.218585] (relbot_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.218678] (relbot_sequence_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.224378] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.224521] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.224577] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.225683] (relbot_adapter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.226640] (relbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.231196] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.232720] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.277057] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.277248] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.278056] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.280533] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283697] (relbot_sequence_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.283803] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283861] (relbot2turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.284395] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.284505] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285077] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.285245] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288001] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.288287] (relbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.288604] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.289094] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.289162] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.292106] (relbot_adapter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.292406] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.292918] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.293061] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.294740] (relbot_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.295049] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.295595] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.296878] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298307] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300201] (-) TimerEvent: {}
+[0.350413] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.351811] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.353236] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.356961] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.357551] (relbot2turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.357898] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.358116] (relbot_sequence_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.358354] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.358514] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.358739] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.359957] (relbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.360182] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.360549] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.363710] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.367165] (relbot_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.367538] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.368120] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.368254] (relbot_sequence_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.368341] (relbot_sequence_controller) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.368388] (relbot_sequence_controller) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.368431] (relbot_sequence_controller) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.368474] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[0.368516] (relbot_sequence_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.368559] (relbot_sequence_controller) StderrLine: {'line': b'  any of the following names:\n'}
+[0.368600] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[0.368641] (relbot_sequence_controller) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.368682] (relbot_sequence_controller) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.368724] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[0.368765] (relbot_sequence_controller) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.368807] (relbot_sequence_controller) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.368848] (relbot_sequence_controller) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.368894] (relbot_sequence_controller) StderrLine: {'line': b'  has been installed.\n'}
+[0.368936] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[0.368976] (relbot_sequence_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.369030] (relbot_sequence_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.369075] (relbot_sequence_controller) StdoutLine: {'line': b'See also "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller/CMakeFiles/CMakeOutput.log".\n'}
+[0.370398] (relbot_sequence_controller) CommandEnded: {'returncode': 1}
+[0.372086] (relbot2turtlesim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.372221] (relbot2turtlesim) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.372269] (relbot2turtlesim) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.372311] (relbot2turtlesim) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.372353] (relbot2turtlesim) StderrLine: {'line': b'\n'}
+[0.372395] (relbot2turtlesim) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.372436] (relbot2turtlesim) StderrLine: {'line': b'  any of the following names:\n'}
+[0.372478] (relbot2turtlesim) StderrLine: {'line': b'\n'}
+[0.372517] (relbot2turtlesim) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.372558] (relbot2turtlesim) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.372599] (relbot2turtlesim) StderrLine: {'line': b'\n'}
+[0.372639] (relbot2turtlesim) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.372680] (relbot2turtlesim) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.372721] (relbot2turtlesim) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.372761] (relbot2turtlesim) StderrLine: {'line': b'  has been installed.\n'}
+[0.372804] (relbot2turtlesim) StderrLine: {'line': b'\n'}
+[0.372845] (relbot2turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[0.372886] (relbot_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.372938] (relbot_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.372979] (relbot_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.373020] (relbot_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.373060] (relbot_msgs) StderrLine: {'line': b'\n'}
+[0.373101] (relbot_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.373140] (relbot_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.373182] (relbot_msgs) StderrLine: {'line': b'\n'}
+[0.373221] (relbot_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.373261] (relbot_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.373301] (relbot_msgs) StderrLine: {'line': b'\n'}
+[0.373343] (relbot_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.373384] (relbot_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.373424] (relbot_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.373464] (relbot_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.373504] (relbot_msgs) StderrLine: {'line': b'\n'}
+[0.373545] (relbot_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.373586] (relbot2turtlesim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.373633] (relbot2turtlesim) StdoutLine: {'line': b'See also "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim/CMakeFiles/CMakeOutput.log".\n'}
+[0.373681] (relbot_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.373725] (relbot_msgs) StdoutLine: {'line': b'See also "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.374981] (relbot_adapter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.375276] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.375603] (relbot2turtlesim) CommandEnded: {'returncode': 1}
+[0.376106] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.377374] (relbot_msgs) CommandEnded: {'returncode': 1}
+[0.378697] (relbot_launch) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.379491] (relbot_launch) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.379583] (relbot_launch) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.379655] (relbot_launch) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.379724] (relbot_launch) StderrLine: {'line': b'\n'}
+[0.379792] (relbot_launch) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.379863] (relbot_launch) StderrLine: {'line': b'  any of the following names:\n'}
+[0.379935] (relbot_launch) StderrLine: {'line': b'\n'}
+[0.380006] (relbot_launch) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.380079] (relbot_launch) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.380148] (relbot_launch) StderrLine: {'line': b'\n'}
+[0.380215] (relbot_launch) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.380284] (relbot_launch) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.380352] (relbot_launch) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.380422] (relbot_launch) StderrLine: {'line': b'  has been installed.\n'}
+[0.380489] (relbot_launch) StderrLine: {'line': b'\n'}
+[0.380557] (relbot_launch) StderrLine: {'line': b'\x1b[0m\n'}
+[0.380624] (relbot_launch) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.380910] (relbot_launch) StdoutLine: {'line': b'See also "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch/CMakeFiles/CMakeOutput.log".\n'}
+[0.384631] (relbot_adapter) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.384805] (relbot_adapter) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.384856] (relbot_adapter) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.384901] (relbot_adapter) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.384945] (relbot_adapter) StderrLine: {'line': b'\n'}
+[0.384988] (relbot_adapter) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.385032] (relbot_adapter) StderrLine: {'line': b'  any of the following names:\n'}
+[0.385076] (relbot_adapter) StderrLine: {'line': b'\n'}
+[0.385118] (relbot_adapter) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.385160] (relbot_adapter) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.385201] (relbot_adapter) StderrLine: {'line': b'\n'}
+[0.385243] (relbot_adapter) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.385286] (relbot_adapter) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.385327] (relbot_adapter) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.385369] (relbot_adapter) StderrLine: {'line': b'  has been installed.\n'}
+[0.385412] (relbot_adapter) StderrLine: {'line': b'\n'}
+[0.385458] (relbot_adapter) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.385515] (relbot_adapter) StdoutLine: {'line': b'See also "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter/CMakeFiles/CMakeOutput.log".\n'}
+[0.385562] (relbot_adapter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.392154] (relbot_sequence_controller) JobEnded: {'identifier': 'relbot_sequence_controller', 'rc': 1}
+[0.393032] (relbot2turtlesim) JobEnded: {'identifier': 'relbot2turtlesim', 'rc': 'SIGINT'}
+[0.393282] (relbot_msgs) JobEnded: {'identifier': 'relbot_msgs', 'rc': 'SIGINT'}
+[0.393399] (relbot_adapter) JobEnded: {'identifier': 'relbot_adapter', 'rc': 'SIGINT'}
+[0.393511] (relbot_launch) JobEnded: {'identifier': 'relbot_launch', 'rc': 'SIGINT'}
+[0.400302] (-) TimerEvent: {}
+[0.403519] (relbot_simulator) JobSkipped: {'identifier': 'relbot_simulator'}
+[0.403630] (-) EventReactorShutdown: {}

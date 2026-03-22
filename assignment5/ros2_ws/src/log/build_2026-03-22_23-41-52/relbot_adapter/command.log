@@ -1,0 +1,1 @@
+Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter': /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter

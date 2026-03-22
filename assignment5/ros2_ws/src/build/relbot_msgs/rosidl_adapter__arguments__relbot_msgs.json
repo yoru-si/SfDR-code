@@ -1,0 +1,7 @@
+{
+  "package_name": "relbot_msgs",
+  "non_idl_tuples": [
+    "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs:msg/RelbotMotors.msg",
+    "/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs:msg/RelbotMotorsStamped.msg"
+  ]
+}

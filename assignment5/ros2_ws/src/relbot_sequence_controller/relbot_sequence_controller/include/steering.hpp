@@ -32,6 +32,11 @@ private:
     double left_velocity;
     double right_velocity;
 
+    rclcpp::Time start_time_;
+
+    enum PathType { STRAIGHT, CIRCLE, STRAIGHT_TURN, SQUARE };
+    PathType current_path = STRAIGHT;
+
     // methods
     void create_topics();
     void timer_callback();
