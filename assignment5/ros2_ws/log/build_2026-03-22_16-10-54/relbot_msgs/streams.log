@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs -- -j32 -l32
+[0.055s] [  2%] Built target relbot_msgs__cpp
+[0.055s] [ 12%] Built target relbot_msgs__rosidl_generator_c
+[0.060s] [ 12%] Built target ament_cmake_python_copy_relbot_msgs
+[0.068s] [ 23%] Built target relbot_msgs__rosidl_typesupport_cpp
+[0.068s] [ 33%] Built target relbot_msgs__rosidl_typesupport_c
+[0.069s] [ 43%] Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.069s] [ 53%] Built target relbot_msgs__rosidl_typesupport_introspection_cpp
+[0.070s] [ 64%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c
+[0.070s] [ 74%] Built target relbot_msgs__rosidl_typesupport_introspection_c
+[0.085s] [ 74%] Built target relbot_msgs
+[0.101s] [ 76%] Built target relbot_msgs__py
+[0.118s] [ 84%] Built target relbot_msgs__rosidl_generator_py
+[0.134s] [100%] Built target relbot_msgs__rosidl_typesupport_c__pyext
+[0.134s] [100%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.134s] [100%] Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.243s] running egg_info
+[0.244s] writing relbot_msgs.egg-info/PKG-INFO
+[0.244s] writing dependency_links to relbot_msgs.egg-info/dependency_links.txt
+[0.244s] writing top-level names to relbot_msgs.egg-info/top_level.txt
+[0.245s] reading manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[0.246s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[0.263s] [100%] Built target ament_cmake_python_build_relbot_msgs_egg

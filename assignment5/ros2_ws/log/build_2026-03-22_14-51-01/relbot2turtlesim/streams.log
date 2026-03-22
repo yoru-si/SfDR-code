@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot2turtlesim.dir/src/convert.cpp.o[0m
+[5.395s] [100%] [32m[1mLinking CXX executable relbot2turtlesim[0m
+[5.681s] [100%] Built target relbot2turtlesim
+[5.692s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[5.693s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
+[5.699s] -- Install configuration: ""
+[5.699s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[5.702s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim" to ""
+[5.702s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[5.702s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[5.702s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[5.702s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[5.703s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[5.705s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim

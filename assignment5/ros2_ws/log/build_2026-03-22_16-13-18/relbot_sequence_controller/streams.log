@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[0.253s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krelbot_msgs/msg/relbot_motors.hpp: No such file or directory
+[0.253s]     2 | #include [01;31m[K"relbot_msgs/msg/relbot_motors.hpp"[m[K
+[0.253s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.253s] compilation terminated.
+[0.254s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[0.254s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[0.254s] gmake: *** [Makefile:146: all] Error 2
+[0.256s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32

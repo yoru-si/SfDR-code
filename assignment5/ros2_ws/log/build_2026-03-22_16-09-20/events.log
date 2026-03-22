@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000757] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.000806] (-) JobUnselected: {'identifier': 'relbot_adapter'}
+[0.000823] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.000837] (-) JobUnselected: {'identifier': 'relbot_msgs'}
+[0.000851] (-) JobUnselected: {'identifier': 'relbot_sequence_controller'}
+[0.000865] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.000879] (-) EventReactorShutdown: {}
