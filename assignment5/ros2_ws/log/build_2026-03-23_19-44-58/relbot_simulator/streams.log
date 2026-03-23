@@ -1,0 +1,41 @@
+[0.007s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator -- -j32 -l32
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target relbot_simulator[0m
+[0.047s] [ 11%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/src/relbot_simulator.cpp.o[0m
+[8.438s] [ 22%] [32m[1mLinking CXX executable relbot_simulator[0m
+[9.234s] [100%] Built target relbot_simulator
+[9.247s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator -- -j32 -l32
+[9.251s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator
+[9.258s] -- Install configuration: ""
+[9.258s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/relbot_simulator/relbot_simulator
+[9.266s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/relbot_simulator/relbot_simulator" to ""
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/EulerAngles.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/EulerAngles.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/MotionProfiles.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/MotionProfiles.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxfuncs.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxfuncs.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxinteg.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxinteg.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxinverse.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxinverse.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxmatrix.cpp
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxmatrix.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxmodel.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/include/xxtypes.h
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/package_run_dependencies/relbot_simulator
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/parent_prefix_path/relbot_simulator
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.sh
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.dsv
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.sh
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.dsv
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.bash
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.sh
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.zsh
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.dsv
+[9.267s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.dsv
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/packages/relbot_simulator
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig.cmake
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig-version.cmake
+[9.267s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.xml
+[9.270s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator

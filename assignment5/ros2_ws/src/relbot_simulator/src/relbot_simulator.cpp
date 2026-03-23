@@ -56,6 +56,7 @@ void RELbotSimulator::create_topics()
 
 
 
+
   RCLCPP_INFO(this->get_logger(), "Creating Subscriptions");
   RCLCPP_INFO(this->get_logger(), "Subscribing to %s", RELbotSimulator::WEBCAM_IMAGE.c_str());
 

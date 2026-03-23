@@ -1,0 +1,6 @@
+[0.019s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws2/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws2/build/relbot_msgs -- -j32 -l32
+[0.028s] [0mCMake Error: The current CMakeCache.txt directory /home/srik/ros_ubuntu/ros2_ws2/build/relbot_msgs/CMakeCache.txt is different than the directory /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.033s] [0mCMake Error: The source directory "/home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs" does not exist.
+[0.033s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.034s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.034s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws2/build/relbot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws2/build/relbot_msgs -- -j32 -l32
