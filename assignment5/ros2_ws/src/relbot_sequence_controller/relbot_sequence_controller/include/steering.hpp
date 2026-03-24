@@ -34,8 +34,9 @@ private:
 
     rclcpp::Time start_time_;
 
-    enum PathType { STRAIGHT, CIRCLE, STRAIGHT_TURN, SQUARE };
-    PathType current_path = SQUARE;
+    enum PathType { STRAIGHT, CIRCLE, STRAIGHT_TURN, SQUARE, SEQUENCE };
+    PathType current_path = SEQUENCE;
+    int sequence_step = 0;
 
     // methods
     void create_topics();

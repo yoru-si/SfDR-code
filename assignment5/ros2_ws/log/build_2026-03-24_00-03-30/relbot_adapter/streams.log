@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter -- -j32 -l32
+[0.036s] [100%] Built target relbot_adapter
+[0.050s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter -- -j32 -l32
+[0.051s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter
+[0.055s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+[0.056s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+[0.057s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+[0.057s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/package.dsv
+[0.057s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+[0.057s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+[0.057s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+[0.057s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter/share/relbot_adapter/package.xml
+[0.064s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter

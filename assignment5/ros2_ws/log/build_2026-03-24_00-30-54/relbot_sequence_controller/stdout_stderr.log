@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
+[01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:44:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K{[m[K’ token
+   44 |                 } else if [01;31m[K{[m[K  // turn left 90 degrees
+      |                           [01;31m[K^[m[K
+      |                           [32m[K([m[K
+[01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   47 |                 } [01;31m[Kelse[m[K {
+      |                   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
