@@ -1,3 +1,11 @@
+/*
+file: relbot_sequence_controller.cpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Code which performs the sequence of patterns and has the logic behind it. 
+*/
+
 #include "steering.hpp"
 #include "relbot_msgs/msg/relbot_motors.hpp"  
 
