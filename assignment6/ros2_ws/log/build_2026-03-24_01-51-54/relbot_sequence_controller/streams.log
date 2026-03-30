@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller
+[0.034s] -- The C compiler identification is GNU 11.4.0
+[0.065s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting C compiler ABI info
+[0.104s] -- Detecting C compiler ABI info - done
+[0.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.109s] -- Detecting C compile features
+[0.109s] -- Detecting C compile features - done
+[0.111s] -- Detecting CXX compiler ABI info
+[0.152s] -- Detecting CXX compiler ABI info - done
+[0.156s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.157s] -- Detecting CXX compile features
+[0.157s] -- Detecting CXX compile features - done
+[0.158s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.317s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.349s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.364s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.412s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.464s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.484s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.517s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Looking for pthread.h
+[0.567s] -- Looking for pthread.h - found
+[0.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.619s] -- Found Threads: TRUE  
+[0.658s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.689s] -- Found relbot_msgs: 2025.2.0 (/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[0.701s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.756s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.756s] -- Configured cppcheck include dirs: /home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/include
+[0.757s] -- Configured cppcheck exclude dirs and/or files: 
+[0.757s] -- Added test 'lint_cmake' to check CMake code style
+[0.758s] -- Added test 'uncrustify' to check C / C++ code style
+[0.758s] -- Configured uncrustify additional arguments: 
+[0.758s] -- Added test 'xmllint' to check XML markup files
+[0.759s] -- Configuring done
+[0.767s] -- Generating done
+[0.769s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
+[0.777s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller
+[0.777s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.800s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[3.233s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[3.350s] [100%] Built target relbot_sequence_controller
+[3.356s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[3.358s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
+[3.361s] -- Install configuration: ""
+[3.361s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[3.365s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[3.365s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[3.366s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[3.367s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[3.368s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[3.368s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[3.368s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[3.368s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[3.371s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller

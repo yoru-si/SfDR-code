@@ -1,0 +1,632 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f99a9b34130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f99a9aff7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f99a9aff7f0>>)
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(relbot2turtlesim/relbot2turtlesim) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot2turtlesim/relbot2turtlesim' with type 'ros.ament_cmake' and name 'relbot2turtlesim'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_adapter) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot_adapter' with type 'ros.ament_cmake' and name 'relbot_adapter'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/__MACOSX/relbot_launch/launch) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_launch/relbot_launch) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot_launch/relbot_launch' with type 'ros.ament_cmake' and name 'relbot_launch'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_msgs) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot_msgs' with type 'ros.ament_cmake' and name 'relbot_msgs'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_sequence_controller/relbot_sequence_controller) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot_sequence_controller/relbot_sequence_controller' with type 'ros.ament_cmake' and name 'relbot_sequence_controller'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(relbot_simulator) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'relbot_simulator' with type 'ros.ament_cmake' and name 'relbot_simulator'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/raghav742/SDfR/Relbot_ws/install
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'relbot2turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_sequence_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator', 'merge_install': False, 'path': '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.268s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_msgs'
+[0.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter' with build type 'ament_cmake'
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs -- -j8 -l8
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_launch/relbot_launch -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch -- -j8 -l8
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs -- -j8 -l8
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch -- -j8 -l8
+[0.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch
+[0.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_launch)
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_launch
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch' for CMake module files
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch' for CMake config files
+[0.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_launch', 'cmake_prefix_path')
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/bin'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/lib/pkgconfig/relbot_launch.pc'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/lib/python3.10/site-packages'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/bin'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.bash'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.zsh'
+[0.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/colcon-core/packages/relbot_launch)
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_launch)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_launch', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/lib/pkgconfig/relbot_launch.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/lib/python3.10/site-packages'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/bin'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.bash'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/relbot_launch/package.zsh'
+[0.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_launch/share/colcon-core/packages/relbot_launch)
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs' for CMake module files
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_msgs
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs' for CMake config files
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib'
+[0.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/bin'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.sh'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[0.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs' for CMake module files
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs' for CMake config files
+[0.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib'
+[0.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/bin'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/lib/python3.10/site-packages'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/bin'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.bash'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[0.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[0.738s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_simulator' with build type 'ament_cmake'
+[0.738s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_simulator'
+[0.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_simulator -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot2turtlesim/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim -- -j8 -l8
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter -- -j8 -l8
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller -- -j8 -l8
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_simulator -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator
+[1.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator -- -j8 -l8
+[5.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller -- -j8 -l8
+[5.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller
+[5.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_sequence_controller)
+[5.349s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller' for CMake module files
+[5.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller
+[5.350s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller' for CMake config files
+[5.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_sequence_controller', 'cmake_prefix_path')
+[5.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.ps1'
+[5.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.dsv'
+[5.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.sh'
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib'
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/bin'
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib/pkgconfig/relbot_sequence_controller.pc'
+[5.352s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib/python3.10/site-packages'
+[5.352s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/bin'
+[5.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.ps1'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.sh'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.bash'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.zsh'
+[5.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/colcon-core/packages/relbot_sequence_controller)
+[5.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_sequence_controller)
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller' for CMake module files
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller' for CMake config files
+[5.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_sequence_controller', 'cmake_prefix_path')
+[5.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.ps1'
+[5.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.dsv'
+[5.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.sh'
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/bin'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib/pkgconfig/relbot_sequence_controller.pc'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/lib/python3.10/site-packages'
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/bin'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.ps1'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.sh'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.bash'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/relbot_sequence_controller/package.zsh'
+[5.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_sequence_controller/share/colcon-core/packages/relbot_sequence_controller)
+[8.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim -- -j8 -l8
+[8.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim
+[8.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[8.372s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim' for CMake module files
+[8.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot2turtlesim
+[8.373s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim' for CMake config files
+[8.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[8.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[8.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[8.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[8.374s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib'
+[8.374s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/bin'
+[8.374s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[8.375s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib/python3.10/site-packages'
+[8.375s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/bin'
+[8.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[8.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[8.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[8.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[8.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[8.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[8.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[8.377s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim' for CMake module files
+[8.377s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim' for CMake config files
+[8.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[8.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[8.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[8.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[8.378s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib'
+[8.378s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/bin'
+[8.378s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[8.378s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/lib/python3.10/site-packages'
+[8.378s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/bin'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[8.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[8.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[8.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[10.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter -- -j8 -l8
+[10.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter
+[10.197s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_adapter)
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter' for CMake module files
+[10.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_adapter
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter' for CMake config files
+[10.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_adapter', 'cmake_prefix_path')
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.ps1'
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.dsv'
+[10.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.sh'
+[10.199s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib'
+[10.199s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/bin'
+[10.200s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib/pkgconfig/relbot_adapter.pc'
+[10.200s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib/python3.10/site-packages'
+[10.200s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/bin'
+[10.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.ps1'
+[10.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.dsv'
+[10.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.sh'
+[10.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.bash'
+[10.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.zsh'
+[10.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/colcon-core/packages/relbot_adapter)
+[10.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_adapter)
+[10.202s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter' for CMake module files
+[10.202s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter' for CMake config files
+[10.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_adapter', 'cmake_prefix_path')
+[10.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.ps1'
+[10.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.dsv'
+[10.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/hook/cmake_prefix_path.sh'
+[10.203s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib'
+[10.203s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/bin'
+[10.203s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib/pkgconfig/relbot_adapter.pc'
+[10.204s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/lib/python3.10/site-packages'
+[10.204s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/bin'
+[10.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.ps1'
+[10.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.dsv'
+[10.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.sh'
+[10.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.bash'
+[10.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/relbot_adapter/package.zsh'
+[10.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_adapter/share/colcon-core/packages/relbot_adapter)
+[12.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator -- -j8 -l8
+[12.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator
+[12.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_simulator)
+[12.346s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator' for CMake module files
+[12.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_simulator
+[12.346s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator' for CMake config files
+[12.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_simulator', 'cmake_prefix_path')
+[12.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.ps1'
+[12.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.dsv'
+[12.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.sh'
+[12.348s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib'
+[12.348s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/bin'
+[12.348s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib/pkgconfig/relbot_simulator.pc'
+[12.348s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib/python3.10/site-packages'
+[12.348s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/bin'
+[12.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.ps1'
+[12.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.dsv'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.sh'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.bash'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.zsh'
+[12.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/colcon-core/packages/relbot_simulator)
+[12.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_simulator)
+[12.350s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator' for CMake module files
+[12.350s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator' for CMake config files
+[12.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_simulator', 'cmake_prefix_path')
+[12.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.ps1'
+[12.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.dsv'
+[12.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.sh'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/bin'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib/pkgconfig/relbot_simulator.pc'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/lib/python3.10/site-packages'
+[12.351s] Level 1:colcon.colcon_core.environment:checking '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/bin'
+[12.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.ps1'
+[12.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.dsv'
+[12.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.sh'
+[12.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.bash'
+[12.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/relbot_simulator/package.zsh'
+[12.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/relbot_simulator/share/colcon-core/packages/relbot_simulator)
+[12.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.353s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.357s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.365s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/local_setup.ps1'
+[12.366s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/_local_setup_util_ps1.py'
+[12.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/setup.ps1'
+[12.368s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/local_setup.sh'
+[12.369s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/_local_setup_util_sh.py'
+[12.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/setup.sh'
+[12.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/local_setup.bash'
+[12.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/setup.bash'
+[12.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/local_setup.zsh'
+[12.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/install/setup.zsh'

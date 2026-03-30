@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim
+[0.034s] -- The C compiler identification is GNU 11.4.0
+[0.065s] -- The CXX compiler identification is GNU 11.4.0
+[0.069s] -- Detecting C compiler ABI info
+[0.107s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.112s] -- Detecting C compile features
+[0.112s] -- Detecting C compile features - done
+[0.114s] -- Detecting CXX compiler ABI info
+[0.155s] -- Detecting CXX compiler ABI info - done
+[0.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.160s] -- Detecting CXX compile features
+[0.161s] -- Detecting CXX compile features - done
+[0.162s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.288s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.311s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.313s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.318s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.368s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.368s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.429s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.444s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.465s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.470s] -- Looking for pthread.h
+[0.501s] -- Looking for pthread.h - found
+[0.501s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.536s] -- Found Threads: TRUE  
+[0.565s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.594s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.604s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.646s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.646s] -- Configured cppcheck include dirs: /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim/include
+[0.646s] -- Configured cppcheck exclude dirs and/or files: 
+[0.646s] -- Added test 'lint_cmake' to check CMake code style
+[0.646s] -- Added test 'uncrustify' to check C / C++ code style
+[0.647s] -- Configured uncrustify additional arguments: 
+[0.647s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.653s] -- Generating done
+[0.655s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
+[0.661s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim
+[0.661s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[0.681s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot2turtlesim.dir/src/convert.cpp.o[0m
+[4.695s] [100%] [32m[1mLinking CXX executable relbot2turtlesim[0m
+[4.927s] [100%] Built target relbot2turtlesim
+[4.933s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[4.934s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
+[4.936s] -- Install configuration: ""
+[4.936s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[4.941s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim" to ""
+[4.941s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[4.941s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[4.942s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[4.943s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[4.944s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim

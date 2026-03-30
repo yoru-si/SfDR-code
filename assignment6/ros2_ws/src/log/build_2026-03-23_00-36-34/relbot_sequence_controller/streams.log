@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller -- -j8 -l8
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[1.720s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SteerRelbot::calculate_velocity()[m[K’:
+[1.720s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:24:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time_[m[K’ was not declared in this scope
+[1.720s]    24 |     double time = (this->get_clock()->now() - [01;31m[Kstart_time_[m[K).seconds();
+[1.720s]       |                                               [01;31m[K^~~~~~~~~~~[m[K
+[1.720s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:25:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_path[m[K’ was not declared in this scope; did you mean ‘[01m[Krcpputils::fs::current_path[m[K’?
+[1.720s]    25 |     switch([01;31m[Kcurrent_path[m[K) {
+[1.720s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[1.720s]       |            [32m[Krcpputils::fs::current_path[m[K
+[1.720s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:25[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.720s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.721s]                  from [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/include/steering.hpp:7[m[K,
+[1.721s]                  from [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:1[m[K:
+[1.721s] [01m[K/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:299:23:[m[K [01;36m[Knote: [m[K‘[01m[Krcpputils::fs::current_path[m[K’ declared here
+[1.721s]   299 | RCPPUTILS_PUBLIC path [01;36m[Kcurrent_path[m[K();
+[1.721s]       |                       [01;36m[K^~~~~~~~~~~~[m[K
+[1.725s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:26:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSTRAIGHT[m[K’ was not declared in this scope
+[1.725s]    26 |             case [01;31m[KSTRAIGHT[m[K:
+[1.725s]       |                  [01;31m[K^~~~~~~~[m[K
+[1.728s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCIRCLE[m[K’ was not declared in this scope
+[1.728s]    31 |             case [01;31m[KCIRCLE[m[K:
+[1.728s]       |                  [01;31m[K^~~~~~[m[K
+[1.733s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:36:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSTRAIGHT_TURN[m[K’ was not declared in this scope
+[1.733s]    36 |             case [01;31m[KSTRAIGHT_TURN[m[K:
+[1.733s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[1.736s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.736s]    37 |                 if ([01;31m[Kt[m[K < 5.0) {  // go straight for 5 seconds
+[1.736s]       |                     [01;31m[K^[m[K
+[1.736s]       |                     [32m[Ktm[m[K
+[1.740s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:46:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSQUARE[m[K’ was not declared in this scope
+[1.740s]    46 |             case [01;31m[KSQUARE[m[K: {
+[1.740s]       |                  [01;31m[K^~~~~~[m[K
+[1.742s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:50:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.742s]    50 |                 double t_mod = fmod([01;31m[Kt[m[K, 4*cycle_time);
+[1.742s]       |                                     [01;31m[K^[m[K
+[1.742s]       |                                     [32m[Ktm[m[K
+[1.743s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:52:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksegment[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.743s]    52 |                 int [01;35m[Ksegment[m[K = t_mod / cycle_time;
+[1.743s]       |                     [01;35m[K^~~~~~~[m[K
+[1.743s] [01m[K/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:24:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.743s]    24 |     double [01;35m[Ktime[m[K = (this->get_clock()->now() - start_time_).seconds();
+[1.743s]       |            [01;35m[K^~~~[m[K
+[2.307s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[2.307s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[2.307s] gmake: *** [Makefile:146: all] Error 2
+[2.308s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment5/ros2_ws/src/build/relbot_sequence_controller -- -j8 -l8
