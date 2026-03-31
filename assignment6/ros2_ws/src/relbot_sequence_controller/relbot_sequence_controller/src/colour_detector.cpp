@@ -37,7 +37,7 @@ private:
                 auto [r, g, b] = image_functions::getPixelChannels(msg, x, y);
 
                 // check if pixel is green
-                if (g > 100 && g > r * 1.5 && g > b * 1.5) {
+                if (g > 100 && g > r*1.2  && g > b*1.2) {
                     sum_x += x;
                     sum_y += y;
                     count++;
