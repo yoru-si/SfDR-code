@@ -1,0 +1,28 @@
+[0.005s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[0.035s] [ 50%] Built target colour_detector
+[0.038s] [ 75%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[4.384s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[4.621s] [100%] Built target relbot_sequence_controller
+[4.626s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[4.627s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
+[4.630s] -- Install configuration: ""
+[4.632s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[4.635s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/colour_detector
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[4.637s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[4.637s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[4.638s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[4.638s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[4.638s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[4.638s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller

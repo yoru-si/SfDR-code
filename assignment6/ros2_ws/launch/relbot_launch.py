@@ -33,4 +33,9 @@ def generate_launch_description():
             executable='turtlesim_node',
             name='turtlesim_node',
         ),
+        Node(
+            package='image_tools',
+            executable='showimage',
+            name='showimage',
+        ),
     ])
