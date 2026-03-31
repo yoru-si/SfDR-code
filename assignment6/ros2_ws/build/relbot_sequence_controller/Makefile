@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller
+CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller
+CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller/CMakeFiles /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/CMakeFiles /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot2turtlesim/relbot2turtlesim
+CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim
+CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
 
 # Utility rule file for relbot2turtlesim_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/relbot2turtlesim_uninstall.dir/compiler_depend.make
 include CMakeFiles/relbot2turtlesim_uninstall.dir/progress.make
 
 CMakeFiles/relbot2turtlesim_uninstall:
-	/usr/bin/cmake -P /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 relbot2turtlesim_uninstall: CMakeFiles/relbot2turtlesim_uninstall
 relbot2turtlesim_uninstall: CMakeFiles/relbot2turtlesim_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/relbot2turtlesim_uninstall.dir/clean:
 .PHONY : CMakeFiles/relbot2turtlesim_uninstall.dir/clean
 
 CMakeFiles/relbot2turtlesim_uninstall.dir/depend:
-	cd /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot2turtlesim/relbot2turtlesim /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot2turtlesim/relbot2turtlesim /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim/CMakeFiles/relbot2turtlesim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim/CMakeFiles/relbot2turtlesim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/relbot2turtlesim_uninstall.dir/depend
 

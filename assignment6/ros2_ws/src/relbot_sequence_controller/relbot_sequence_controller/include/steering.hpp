@@ -31,6 +31,8 @@ private:
     // attributes
     double left_velocity;
     double right_velocity;
+    double x_pos;
+    double y_pos;
 
     rclcpp::Time start_time_;
 

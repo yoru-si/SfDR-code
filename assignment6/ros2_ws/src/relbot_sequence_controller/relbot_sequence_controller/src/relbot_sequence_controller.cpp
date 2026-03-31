@@ -5,6 +5,8 @@
 #define radius 0.1
 #define wheel2wheel_distance 0.20
 
+using std::placeholders::_1;
+
 SteerRelbot::SteerRelbot() : Node("steer_relbot") {
     RCLCPP_INFO(this->get_logger(), "Init");
     create_topics();

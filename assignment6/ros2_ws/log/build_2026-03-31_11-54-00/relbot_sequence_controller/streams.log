@@ -1,0 +1,25 @@
+[0.001s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib XAUTHLOCALHOSTNAME= /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.016s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[0.016s] [35m[1mConsolidate compiler generated dependencies of target colour_detector[0m
+[0.024s] [ 50%] Built target colour_detector
+[0.025s] [ 75%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[0.968s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:[m[K In constructor ‘[01m[KSteerRelbot::SteerRelbot()[m[K’:
+[0.968s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:17:150:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[0.968s]    17 | reate_subscription<example_interfaces::msg::Float64>("/colour_detector/x", 10, std::bind(&SteerRelbot::x_callback, this, [01;31m[K_1[m[K));
+[0.968s]       |                                                                                                                          [01;31m[K^~[m[K
+[0.968s]       |                                                                                                                          [32m[Kstd::placeholders::_1[m[K
+[0.968s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[0.968s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[0.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[0.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.968s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/include/steering.hpp:7[m[K,
+[0.968s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/relbot_sequence_controller.cpp:1[m[K:
+[0.968s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[0.968s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[0.968s]       |                                  [01;36m[K^~[m[K
+[1.305s] gmake[2]: *** [CMakeFiles/relbot_sequence_controller.dir/build.make:76: CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o] Error 1
+[1.305s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/relbot_sequence_controller.dir/all] Error 2
+[1.305s] gmake: *** [Makefile:146: all] Error 2
+[1.306s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '2': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator:/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch:/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter:/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib XAUTHLOCALHOSTNAME= /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32

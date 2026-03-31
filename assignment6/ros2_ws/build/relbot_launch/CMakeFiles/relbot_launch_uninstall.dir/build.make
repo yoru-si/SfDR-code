@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_launch/relbot_launch
+CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch
+CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch
 
 # Utility rule file for relbot_launch_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/relbot_launch_uninstall.dir/compiler_depend.make
 include CMakeFiles/relbot_launch_uninstall.dir/progress.make
 
 CMakeFiles/relbot_launch_uninstall:
-	/usr/bin/cmake -P /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 relbot_launch_uninstall: CMakeFiles/relbot_launch_uninstall
 relbot_launch_uninstall: CMakeFiles/relbot_launch_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/relbot_launch_uninstall.dir/clean:
 .PHONY : CMakeFiles/relbot_launch_uninstall.dir/clean
 
 CMakeFiles/relbot_launch_uninstall.dir/depend:
-	cd /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_launch/relbot_launch /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_launch/relbot_launch /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_launch/CMakeFiles/relbot_launch_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch /home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch/CMakeFiles/relbot_launch_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/relbot_launch_uninstall.dir/depend
 
