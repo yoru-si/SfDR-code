@@ -1,7 +1,6 @@
 #include "steering.hpp"
 #include "relbot_msgs/msg/relbot_motors.hpp"  
 
-
 #define Linear_velocity 2.0
 #define radius 0.1
 #define wheel2wheel_distance 0.20
@@ -14,6 +13,10 @@ SteerRelbot::SteerRelbot() : Node("steer_relbot") {
     //Initialize time
     start_time_ = this->get_clock()->now();
 
+
+    x_subscription = this->create_subscription<example_interfaces::msg::Float64>("/colour_detector/x", 10, std::bind(&SteerRelbot::x_callback, this, _1));
+    y_subscription = this->create_subscription<example_interfaces::msg::Float64>("/colour_detector/y", 10, std::bind(&SteerRelbot::y_callback, this, _1));
+
     timer_ = this->create_wall_timer(std::chrono::duration<double>(1.0/DEFAULT_SETPOINT_STREAM),
                                      std::bind(&SteerRelbot::timer_callback, this));
 }
@@ -21,6 +24,14 @@ SteerRelbot::SteerRelbot() : Node("steer_relbot") {
 void SteerRelbot::create_topics() {
     motor_cmd_topic_ = this->create_publisher<relbot_msgs::msg::RelbotMotors>(
         "/input/motor_cmd", 1);
+}
+
+void SteerRelbot::x_callback(const example_interfaces::msg::Float64::SharedPtr msg) {
+    x_pos = msg->data;
+}
+
+void SteerRelbot::y_callback(const example_interfaces::msg::Float64::SharedPtr msg) {
+    y_pos = msg->data;
 }
 
 void SteerRelbot::calculate_velocity() {

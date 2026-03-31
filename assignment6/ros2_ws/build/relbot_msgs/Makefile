@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs
+CMAKE_SOURCE_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+CMAKE_BINARY_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs/CMakeFiles /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs/CMakeFiles /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -404,6 +404,19 @@ relbot_msgs__py: cmake_check_build_system
 relbot_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build.make relbot_msgs__py/CMakeFiles/relbot_msgs__py.dir/build
 .PHONY : relbot_msgs__py/fast
+
+#=============================================================================
+# Target rules for targets named relbot_msgs__rs
+
+# Build rule for target.
+relbot_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 relbot_msgs__rs
+.PHONY : relbot_msgs__rs
+
+# fast build rule for target.
+relbot_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build.make relbot_msgs__rs/CMakeFiles/relbot_msgs__rs.dir/build
+.PHONY : relbot_msgs__rs/fast
 
 rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.o: rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.c.o
 .PHONY : rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.o
@@ -879,6 +892,7 @@ help:
 	@echo "... relbot_msgs"
 	@echo "... relbot_msgs__cpp"
 	@echo "... relbot_msgs__py"
+	@echo "... relbot_msgs__rs"
 	@echo "... relbot_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... relbot_msgs__rosidl_generator_c"

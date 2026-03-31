@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs
+CMAKE_SOURCE_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+CMAKE_BINARY_DIR = /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_msgs /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_msgs /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

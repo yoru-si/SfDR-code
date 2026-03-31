@@ -34,10 +34,12 @@ private:
 
     rclcpp::Time start_time_;
 
-    enum PathType { STRAIGHT, CIRCLE, STRAIGHT_TURN, SQUARE, SEQUENCE };
-    PathType current_path = SEQUENCE;
-    int sequence_step = 0;
-
+    rclcpp::Subscription<example_interfaces::msg::Float64>::SharedPtr x_subscription;
+    rclcpp::Subscription<example_interfaces::msg::Float64>::SharedPtr y_subscription;
+    
+    void x_callback(const example_interfaces::msg::Float64::SharedPtr msg);
+    void y_callback(const example_interfaces::msg::Float64::SharedPtr msg);
+    
     // methods
     void create_topics();
     void timer_callback();
