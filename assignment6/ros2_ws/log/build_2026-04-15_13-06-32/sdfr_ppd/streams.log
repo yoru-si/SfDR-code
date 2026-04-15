@@ -1,0 +1,134 @@
+[0.006s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd': DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/sdfr_ppd
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.076s] -- The CXX compiler identification is GNU 11.4.0
+[0.080s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.199s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.231s] [0mTIME_STEP_SIZE_VALUE = 0.01[0m
+[0.232s] -- Looking for pthread.h
+[0.291s] -- Looking for pthread.h - found
+[0.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.339s] -- Found Threads: TRUE  
+[0.339s] -- Found xrf2_msgs: 0.0.0 (/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.543s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.610s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.682s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.713s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.820s] -- Configuring done
+[0.831s] -- Generating done
+[0.834s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd
+[0.842s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/sdfr_ppd
+[0.843s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd': DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd -- -j32 -l32
+[0.881s] [  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[0.881s] [ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o[0m
+[0.881s] [ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o[0m
+[0.881s] [ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o[0m
+[0.882s] [ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o[0m
+[0.882s] [ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o[0m
+[0.882s] [ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o[0m
+[0.883s] [ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o[0m
+[0.883s] [ 45%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o[0m
+[0.883s] [ 45%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o[0m
+[0.883s] [ 50%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o[0m
+[0.884s] [ 54%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o[0m
+[0.884s] [ 59%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o[0m
+[0.884s] [ 63%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/Template20Sim.cpp.o[0m
+[0.885s] [ 68%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/EulerAngles.cpp.o[0m
+[0.885s] [ 72%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/LoopController.cpp.o[0m
+[0.886s] [ 81%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/MotionProfiles.cpp.o[0m
+[0.886s] [ 81%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinteg.cpp.o[0m
+[0.886s] [ 86%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxfuncs.cpp.o[0m
+[0.886s] [ 90%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinverse.cpp.o[0m
+[0.887s] [ 95%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxmatrix.cpp.o[0m
+[0.893s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp:1[m[K:
+[0.894s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoRosCommunication.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.894s]     4 | #include [01;31m[K<evl/evl.h>[m[K
+[0.894s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.894s] compilation terminated.
+[0.894s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:188: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o] Error 1
+[0.894s] gmake[2]: *** Waiting for unfinished jobs....
+[0.899s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp:1[m[K:
+[0.899s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.899s]     6 | #include [01;31m[K<evl/evl.h>[m[K
+[0.899s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.899s] compilation terminated.
+[0.900s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp:6[m[K:
+[0.900s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtMonitor.hpp:12:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.900s]    12 | #include [01;31m[K"evl/evl.h"[m[K
+[0.900s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.900s] compilation terminated.
+[0.900s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:146: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o] Error 1
+[0.900s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:160: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o] Error 1
+[0.925s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp:1[m[K:
+[0.925s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoRosCommandBridge.hpp:17:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.925s]    17 | #include [01;31m[K<evl/evl.h>[m[K
+[0.925s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.925s] compilation terminated.
+[0.925s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:202: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o] Error 1
+[0.929s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp:1[m[K:
+[0.929s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoSpiControllerHandler.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.929s]    21 | #include [01;31m[K<evl/evl.h>[m[K
+[0.929s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.929s] compilation terminated.
+[0.930s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:230: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o] Error 1
+[0.944s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10[m[K,
+[0.944s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrt20Sim.hpp:4[m[K,
+[0.944s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/include/Template20Sim.hpp:4[m[K,
+[0.944s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/src/Template20Sim.cpp:1[m[K:
+[0.944s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.945s]     6 | #include [01;31m[K<evl/evl.h>[m[K
+[0.945s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.945s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10[m[K,
+[0.945s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp:1[m[K:
+[0.945s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.945s]     6 | #include [01;31m[K<evl/evl.h>[m[K
+[0.945s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.945s] compilation terminated.
+[0.945s] compilation terminated.
+[0.945s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtRosIco.hpp:10[m[K,
+[0.945s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrt20Sim.hpp:4[m[K,
+[0.946s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp:1[m[K:
+[0.946s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLoop.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.946s]     6 | #include [01;31m[K<evl/evl.h>[m[K
+[0.946s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.946s] compilation terminated.
+[0.946s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:174: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o] Error 1
+[0.946s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:244: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o] Error 1
+[0.946s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:258: CMakeFiles/sdfr_ppd.dir/src/Template20Sim.cpp.o] Error 1
+[0.963s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/main.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KTemplate20sim.hpp: No such file or directory
+[0.964s]     7 | #include [01;31m[K"Template20sim.hpp"[m[K
+[0.964s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.964s] compilation terminated.
+[0.965s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:76: CMakeFiles/sdfr_ppd.dir/main.cpp.o] Error 1
+[0.983s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFrtLogger.hpp:4[m[K,
+[0.983s]                  from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp:1[m[K:
+[0.983s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFileHandler.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.983s]    16 | #include [01;31m[K<evl/evl.h>[m[K
+[0.983s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.983s] compilation terminated.
+[0.984s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:132: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o] Error 1
+[0.995s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp:1[m[K:
+[0.995s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd/../XRF2/XenoRosFramework/Xenomai/include/XenoFileHandler.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kevl/evl.h: No such file or directory
+[0.995s]    16 | #include [01;31m[K<evl/evl.h>[m[K
+[0.995s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.995s] compilation terminated.
+[0.995s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:118: CMakeFiles/sdfr_ppd.dir/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o] Error 1
+[1.314s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+[1.314s] gmake: *** [Makefile:101: all] Error 2
+[1.316s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd' returned '2': DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd -- -j32 -l32

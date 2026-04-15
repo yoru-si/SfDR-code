@@ -41,16 +41,16 @@ void SteerRelbot::calculate_velocity() {
     double center_y = 60;
 
     // error = object position - image center
-    double error_x = x_pos - center_x;  // horizontal error → rotation
-    double error_y = y_pos - center_y;  // vertical error → forward/backward
+    double error_x = x_pos - center_x;  //  rotation
+    double error_y = y_pos - center_y;  //   forward backward
 
     double tau = 1.0;  // time constant
 
     // first order controller
-    double x_dot = -error_y / tau;      // forward velocity (negative because y increases downward)
+    double x_dot = -error_y / tau;      // forward velocity 
     double theta_dot = -error_x / tau;  // angular velocity
 
-    // scale down from pixel space to motor velocity
+    // scale down 
     double scale = 0.05;
     double v_linear  = x_dot * scale;
     double v_angular = theta_dot * scale;

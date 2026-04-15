@@ -1,0 +1,44 @@
+[0.009s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.231s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.617s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.641s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Looking for pthread.h
+[0.719s] -- Looking for pthread.h - found
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.767s] -- Found Threads: TRUE  
+[0.807s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.843s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.852s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.896s] -- Configured cppcheck include dirs: /home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim/include
+[0.896s] -- Configured cppcheck exclude dirs and/or files: 
+[0.896s] -- Added test 'lint_cmake' to check CMake code style
+[0.897s] -- Added test 'uncrustify' to check C / C++ code style
+[0.897s] -- Configured uncrustify additional arguments: 
+[0.897s] -- Added test 'xmllint' to check XML markup files
+[0.898s] -- Configuring done
+[0.904s] -- Generating done
+[0.906s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim

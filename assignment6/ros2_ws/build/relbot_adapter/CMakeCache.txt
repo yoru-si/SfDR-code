@@ -272,7 +272,7 @@ SITE:STRING=yoru
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -521,7 +521,7 @@ unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cma
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
 
 //The directory containing a CMake configuration file for xrf2_msgs.
-xrf2_msgs_DIR:PATH=xrf2_msgs_DIR-NOTFOUND
+xrf2_msgs_DIR:PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake
 
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/cmake
