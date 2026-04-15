@@ -1,4 +1,4 @@
 float64 pos_left
 float64 pos_right
-float64 set__left_wheel_vel
-float64 set__right_wheel_vel
+float64 left_wheel_vel
+float64 right_wheel_vel
