@@ -10,9 +10,9 @@ module xrf2_msgs {
 
       double pos_right;
 
-      double set_pos_left;
+      double left_wheel_vel;
 
-      double set_pos_right;
+      double right_wheel_vel;
     };
   };
 };

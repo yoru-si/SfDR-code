@@ -1,8 +1,8 @@
-# Install script for directory: /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd
+# Install script for directory: /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/srik/ros_ubuntu/ros2_ws/install/sdfr_ppd")
+  set(CMAKE_INSTALL_PREFIX "/home/sdfr-ppd-16/ros2_ws/install/sdfr_ppd")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

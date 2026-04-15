@@ -59,15 +59,15 @@ class Ros2Xeno(metaclass=Metaclass_Ros2Xeno):
     __slots__ = [
         '_pos_left',
         '_pos_right',
-        '_set_pos_left',
-        '_set_pos_right',
+        '_left_wheel_vel',
+        '_right_wheel_vel',
     ]
 
     _fields_and_field_types = {
         'pos_left': 'double',
         'pos_right': 'double',
-        'set_pos_left': 'double',
-        'set_pos_right': 'double',
+        'left_wheel_vel': 'double',
+        'right_wheel_vel': 'double',
     }
 
     SLOT_TYPES = (
@@ -83,8 +83,8 @@ class Ros2Xeno(metaclass=Metaclass_Ros2Xeno):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.pos_left = kwargs.get('pos_left', float())
         self.pos_right = kwargs.get('pos_right', float())
-        self.set_pos_left = kwargs.get('set_pos_left', float())
-        self.set_pos_right = kwargs.get('set_pos_right', float())
+        self.left_wheel_vel = kwargs.get('left_wheel_vel', float())
+        self.right_wheel_vel = kwargs.get('right_wheel_vel', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -119,9 +119,9 @@ class Ros2Xeno(metaclass=Metaclass_Ros2Xeno):
             return False
         if self.pos_right != other.pos_right:
             return False
-        if self.set_pos_left != other.set_pos_left:
+        if self.left_wheel_vel != other.left_wheel_vel:
             return False
-        if self.set_pos_right != other.set_pos_right:
+        if self.right_wheel_vel != other.right_wheel_vel:
             return False
         return True
 
@@ -161,31 +161,31 @@ class Ros2Xeno(metaclass=Metaclass_Ros2Xeno):
         self._pos_right = value
 
     @builtins.property
-    def set_pos_left(self):
-        """Message field 'set_pos_left'."""
-        return self._set_pos_left
+    def left_wheel_vel(self):
+        """Message field 'left_wheel_vel'."""
+        return self._left_wheel_vel
 
-    @set_pos_left.setter
-    def set_pos_left(self, value):
+    @left_wheel_vel.setter
+    def left_wheel_vel(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'set_pos_left' field must be of type 'float'"
+                "The 'left_wheel_vel' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'set_pos_left' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._set_pos_left = value
+                "The 'left_wheel_vel' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._left_wheel_vel = value
 
     @builtins.property
-    def set_pos_right(self):
-        """Message field 'set_pos_right'."""
-        return self._set_pos_right
+    def right_wheel_vel(self):
+        """Message field 'right_wheel_vel'."""
+        return self._right_wheel_vel
 
-    @set_pos_right.setter
-    def set_pos_right(self, value):
+    @right_wheel_vel.setter
+    def right_wheel_vel(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'set_pos_right' field must be of type 'float'"
+                "The 'right_wheel_vel' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'set_pos_right' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._set_pos_right = value
+                "The 'right_wheel_vel' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._right_wheel_vel = value

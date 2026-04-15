@@ -7,7 +7,6 @@
 
 #include <algorithm>
 #include <array>
-#include <cstdint>
 #include <memory>
 #include <string>
 #include <vector>
@@ -41,8 +40,8 @@ struct Ros2Xeno_
     {
       this->pos_left = 0.0;
       this->pos_right = 0.0;
-      this->set_pos_left = 0.0;
-      this->set_pos_right = 0.0;
+      this->left_wheel_vel = 0.0;
+      this->right_wheel_vel = 0.0;
     }
   }
 
@@ -54,8 +53,8 @@ struct Ros2Xeno_
     {
       this->pos_left = 0.0;
       this->pos_right = 0.0;
-      this->set_pos_left = 0.0;
-      this->set_pos_right = 0.0;
+      this->left_wheel_vel = 0.0;
+      this->right_wheel_vel = 0.0;
     }
   }
 
@@ -66,12 +65,12 @@ struct Ros2Xeno_
   using _pos_right_type =
     double;
   _pos_right_type pos_right;
-  using _set_pos_left_type =
+  using _left_wheel_vel_type =
     double;
-  _set_pos_left_type set_pos_left;
-  using _set_pos_right_type =
+  _left_wheel_vel_type left_wheel_vel;
+  using _right_wheel_vel_type =
     double;
-  _set_pos_right_type set_pos_right;
+  _right_wheel_vel_type right_wheel_vel;
 
   // setters for named parameter idiom
   Type & set__pos_left(
@@ -86,16 +85,16 @@ struct Ros2Xeno_
     this->pos_right = _arg;
     return *this;
   }
-  Type & set__set_pos_left(
+  Type & set__left_wheel_vel(
     const double & _arg)
   {
-    this->set_pos_left = _arg;
+    this->left_wheel_vel = _arg;
     return *this;
   }
-  Type & set__set_pos_right(
+  Type & set__right_wheel_vel(
     const double & _arg)
   {
-    this->set_pos_right = _arg;
+    this->right_wheel_vel = _arg;
     return *this;
   }
 
@@ -147,10 +146,10 @@ struct Ros2Xeno_
     if (this->pos_right != other.pos_right) {
       return false;
     }
-    if (this->set_pos_left != other.set_pos_left) {
+    if (this->left_wheel_vel != other.left_wheel_vel) {
       return false;
     }
-    if (this->set_pos_right != other.set_pos_right) {
+    if (this->right_wheel_vel != other.right_wheel_vel) {
       return false;
     }
     return true;

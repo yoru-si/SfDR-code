@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd
+CMAKE_SOURCE_DIR = /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd
+CMAKE_BINARY_DIR = /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd
 
 # Utility rule file for sdfr_ppd_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/sdfr_ppd_uninstall.dir/compiler_depend.make
 include CMakeFiles/sdfr_ppd_uninstall.dir/progress.make
 
 CMakeFiles/sdfr_ppd_uninstall:
-	/usr/bin/cmake -P /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 sdfr_ppd_uninstall: CMakeFiles/sdfr_ppd_uninstall
 sdfr_ppd_uninstall: CMakeFiles/sdfr_ppd_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/sdfr_ppd_uninstall.dir/clean:
 .PHONY : CMakeFiles/sdfr_ppd_uninstall.dir/clean
 
 CMakeFiles/sdfr_ppd_uninstall.dir/depend:
-	cd /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd /home/srik/ros_ubuntu/ros2_ws/src/sdfr_ppd /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd /home/srik/ros_ubuntu/ros2_ws/build/sdfr_ppd/CMakeFiles/sdfr_ppd_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd/CMakeFiles/sdfr_ppd_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sdfr_ppd_uninstall.dir/depend
 

@@ -1,0 +1,20 @@
+[0.039s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[1.127s] [  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o[0m
+[3.307s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:[m[K In member function ‘[01m[Kvirtual int sdfr_ppd::run()[m[K’:
+[3.309s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:69:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_encoder_left[m[K’ was not declared in this scope
+[3.310s]    69 |     u[0] = [01;31m[Kcurrent_encoder_left[m[K; // Actual PosLeft
+[3.311s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.329s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:70:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_encoder_right[m[K’ was not declared in this scope
+[3.330s]    70 |     u[1] = [01;31m[Kcurrent_encoder_right[m[K; // Actual PosRight
+[3.331s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.348s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:71:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_target_left[m[K’ was not declared in this scope
+[3.349s]    71 |     u[2] = [01;31m[Kros_target_left[m[K; // Target SetPosLeft (from your /RELbot_adapter)
+[3.351s]       |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.368s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:72:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_target_right[m[K’ was not declared in this scope
+[3.369s]    72 |     u[3] = [01;31m[Kros_target_right[m[K; // Target SetPosRight (from your /RELbot_adapter)
+[3.370s]       |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.604s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:258: CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o] Error 1
+[3.607s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+[3.610s] gmake: *** [Makefile:101: all] Error 2
+[3.614s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '2': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

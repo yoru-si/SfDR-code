@@ -59,14 +59,14 @@ static bool _Ros2Xeno__cdr_serialize(
     cdr << ros_message->pos_right;
   }
 
-  // Field name: set_pos_left
+  // Field name: left_wheel_vel
   {
-    cdr << ros_message->set_pos_left;
+    cdr << ros_message->left_wheel_vel;
   }
 
-  // Field name: set_pos_right
+  // Field name: right_wheel_vel
   {
-    cdr << ros_message->set_pos_right;
+    cdr << ros_message->right_wheel_vel;
   }
 
   return true;
@@ -91,14 +91,14 @@ static bool _Ros2Xeno__cdr_deserialize(
     cdr >> ros_message->pos_right;
   }
 
-  // Field name: set_pos_left
+  // Field name: left_wheel_vel
   {
-    cdr >> ros_message->set_pos_left;
+    cdr >> ros_message->left_wheel_vel;
   }
 
-  // Field name: set_pos_right
+  // Field name: right_wheel_vel
   {
-    cdr >> ros_message->set_pos_right;
+    cdr >> ros_message->right_wheel_vel;
   }
 
   return true;
@@ -130,15 +130,15 @@ size_t get_serialized_size_xrf2_msgs__msg__Ros2Xeno(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name set_pos_left
+  // field.name left_wheel_vel
   {
-    size_t item_size = sizeof(ros_message->set_pos_left);
+    size_t item_size = sizeof(ros_message->left_wheel_vel);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name set_pos_right
+  // field.name right_wheel_vel
   {
-    size_t item_size = sizeof(ros_message->set_pos_right);
+    size_t item_size = sizeof(ros_message->right_wheel_vel);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -187,7 +187,7 @@ size_t max_serialized_size_xrf2_msgs__msg__Ros2Xeno(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-  // member: set_pos_left
+  // member: left_wheel_vel
   {
     size_t array_size = 1;
 
@@ -195,7 +195,7 @@ size_t max_serialized_size_xrf2_msgs__msg__Ros2Xeno(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-  // member: set_pos_right
+  // member: right_wheel_vel
   {
     size_t array_size = 1;
 
@@ -212,7 +212,7 @@ size_t max_serialized_size_xrf2_msgs__msg__Ros2Xeno(
     using DataType = xrf2_msgs__msg__Ros2Xeno;
     is_plain =
       (
-      offsetof(DataType, set_pos_right) +
+      offsetof(DataType, right_wheel_vel) +
       last_member_size
       ) == ret_val;
   }

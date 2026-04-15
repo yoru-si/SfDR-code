@@ -21,15 +21,15 @@ namespace msg
 namespace builder
 {
 
-class Init_Ros2Xeno_set_pos_right
+class Init_Ros2Xeno_right_wheel_vel
 {
 public:
-  explicit Init_Ros2Xeno_set_pos_right(::xrf2_msgs::msg::Ros2Xeno & msg)
+  explicit Init_Ros2Xeno_right_wheel_vel(::xrf2_msgs::msg::Ros2Xeno & msg)
   : msg_(msg)
   {}
-  ::xrf2_msgs::msg::Ros2Xeno set_pos_right(::xrf2_msgs::msg::Ros2Xeno::_set_pos_right_type arg)
+  ::xrf2_msgs::msg::Ros2Xeno right_wheel_vel(::xrf2_msgs::msg::Ros2Xeno::_right_wheel_vel_type arg)
   {
-    msg_.set_pos_right = std::move(arg);
+    msg_.right_wheel_vel = std::move(arg);
     return std::move(msg_);
   }
 
@@ -37,16 +37,16 @@ private:
   ::xrf2_msgs::msg::Ros2Xeno msg_;
 };
 
-class Init_Ros2Xeno_set_pos_left
+class Init_Ros2Xeno_left_wheel_vel
 {
 public:
-  explicit Init_Ros2Xeno_set_pos_left(::xrf2_msgs::msg::Ros2Xeno & msg)
+  explicit Init_Ros2Xeno_left_wheel_vel(::xrf2_msgs::msg::Ros2Xeno & msg)
   : msg_(msg)
   {}
-  Init_Ros2Xeno_set_pos_right set_pos_left(::xrf2_msgs::msg::Ros2Xeno::_set_pos_left_type arg)
+  Init_Ros2Xeno_right_wheel_vel left_wheel_vel(::xrf2_msgs::msg::Ros2Xeno::_left_wheel_vel_type arg)
   {
-    msg_.set_pos_left = std::move(arg);
-    return Init_Ros2Xeno_set_pos_right(msg_);
+    msg_.left_wheel_vel = std::move(arg);
+    return Init_Ros2Xeno_right_wheel_vel(msg_);
   }
 
 private:
@@ -59,10 +59,10 @@ public:
   explicit Init_Ros2Xeno_pos_right(::xrf2_msgs::msg::Ros2Xeno & msg)
   : msg_(msg)
   {}
-  Init_Ros2Xeno_set_pos_left pos_right(::xrf2_msgs::msg::Ros2Xeno::_pos_right_type arg)
+  Init_Ros2Xeno_left_wheel_vel pos_right(::xrf2_msgs::msg::Ros2Xeno::_pos_right_type arg)
   {
     msg_.pos_right = std::move(arg);
-    return Init_Ros2Xeno_set_pos_left(msg_);
+    return Init_Ros2Xeno_left_wheel_vel(msg_);
   }
 
 private:

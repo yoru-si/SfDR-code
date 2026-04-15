@@ -19,8 +19,8 @@ xrf2_msgs__msg__Ros2Xeno__init(xrf2_msgs__msg__Ros2Xeno * msg)
   }
   // pos_left
   // pos_right
-  // set_pos_left
-  // set_pos_right
+  // left_wheel_vel
+  // right_wheel_vel
   return true;
 }
 
@@ -32,8 +32,8 @@ xrf2_msgs__msg__Ros2Xeno__fini(xrf2_msgs__msg__Ros2Xeno * msg)
   }
   // pos_left
   // pos_right
-  // set_pos_left
-  // set_pos_right
+  // left_wheel_vel
+  // right_wheel_vel
 }
 
 bool
@@ -50,12 +50,12 @@ xrf2_msgs__msg__Ros2Xeno__are_equal(const xrf2_msgs__msg__Ros2Xeno * lhs, const 
   if (lhs->pos_right != rhs->pos_right) {
     return false;
   }
-  // set_pos_left
-  if (lhs->set_pos_left != rhs->set_pos_left) {
+  // left_wheel_vel
+  if (lhs->left_wheel_vel != rhs->left_wheel_vel) {
     return false;
   }
-  // set_pos_right
-  if (lhs->set_pos_right != rhs->set_pos_right) {
+  // right_wheel_vel
+  if (lhs->right_wheel_vel != rhs->right_wheel_vel) {
     return false;
   }
   return true;
@@ -73,10 +73,10 @@ xrf2_msgs__msg__Ros2Xeno__copy(
   output->pos_left = input->pos_left;
   // pos_right
   output->pos_right = input->pos_right;
-  // set_pos_left
-  output->set_pos_left = input->set_pos_left;
-  // set_pos_right
-  output->set_pos_right = input->set_pos_right;
+  // left_wheel_vel
+  output->left_wheel_vel = input->left_wheel_vel;
+  // right_wheel_vel
+  output->right_wheel_vel = input->right_wheel_vel;
   return true;
 }
 

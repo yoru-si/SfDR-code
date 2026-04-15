@@ -22,8 +22,8 @@ typedef struct xrf2_msgs__msg__Ros2Xeno
 {
   double pos_left;
   double pos_right;
-  double set_pos_left;
-  double set_pos_right;
+  double left_wheel_vel;
+  double right_wheel_vel;
 } xrf2_msgs__msg__Ros2Xeno;
 
 // Struct for a sequence of xrf2_msgs__msg__Ros2Xeno.

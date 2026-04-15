@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2f472840778af0283341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "xrf2_msgs__py",
+					"jsonFile" : "directory-xrf2_msgs__py-9c8724076695d8af956f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs/xrf2_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "xrf2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xrf2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xrf2_msgs_egg-8a50005c3f962c93f931.json",
+					"name" : "ament_cmake_python_build_xrf2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xrf2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xrf2_msgs-26fbad0ab2cc516586a0.json",
+					"name" : "ament_cmake_python_copy_xrf2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7784404e6aab7eeeaf1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs-b5d81c55b01e2ab3926f.json",
+					"name" : "xrf2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__cpp-cf8bee91b3544364d698.json",
+					"name" : "xrf2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xrf2_msgs__py::@1b8fbbc14109df67772d",
+					"jsonFile" : "target-xrf2_msgs__py-35b20e05f501f5cb121d.json",
+					"name" : "xrf2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_generator_c-449fb4f14b89fc705089.json",
+					"name" : "xrf2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_generator_py-147bf7c3b3707ce65f99.json",
+					"name" : "xrf2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_c-c105b3f6826eb5d05b00.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_c__pyext-c2d23aa6f951cbd16789.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_cpp-289dfa1f3742cb4e8207.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_fastrtps_c-31e6b52aa014637e3060.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext-f6e544a78d3c1164eec0.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_fastrtps_cpp-3da9f57f1b71cbe02317.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_introspection_c-a3a29dbee20601a0c7bf.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_introspection_c__pyext-5ab9419f6f0a4c52b0e2.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs__rosidl_typesupport_introspection_cpp-598e10e80d5b37a23522.json",
+					"name" : "xrf2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xrf2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xrf2_msgs_uninstall-897cd383185e99ea1f8a.json",
+					"name" : "xrf2_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs",
+		"source" : "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

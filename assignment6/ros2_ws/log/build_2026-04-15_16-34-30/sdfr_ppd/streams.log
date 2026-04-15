@@ -1,0 +1,21 @@
+[0.031s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[0.171s] [  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[0.200s] [  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o[0m
+[0.219s] [ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o[0m
+[1.378s] [ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o[0m
+[1.506s] [ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o[0m
+[4.074s] [ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o[0m
+[4.113s] [ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o[0m
+[4.361s] [ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o[0m
+[4.734s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:[m[K In function ‘[01m[Kvoid* XenoThread(void*)[m[K’:
+[4.735s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTemplate20sim[m[K’ was not declared in this scope
+[4.737s]    13 |     [01;31m[KTemplate20sim[m[K example_rt(1,1);
+[4.739s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.753s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_rt[m[K’ was not declared in this scope
+[4.754s]    15 |     [01;31m[Kexample_rt[m[K.loop();
+[4.756s]       |     [01;31m[K^~~~~~~~~~[m[K
+[5.138s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:76: CMakeFiles/sdfr_ppd.dir/main.cpp.o] Error 1
+[5.139s] gmake[2]: *** Waiting for unfinished jobs....
+[7.181s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+[7.182s] gmake: *** [Makefile:101: all] Error 2
+[7.186s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '2': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

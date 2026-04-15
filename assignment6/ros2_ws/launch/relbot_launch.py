@@ -9,6 +9,12 @@ def generate_launch_description():
             name='cam2image'
         ),
         Node(
+            package='relbot_adapter',
+            executable='relbot_adapter',
+            name='relbot_adapter',
+            parameters=[{'robotmode':'real'}]
+        ),
+        Node(
             package='relbot_sequence_controller',
             executable='colour_detector',
             name='colour_detector'

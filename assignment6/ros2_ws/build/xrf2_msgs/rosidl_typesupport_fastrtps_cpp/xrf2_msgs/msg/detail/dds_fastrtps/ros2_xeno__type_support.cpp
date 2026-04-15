@@ -36,10 +36,10 @@ cdr_serialize(
   cdr << ros_message.pos_left;
   // Member: pos_right
   cdr << ros_message.pos_right;
-  // Member: set_pos_left
-  cdr << ros_message.set_pos_left;
-  // Member: set_pos_right
-  cdr << ros_message.set_pos_right;
+  // Member: left_wheel_vel
+  cdr << ros_message.left_wheel_vel;
+  // Member: right_wheel_vel
+  cdr << ros_message.right_wheel_vel;
   return true;
 }
 
@@ -55,14 +55,14 @@ cdr_deserialize(
   // Member: pos_right
   cdr >> ros_message.pos_right;
 
-  // Member: set_pos_left
-  cdr >> ros_message.set_pos_left;
+  // Member: left_wheel_vel
+  cdr >> ros_message.left_wheel_vel;
 
-  // Member: set_pos_right
-  cdr >> ros_message.set_pos_right;
+  // Member: right_wheel_vel
+  cdr >> ros_message.right_wheel_vel;
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_xrf2_msgs
@@ -89,15 +89,15 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: set_pos_left
+  // Member: left_wheel_vel
   {
-    size_t item_size = sizeof(ros_message.set_pos_left);
+    size_t item_size = sizeof(ros_message.left_wheel_vel);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: set_pos_right
+  // Member: right_wheel_vel
   {
-    size_t item_size = sizeof(ros_message.set_pos_right);
+    size_t item_size = sizeof(ros_message.right_wheel_vel);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -143,7 +143,7 @@ max_serialized_size_Ros2Xeno(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  // Member: set_pos_left
+  // Member: left_wheel_vel
   {
     size_t array_size = 1;
 
@@ -152,7 +152,7 @@ max_serialized_size_Ros2Xeno(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  // Member: set_pos_right
+  // Member: right_wheel_vel
   {
     size_t array_size = 1;
 
@@ -169,7 +169,7 @@ max_serialized_size_Ros2Xeno(
     using DataType = xrf2_msgs::msg::Ros2Xeno;
     is_plain =
       (
-      offsetof(DataType, set_pos_right) +
+      offsetof(DataType, right_wheel_vel) +
       last_member_size
       ) == ret_val;
   }

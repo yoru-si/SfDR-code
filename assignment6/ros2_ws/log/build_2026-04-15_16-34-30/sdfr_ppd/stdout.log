@@ -1,0 +1,8 @@
+[  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o[0m

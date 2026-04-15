@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target RosXenoBridge[0m
+[100%] Built target RosXenoBridge
+-- Install configuration: ""
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge
+-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge" to ""
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/package_run_dependencies/ros_xeno_bridge
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/parent_prefix_path/ros_xeno_bridge
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.sh
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.dsv
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.bash
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.sh
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.zsh
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.dsv
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.dsv
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/packages/ros_xeno_bridge
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig.cmake
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig-version.cmake
+-- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.xml

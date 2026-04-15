@@ -67,14 +67,14 @@ static rosidl_typesupport_introspection_c__MessageMember xrf2_msgs__msg__Ros2Xen
     NULL  // resize(index) function pointer
   },
   {
-    "set_pos_left",  // name
+    "left_wheel_vel",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(xrf2_msgs__msg__Ros2Xeno, set_pos_left),  // bytes offset in struct
+    offsetof(xrf2_msgs__msg__Ros2Xeno, left_wheel_vel),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -84,14 +84,14 @@ static rosidl_typesupport_introspection_c__MessageMember xrf2_msgs__msg__Ros2Xen
     NULL  // resize(index) function pointer
   },
   {
-    "set_pos_right",  // name
+    "right_wheel_vel",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(xrf2_msgs__msg__Ros2Xeno, set_pos_right),  // bytes offset in struct
+    offsetof(xrf2_msgs__msg__Ros2Xeno, right_wheel_vel),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o[0m
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:[m[K In member function ‘[01m[Kvirtual int sdfr_ppd::run()[m[K’:
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:69:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_encoder_left[m[K’ was not declared in this scope
+   69 |     u[0] = [01;31m[Kcurrent_encoder_left[m[K; // Actual PosLeft
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:70:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_encoder_right[m[K’ was not declared in this scope
+   70 |     u[1] = [01;31m[Kcurrent_encoder_right[m[K; // Actual PosRight
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:71:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_target_left[m[K’ was not declared in this scope
+   71 |     u[2] = [01;31m[Kros_target_left[m[K; // Target SetPosLeft (from your /RELbot_adapter)
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/src/sdfr_ppd.cpp:72:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_target_right[m[K’ was not declared in this scope
+   72 |     u[3] = [01;31m[Kros_target_right[m[K; // Target SetPosRight (from your /RELbot_adapter)
+      |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:258: CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2

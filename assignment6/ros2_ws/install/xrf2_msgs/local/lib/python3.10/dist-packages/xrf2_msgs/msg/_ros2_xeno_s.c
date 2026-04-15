@@ -68,22 +68,22 @@ bool xrf2_msgs__msg__ros2_xeno__convert_from_py(PyObject * _pymsg, void * _ros_m
     ros_message->pos_right = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // set_pos_left
-    PyObject * field = PyObject_GetAttrString(_pymsg, "set_pos_left");
+  {  // left_wheel_vel
+    PyObject * field = PyObject_GetAttrString(_pymsg, "left_wheel_vel");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->set_pos_left = PyFloat_AS_DOUBLE(field);
+    ros_message->left_wheel_vel = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // set_pos_right
-    PyObject * field = PyObject_GetAttrString(_pymsg, "set_pos_right");
+  {  // right_wheel_vel
+    PyObject * field = PyObject_GetAttrString(_pymsg, "right_wheel_vel");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->set_pos_right = PyFloat_AS_DOUBLE(field);
+    ros_message->right_wheel_vel = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -130,22 +130,22 @@ PyObject * xrf2_msgs__msg__ros2_xeno__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // set_pos_left
+  {  // left_wheel_vel
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->set_pos_left);
+    field = PyFloat_FromDouble(ros_message->left_wheel_vel);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "set_pos_left", field);
+      int rc = PyObject_SetAttrString(_pymessage, "left_wheel_vel", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // set_pos_right
+  {  // right_wheel_vel
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->set_pos_right);
+    field = PyFloat_FromDouble(ros_message->right_wheel_vel);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "set_pos_right", field);
+      int rc = PyObject_SetAttrString(_pymessage, "right_wheel_vel", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
