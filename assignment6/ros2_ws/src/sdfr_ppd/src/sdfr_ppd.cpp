@@ -1,4 +1,4 @@
-#include "Template20Sim.hpp"
+#include "sdfr_ppd.hpp"
 
 sdfr_ppd::sdfr_ppd(uint write_decimator_freq, uint monitor_freq) :
     XenoFrt20Sim(write_decimator_freq, monitor_freq, file, &data_to_be_logged),
