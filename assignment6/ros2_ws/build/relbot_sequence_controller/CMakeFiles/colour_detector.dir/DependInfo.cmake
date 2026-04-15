@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/colour_detector.cpp" "CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o" "gcc" "CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o.d"
+  "/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/src/colour_detector.cpp" "CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o" "gcc" "CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o.d"
   )
 
 # Targets to which this target links.

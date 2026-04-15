@@ -1,0 +1,9 @@
+[0.004s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge -- -j32 -l32
+[0.020s] [35m[1mConsolidate compiler generated dependencies of target RosXenoBridge[0m
+[0.028s] [ 50%] [32m[1mLinking CXX executable RosXenoBridge[0m
+[0.065s] /usr/bin/ld: cannot find -levl: No such file or directory
+[0.106s] collect2: error: ld returned 1 exit status
+[0.107s] gmake[2]: *** [CMakeFiles/RosXenoBridge.dir/build.make:167: RosXenoBridge] Error 1
+[0.108s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/RosXenoBridge.dir/all] Error 2
+[0.108s] gmake: *** [Makefile:146: all] Error 2
+[0.109s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge' returned '2': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge -- -j32 -l32

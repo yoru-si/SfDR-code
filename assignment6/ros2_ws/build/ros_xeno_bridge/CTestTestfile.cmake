@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge
-# Build directory: /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge
+# Source directory: /home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge
+# Build directory: /home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller
+# Install script for directory: /home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/relbot_sequence_controller"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller" TYPE EXECUTABLE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/relbot_sequence_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller" TYPE EXECUTABLE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/relbot_sequence_controller")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/relbot_sequence_controller" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/relbot_sequence_controller")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/relbot_sequence_controller"
-         OLD_RPATH "/opt/ros/humble/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/relbot_sequence_controller")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/colour_detector"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller" TYPE EXECUTABLE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/colour_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller" TYPE EXECUTABLE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/colour_detector")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/colour_detector" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/colour_detector")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/colour_detector"
-         OLD_RPATH "/opt/ros/humble/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/relbot_sequence_controller/colour_detector")
@@ -83,11 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller/environment" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller/environment" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller/environment" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller/environment" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/packages/relbot_sequence_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_index/share/ament_index/resource_index/packages/relbot_sequence_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller/cmake" TYPE FILE FILES
-    "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_core/relbot_sequence_controllerConfig.cmake"
-    "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/ament_cmake_core/relbot_sequence_controllerConfig-version.cmake"
+    "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_core/relbot_sequence_controllerConfig.cmake"
+    "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/ament_cmake_core/relbot_sequence_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/relbot_sequence_controller" TYPE FILE FILES "/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

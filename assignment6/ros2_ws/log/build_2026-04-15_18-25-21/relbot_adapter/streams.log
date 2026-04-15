@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.109s] -- Detecting C compiler ABI info - done
+[0.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.114s] -- Detecting C compile features
+[0.114s] -- Detecting C compile features - done
+[0.116s] -- Detecting CXX compiler ABI info
+[0.158s] -- Detecting CXX compiler ABI info - done
+[0.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.163s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.165s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.298s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.348s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.385s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.388s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.471s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.489s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Looking for pthread.h
+[0.563s] -- Looking for pthread.h - found
+[0.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.604s] -- Found Threads: TRUE  
+[0.655s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.705s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.712s] -- Found relbot_msgs: 2025.2.0 (/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[0.726s] -- xrf2_msgs found, enabling related features
+[0.728s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.773s] -- Configured cppcheck include dirs: /home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/include>
+[0.773s] -- Configured cppcheck exclude dirs and/or files: 
+[0.774s] -- Added test 'lint_cmake' to check CMake code style
+[0.774s] -- Added test 'uncrustify' to check C / C++ code style
+[0.774s] -- Configured uncrustify additional arguments: 
+[0.774s] -- Added test 'xmllint' to check XML markup files
+[0.774s] -- Configuring done
+[0.780s] -- Generating done
+[0.782s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter
+[0.788s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter
+[0.789s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter -- -j32 -l32
+[0.813s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o[0m
+[2.148s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/src/relbot_adapter.cpp:99:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RELbotAdapter::twistCallback(relbot_msgs::msg::RelbotMotors)[m[K’
+[2.148s]    99 | void [01;31m[KRELbotAdapter[m[K::twistCallback(const relbot_msgs::msg::RelbotMotors motor_velocity_cmd)
+[2.148s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.148s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/src/relbot_adapter.cpp:1[m[K:
+[2.148s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/include/relbot_adapter.hpp:114:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid RELbotAdapter::twistCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’
+[2.148s]   114 |     void [01;36m[KtwistCallback[m[K(const geometry_msgs::msg::Twist::SharedPtr twist);
+[2.148s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[2.149s] In file included from [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/src/relbot_adapter.cpp:1[m[K:
+[2.149s] [01m[K/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter/include/relbot_adapter.hpp:33:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RELbotAdapter[m[K’ defined here
+[2.149s]    33 | class [01;36m[KRELbotAdapter[m[K : public rclcpp::Node
+[2.149s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[4.978s] gmake[2]: *** [CMakeFiles/relbot_adapter.dir/build.make:76: CMakeFiles/relbot_adapter.dir/src/relbot_adapter.cpp.o] Error 1
+[4.978s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/relbot_adapter.dir/all] Error 2
+[4.978s] gmake: *** [Makefile:146: all] Error 2
+[4.980s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter -- -j32 -l32
