@@ -12,7 +12,8 @@ def generate_launch_description():
             package='relbot_adapter',
             executable='relbot_adapter',
             name='relbot_adapter',
-            parameters=[{'robotmode':'real'}]
+            parameters=[{'robotmode':'real',
+			'use_twist_cmd':True}]
         ),
         Node(
             package='relbot_sequence_controller',

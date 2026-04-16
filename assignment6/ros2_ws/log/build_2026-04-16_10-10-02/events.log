@@ -1,0 +1,532 @@
+[0.000000] (-) TimerEvent: {}
+[0.001486] (-) JobUnselected: {'identifier': 'image_functions_sdfr'}
+[0.002109] (-) JobUnselected: {'identifier': 'relbot2turtlesim'}
+[0.002671] (-) JobUnselected: {'identifier': 'relbot_adapter'}
+[0.002999] (-) JobUnselected: {'identifier': 'relbot_launch'}
+[0.003407] (-) JobUnselected: {'identifier': 'relbot_msgs'}
+[0.003778] (-) JobUnselected: {'identifier': 'relbot_sequence_controller'}
+[0.004169] (-) JobUnselected: {'identifier': 'relbot_simulator'}
+[0.004504] (-) JobUnselected: {'identifier': 'ros_xeno_bridge'}
+[0.004833] (-) JobUnselected: {'identifier': 'sdfr_ppd'}
+[0.005392] (xrf2_msgs) JobQueued: {'identifier': 'xrf2_msgs', 'dependencies': OrderedDict()}
+[0.005702] (xrf2_msgs) JobStarted: {'identifier': 'xrf2_msgs'}
+[0.025308] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'cmake'}
+[0.027537] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs'], 'cwd': '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.66 34832 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.100.66 34832 10.0.28.112 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099102] (-) TimerEvent: {}
+[0.200384] (-) TimerEvent: {}
+[0.302571] (-) TimerEvent: {}
+[0.404063] (-) TimerEvent: {}
+[0.505529] (-) TimerEvent: {}
+[0.607143] (-) TimerEvent: {}
+[0.708361] (-) TimerEvent: {}
+[0.809540] (-) TimerEvent: {}
+[0.911187] (-) TimerEvent: {}
+[1.012838] (-) TimerEvent: {}
+[1.114369] (-) TimerEvent: {}
+[1.215795] (-) TimerEvent: {}
+[1.317223] (-) TimerEvent: {}
+[1.418640] (-) TimerEvent: {}
+[1.520057] (-) TimerEvent: {}
+[1.621471] (-) TimerEvent: {}
+[1.722909] (-) TimerEvent: {}
+[1.824373] (-) TimerEvent: {}
+[1.925878] (-) TimerEvent: {}
+[2.027528] (-) TimerEvent: {}
+[2.129144] (-) TimerEvent: {}
+[2.231506] (-) TimerEvent: {}
+[2.333124] (-) TimerEvent: {}
+[2.434734] (-) TimerEvent: {}
+[2.536338] (-) TimerEvent: {}
+[2.637946] (-) TimerEvent: {}
+[2.739504] (-) TimerEvent: {}
+[2.841052] (-) TimerEvent: {}
+[2.942993] (-) TimerEvent: {}
+[3.044598] (-) TimerEvent: {}
+[3.145999] (-) TimerEvent: {}
+[3.247662] (-) TimerEvent: {}
+[3.349299] (-) TimerEvent: {}
+[3.438739] (xrf2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.449517] (-) TimerEvent: {}
+[3.551090] (-) TimerEvent: {}
+[3.652553] (-) TimerEvent: {}
+[3.753884] (-) TimerEvent: {}
+[3.855419] (-) TimerEvent: {}
+[3.957340] (-) TimerEvent: {}
+[4.058944] (-) TimerEvent: {}
+[4.160815] (-) TimerEvent: {}
+[4.262668] (-) TimerEvent: {}
+[4.364179] (-) TimerEvent: {}
+[4.465711] (-) TimerEvent: {}
+[4.567269] (-) TimerEvent: {}
+[4.668784] (-) TimerEvent: {}
+[4.770335] (-) TimerEvent: {}
+[4.871840] (-) TimerEvent: {}
+[4.973363] (-) TimerEvent: {}
+[5.075152] (-) TimerEvent: {}
+[5.176657] (-) TimerEvent: {}
+[5.278269] (-) TimerEvent: {}
+[5.334401] (xrf2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.378484] (-) TimerEvent: {}
+[5.479975] (-) TimerEvent: {}
+[5.527490] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.580216] (-) TimerEvent: {}
+[5.681938] (-) TimerEvent: {}
+[5.783273] (-) TimerEvent: {}
+[5.884674] (-) TimerEvent: {}
+[5.917118] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.982393] (xrf2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.984787] (-) TimerEvent: {}
+[5.988240] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.006849] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.051572] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.085014] (-) TimerEvent: {}
+[6.186382] (-) TimerEvent: {}
+[6.287496] (-) TimerEvent: {}
+[6.388572] (-) TimerEvent: {}
+[6.439821] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.488769] (-) TimerEvent: {}
+[6.504303] (xrf2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.506220] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.508109] (xrf2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.532301] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.589071] (-) TimerEvent: {}
+[6.691115] (-) TimerEvent: {}
+[6.792376] (-) TimerEvent: {}
+[6.894059] (-) TimerEvent: {}
+[6.995100] (-) TimerEvent: {}
+[7.095952] (-) TimerEvent: {}
+[7.148948] (xrf2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.196198] (-) TimerEvent: {}
+[7.297121] (-) TimerEvent: {}
+[7.398009] (-) TimerEvent: {}
+[7.499330] (-) TimerEvent: {}
+[7.559419] (xrf2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.572728] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.595588] (xrf2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.599422] (-) TimerEvent: {}
+[7.700276] (-) TimerEvent: {}
+[7.751149] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.800432] (-) TimerEvent: {}
+[7.901399] (-) TimerEvent: {}
+[8.002330] (-) TimerEvent: {}
+[8.103275] (-) TimerEvent: {}
+[8.204197] (-) TimerEvent: {}
+[8.305091] (-) TimerEvent: {}
+[8.406568] (-) TimerEvent: {}
+[8.507331] (-) TimerEvent: {}
+[8.608236] (-) TimerEvent: {}
+[8.709735] (-) TimerEvent: {}
+[8.811072] (-) TimerEvent: {}
+[8.843433] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.911272] (-) TimerEvent: {}
+[9.012395] (-) TimerEvent: {}
+[9.113346] (-) TimerEvent: {}
+[9.214401] (-) TimerEvent: {}
+[9.315700] (-) TimerEvent: {}
+[9.416897] (-) TimerEvent: {}
+[9.518468] (-) TimerEvent: {}
+[9.619326] (-) TimerEvent: {}
+[9.669128] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.719594] (-) TimerEvent: {}
+[9.821062] (-) TimerEvent: {}
+[9.921997] (-) TimerEvent: {}
+[10.022954] (-) TimerEvent: {}
+[10.124008] (-) TimerEvent: {}
+[10.225323] (-) TimerEvent: {}
+[10.326723] (-) TimerEvent: {}
+[10.427540] (-) TimerEvent: {}
+[10.528726] (-) TimerEvent: {}
+[10.630219] (-) TimerEvent: {}
+[10.731468] (-) TimerEvent: {}
+[10.832651] (-) TimerEvent: {}
+[10.933971] (-) TimerEvent: {}
+[11.035492] (-) TimerEvent: {}
+[11.136902] (-) TimerEvent: {}
+[11.237700] (-) TimerEvent: {}
+[11.272548] (xrf2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.337920] (-) TimerEvent: {}
+[11.371065] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.380372] (xrf2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.438073] (-) TimerEvent: {}
+[11.507042] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.510212] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.512471] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.514243] (xrf2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.538249] (-) TimerEvent: {}
+[11.592785] (xrf2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.638492] (-) TimerEvent: {}
+[11.739719] (-) TimerEvent: {}
+[11.778521] (xrf2_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.839893] (-) TimerEvent: {}
+[11.877854] (xrf2_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.883063] (xrf2_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.899373] (xrf2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.940043] (-) TimerEvent: {}
+[12.040993] (-) TimerEvent: {}
+[12.053212] (xrf2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[12.106631] (xrf2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs\n'}
+[12.123997] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[12.136060] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'build'}
+[12.136676] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.66 34832 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.100.66 34832 10.0.28.112 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.141950] (-) TimerEvent: {}
+[12.243190] (-) TimerEvent: {}
+[12.248222] (xrf2_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.276958] (xrf2_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.303371] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_xrf2_msgs\n'}
+[12.343429] (-) TimerEvent: {}
+[12.444751] (-) TimerEvent: {}
+[12.546338] (-) TimerEvent: {}
+[12.647703] (-) TimerEvent: {}
+[12.749181] (-) TimerEvent: {}
+[12.850458] (-) TimerEvent: {}
+[12.951670] (-) TimerEvent: {}
+[13.052806] (-) TimerEvent: {}
+[13.153958] (-) TimerEvent: {}
+[13.255135] (-) TimerEvent: {}
+[13.356415] (-) TimerEvent: {}
+[13.457562] (-) TimerEvent: {}
+[13.545155] (xrf2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[13.550183] (xrf2_msgs) StdoutLine: {'line': b'creating xrf2_msgs.egg-info\n'}
+[13.552882] (xrf2_msgs) StdoutLine: {'line': b'writing xrf2_msgs.egg-info/PKG-INFO\n'}
+[13.555389] (xrf2_msgs) StdoutLine: {'line': b'writing dependency_links to xrf2_msgs.egg-info/dependency_links.txt\n'}
+[13.557466] (xrf2_msgs) StdoutLine: {'line': b'writing top-level names to xrf2_msgs.egg-info/top_level.txt\n'}
+[13.559308] (-) TimerEvent: {}
+[13.561379] (xrf2_msgs) StdoutLine: {'line': b"writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[13.580890] (xrf2_msgs) StdoutLine: {'line': b"reading manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[13.583942] (xrf2_msgs) StdoutLine: {'line': b"writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[13.659650] (-) TimerEvent: {}
+[13.760726] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_xrf2_msgs_egg\n'}
+[13.762567] (-) TimerEvent: {}
+[13.864745] (-) TimerEvent: {}
+[13.873344] (xrf2_msgs) StdoutLine: {'line': b'[  5%] Built target xrf2_msgs__cpp\n'}
+[13.900179] (xrf2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xrf2_msgs/msg/detail/xeno2_ros__functions.c.o\x1b[0m\n'}
+[13.902615] (xrf2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/xrf2_msgs/msg/detail/ros2_xeno__functions.c.o\x1b[0m\n'}
+[13.904463] (xrf2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.964896] (-) TimerEvent: {}
+[14.066277] (-) TimerEvent: {}
+[14.167752] (-) TimerEvent: {}
+[14.178409] (xrf2_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libxrf2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[14.181601] (xrf2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.268044] (-) TimerEvent: {}
+[14.324645] (xrf2_msgs) StdoutLine: {'line': b'[ 17%] Built target xrf2_msgs__rosidl_generator_c\n'}
+[14.355688] (xrf2_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.368426] (-) TimerEvent: {}
+[14.469600] (-) TimerEvent: {}
+[14.570596] (-) TimerEvent: {}
+[14.671476] (-) TimerEvent: {}
+[14.772358] (-) TimerEvent: {}
+[14.873227] (-) TimerEvent: {}
+[14.974104] (-) TimerEvent: {}
+[15.048284] (xrf2_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xrf2_msgs/msg/ros2_xeno__type_support.cpp.o\x1b[0m\n'}
+[15.074364] (-) TimerEvent: {}
+[15.175804] (-) TimerEvent: {}
+[15.277219] (-) TimerEvent: {}
+[15.378487] (-) TimerEvent: {}
+[15.480153] (-) TimerEvent: {}
+[15.535277] (xrf2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xrf2_msgs/msg/detail/dds_fastrtps/ros2_xeno__type_support.cpp.o\x1b[0m\n'}
+[15.580345] (-) TimerEvent: {}
+[15.618291] (xrf2_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp.o\x1b[0m\n'}
+[15.680588] (-) TimerEvent: {}
+[15.782128] (-) TimerEvent: {}
+[15.884037] (-) TimerEvent: {}
+[15.985622] (-) TimerEvent: {}
+[16.087525] (-) TimerEvent: {}
+[16.189435] (-) TimerEvent: {}
+[16.290948] (-) TimerEvent: {}
+[16.392793] (-) TimerEvent: {}
+[16.494480] (-) TimerEvent: {}
+[16.568591] (xrf2_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xrf2_msgs/msg/xeno2_ros__type_support.cpp.o\x1b[0m\n'}
+[16.594744] (-) TimerEvent: {}
+[16.696420] (-) TimerEvent: {}
+[16.797867] (-) TimerEvent: {}
+[16.899388] (-) TimerEvent: {}
+[17.000773] (-) TimerEvent: {}
+[17.102142] (-) TimerEvent: {}
+[17.203531] (-) TimerEvent: {}
+[17.305059] (-) TimerEvent: {}
+[17.406587] (-) TimerEvent: {}
+[17.442135] (xrf2_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp.o\x1b[0m\n'}
+[17.506790] (-) TimerEvent: {}
+[17.523587] (xrf2_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xrf2_msgs/msg/detail/dds_fastrtps/xeno2_ros__type_support.cpp.o\x1b[0m\n'}
+[17.607024] (-) TimerEvent: {}
+[17.708309] (-) TimerEvent: {}
+[17.809643] (-) TimerEvent: {}
+[17.841368] (xrf2_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libxrf2_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.909908] (-) TimerEvent: {}
+[17.985683] (xrf2_msgs) StdoutLine: {'line': b'[ 38%] Built target xrf2_msgs__rosidl_typesupport_cpp\n'}
+[18.010123] (-) TimerEvent: {}
+[18.018164] (xrf2_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.110332] (-) TimerEvent: {}
+[18.211738] (-) TimerEvent: {}
+[18.313179] (-) TimerEvent: {}
+[18.414884] (-) TimerEvent: {}
+[18.515976] (-) TimerEvent: {}
+[18.617007] (-) TimerEvent: {}
+[18.717939] (-) TimerEvent: {}
+[18.818835] (-) TimerEvent: {}
+[18.919753] (-) TimerEvent: {}
+[19.020673] (-) TimerEvent: {}
+[19.121607] (-) TimerEvent: {}
+[19.223108] (-) TimerEvent: {}
+[19.324207] (-) TimerEvent: {}
+[19.344832] (xrf2_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libxrf2_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.419657] (xrf2_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.424491] (-) TimerEvent: {}
+[19.505408] (xrf2_msgs) StdoutLine: {'line': b'[ 46%] Built target xrf2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[19.524734] (-) TimerEvent: {}
+[19.536247] (xrf2_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xrf2_msgs/msg/detail/ros2_xeno__type_support_c.cpp.o\x1b[0m\n'}
+[19.561490] (xrf2_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.625084] (-) TimerEvent: {}
+[19.727368] (-) TimerEvent: {}
+[19.763042] (xrf2_msgs) StdoutLine: {'line': b'[ 51%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[19.793281] (xrf2_msgs) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.827612] (-) TimerEvent: {}
+[19.928903] (-) TimerEvent: {}
+[20.030404] (-) TimerEvent: {}
+[20.131731] (-) TimerEvent: {}
+[20.233018] (-) TimerEvent: {}
+[20.334379] (-) TimerEvent: {}
+[20.435713] (-) TimerEvent: {}
+[20.536960] (-) TimerEvent: {}
+[20.637946] (-) TimerEvent: {}
+[20.738928] (-) TimerEvent: {}
+[20.840133] (-) TimerEvent: {}
+[20.941898] (-) TimerEvent: {}
+[20.962746] (xrf2_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xrf2_msgs/msg/detail/ros2_xeno__type_support.c.o\x1b[0m\n'}
+[20.984056] (xrf2_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xrf2_msgs/msg/ros2_xeno__type_support.cpp.o\x1b[0m\n'}
+[21.042034] (-) TimerEvent: {}
+[21.113927] (xrf2_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xrf2_msgs/msg/detail/xeno2_ros__type_support.c.o\x1b[0m\n'}
+[21.142316] (-) TimerEvent: {}
+[21.168076] (xrf2_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xrf2_msgs/msg/xeno2_ros__type_support.cpp.o\x1b[0m\n'}
+[21.240485] (xrf2_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xrf2_msgs/msg/detail/xeno2_ros__type_support_c.cpp.o\x1b[0m\n'}
+[21.242473] (-) TimerEvent: {}
+[21.292198] (xrf2_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libxrf2_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.342852] (-) TimerEvent: {}
+[21.345599] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libxrf2_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.387314] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_introspection_c\n'}
+[21.443075] (-) TimerEvent: {}
+[21.480039] (xrf2_msgs) StdoutLine: {'line': b'[ 71%] Built target xrf2_msgs__rosidl_typesupport_c\n'}
+[21.543296] (-) TimerEvent: {}
+[21.644197] (-) TimerEvent: {}
+[21.745060] (-) TimerEvent: {}
+[21.846171] (-) TimerEvent: {}
+[21.946988] (-) TimerEvent: {}
+[22.047933] (-) TimerEvent: {}
+[22.148814] (-) TimerEvent: {}
+[22.249686] (-) TimerEvent: {}
+[22.350734] (-) TimerEvent: {}
+[22.415060] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libxrf2_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.450945] (-) TimerEvent: {}
+[22.552146] (-) TimerEvent: {}
+[22.653173] (-) TimerEvent: {}
+[22.693359] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[22.747025] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs\n'}
+[22.753379] (-) TimerEvent: {}
+[22.802870] (xrf2_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[22.853551] (-) TimerEvent: {}
+[22.954453] (-) TimerEvent: {}
+[23.055229] (-) TimerEvent: {}
+[23.156005] (-) TimerEvent: {}
+[23.256861] (-) TimerEvent: {}
+[23.357650] (-) TimerEvent: {}
+[23.458494] (-) TimerEvent: {}
+[23.559272] (-) TimerEvent: {}
+[23.660025] (-) TimerEvent: {}
+[23.760797] (-) TimerEvent: {}
+[23.861537] (-) TimerEvent: {}
+[23.962306] (-) TimerEvent: {}
+[24.063021] (-) TimerEvent: {}
+[24.163820] (-) TimerEvent: {}
+[24.265954] (-) TimerEvent: {}
+[24.299100] (xrf2_msgs) StdoutLine: {'line': b'[ 76%] Built target xrf2_msgs__py\n'}
+[24.353144] (xrf2_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xrf2_msgs/msg/_ros2_xeno_s.c.o\x1b[0m\n'}
+[24.355139] (xrf2_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/xrf2_msgs/msg/_xeno2_ros_s.c.o\x1b[0m\n'}
+[24.366196] (-) TimerEvent: {}
+[24.468284] (-) TimerEvent: {}
+[24.569904] (-) TimerEvent: {}
+[24.671715] (-) TimerEvent: {}
+[24.772590] (-) TimerEvent: {}
+[24.874191] (-) TimerEvent: {}
+[24.886083] (xrf2_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[24.974405] (-) TimerEvent: {}
+[25.032313] (xrf2_msgs) StdoutLine: {'line': b'[ 84%] Built target xrf2_msgs__rosidl_generator_py\n'}
+[25.074640] (-) TimerEvent: {}
+[25.093418] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.095741] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[25.097068] (xrf2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.174834] (-) TimerEvent: {}
+[25.276447] (-) TimerEvent: {}
+[25.378517] (-) TimerEvent: {}
+[25.471516] (xrf2_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.478709] (-) TimerEvent: {}
+[25.524345] (xrf2_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.578018] (xrf2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.580357] (-) TimerEvent: {}
+[25.603843] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[25.658073] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.680630] (-) TimerEvent: {}
+[25.701313] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_c__pyext\n'}
+[25.735083] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[25.737225] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'install'}
+[25.762521] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs'], 'cwd': '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.66 34832 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.100.66 34832 10.0.28.112 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.780806] (-) TimerEvent: {}
+[25.789940] (xrf2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.791577] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/rosidl_interfaces/xrf2_msgs\n'}
+[25.792802] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.794037] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.795246] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.796412] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.h\n'}
+[25.797898] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.799119] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.h\n'}
+[25.800367] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.h\n'}
+[25.801512] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.c\n'}
+[25.802791] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.h\n'}
+[25.803918] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.h\n'}
+[25.805032] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.h\n'}
+[25.806239] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.c\n'}
+[25.807435] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.h\n'}
+[25.808513] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.h\n'}
+[25.809713] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.sh\n'}
+[25.810995] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.dsv\n'}
+[25.812201] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so\n'}
+[25.813269] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so" to ""\n'}
+[25.814422] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.815390] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.816471] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.817530] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_c.h\n'}
+[25.818669] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_c.h\n'}
+[25.819733] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.820879] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[25.821994] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.823109] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.824046] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.825040] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.826199] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.827233] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.c\n'}
+[25.828232] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.c\n'}
+[25.829220] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_c.h\n'}
+[25.830264] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_c.h\n'}
+[25.831619] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[25.832617] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.833608] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so\n'}
+[25.834671] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[25.835678] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.836672] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.837698] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.hpp\n'}
+[25.838754] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.839768] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__traits.hpp\n'}
+[25.840783] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.hpp\n'}
+[25.841677] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.hpp\n'}
+[25.842664] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.hpp\n'}
+[25.843749] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__builder.hpp\n'}
+[25.844987] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.hpp\n'}
+[25.846045] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp\n'}
+[25.847064] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__traits.hpp\n'}
+[25.848054] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.848955] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.hpp\n'}
+[25.849946] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.851142] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.852061] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.853081] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/dds_fastrtps\n'}
+[25.854156] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.855209] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.856211] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.857198] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.858271] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.859321] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[25.860292] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[25.861213] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[25.862244] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.863237] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.864277] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp\n'}
+[25.865258] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp\n'}
+[25.866314] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[25.867692] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.868701] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so\n'}
+[25.869655] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[25.870717] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.sh\n'}
+[25.871666] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.dsv\n'}
+[25.872589] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info\n'}
+[25.873544] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.874719] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.876095] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.877434] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.878826] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs\n'}
+[25.879933] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.880969] (-) TimerEvent: {}
+[25.882048] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.883281] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[25.884344] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.885409] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg\n'}
+[25.887030] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno_s.c\n'}
+[25.888006] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py\n'}
+[25.888964] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros_s.c\n'}
+[25.890103] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py\n'}
+[25.891154] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py\n'}
+[25.892150] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[25.893139] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py\n'}
+[25.894265] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so\n'}
+[25.895295] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[25.981151] (-) TimerEvent: {}
+[25.993608] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs'...\n"}
+[25.995964] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py'...\n"}
+[25.997861] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg'...\n"}
+[25.999862] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py'...\n"}
+[26.001845] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py'...\n"}
+[26.004216] (xrf2_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py'...\n"}
+[26.019982] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.022408] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[26.023631] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.025601] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[26.026885] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.028834] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[26.030261] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so\n'}
+[26.032030] (xrf2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so" to ""\n'}
+[26.033207] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.idl\n'}
+[26.034410] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.idl\n'}
+[26.035557] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.msg\n'}
+[26.036679] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.msg\n'}
+[26.037870] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/package_run_dependencies/xrf2_msgs\n'}
+[26.039052] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/parent_prefix_path/xrf2_msgs\n'}
+[26.040178] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.sh\n'}
+[26.041298] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.dsv\n'}
+[26.042485] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.sh\n'}
+[26.043606] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.dsv\n'}
+[26.044819] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.bash\n'}
+[26.045973] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.sh\n'}
+[26.047122] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.zsh\n'}
+[26.048308] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.dsv\n'}
+[26.049442] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.dsv\n'}
+[26.050933] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/packages/xrf2_msgs\n'}
+[26.052075] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport.cmake\n'}
+[26.053196] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.054361] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.055505] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[26.056609] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.057721] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.058941] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[26.060158] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.061270] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cppExport.cmake\n'}
+[26.062864] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.064005] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.065170] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.066358] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.067667] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[26.068804] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.069924] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport.cmake\n'}
+[26.071091] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.072204] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[26.073301] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.074545] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.075673] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.077010] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.078176] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.079330] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.080438] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig.cmake\n'}
+[26.081589] (-) TimerEvent: {}
+[26.082276] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig-version.cmake\n'}
+[26.083472] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.xml\n'}
+[26.088148] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[26.181867] (-) TimerEvent: {}
+[26.198518] (xrf2_msgs) JobEnded: {'identifier': 'xrf2_msgs', 'rc': 0}
+[26.201169] (-) EventReactorShutdown: {}
