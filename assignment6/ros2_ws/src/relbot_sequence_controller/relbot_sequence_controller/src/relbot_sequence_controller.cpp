@@ -9,7 +9,7 @@ Description: Code which handles velocity control of the motors based on the obje
 #include "steering.hpp"
 #include "relbot_msgs/msg/relbot_motors.hpp"  
 
-#define Linear_velocity 1.0
+#define Linear_velocity 0.5
 #define radius 0.05
 #define wheel2wheel_distance 0.20
 
