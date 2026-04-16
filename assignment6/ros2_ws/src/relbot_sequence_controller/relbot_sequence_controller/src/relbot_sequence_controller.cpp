@@ -1,8 +1,8 @@
 #include "steering.hpp"
 #include "relbot_msgs/msg/relbot_motors.hpp"  
 
-#define Linear_velocity 2.0
-#define radius 0.1
+#define Linear_velocity 1.0
+#define radius 0.05
 #define wheel2wheel_distance 0.20
 
 using std::placeholders::_1;
@@ -47,8 +47,8 @@ void SteerRelbot::calculate_velocity() {
     double tau = 1.0;  // time constant
 
     // first order controller
-    double x_dot = -error_y / tau;      // forward velocity 
-    double theta_dot = -error_x / tau;  // angular velocity
+    double x_dot = error_y / tau;      // forward velocity 
+    double theta_dot = error_x / tau;  // angular velocity
 
     // scale down 
     double scale = 0.05;
@@ -56,8 +56,8 @@ void SteerRelbot::calculate_velocity() {
     double v_angular = theta_dot * scale;
 
     // differential drive conversion
-    left_velocity  = -(v_linear - v_angular * wheel2wheel_distance / 2.0);
-    right_velocity =  (v_linear + v_angular * wheel2wheel_distance / 2.0); 
+    left_velocity  = -(v_linear - v_angular * wheel2wheel_distance / 2.0)/radius;
+    right_velocity =  (v_linear + v_angular * wheel2wheel_distance / 2.0)/radius; 
     }
 
 void SteerRelbot::timer_callback() {
