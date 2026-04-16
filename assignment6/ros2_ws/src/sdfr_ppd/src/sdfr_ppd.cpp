@@ -49,28 +49,48 @@ int sdfr_ppd::initialised()
 
 int sdfr_ppd::run()
 {
-    // Do what you need to do
-    // Return 1 to go to stopping state
+   float gear_ratio = 15.58;
 
-    // Start logger
-    logger.start();                             
-    monitor.printf("Hello from run\n");  
-    //  Change some data for logger            
-    data_to_be_logged.this_is_a_bool = !data_to_be_logged.this_is_a_bool;
-    data_to_be_logged.this_is_a_int++;
-    if(data_to_be_logged.this_is_a_char == 'R')
-        data_to_be_logged.this_is_a_char = 'A';
-    else if (data_to_be_logged.this_is_a_char == 'A')
-        data_to_be_logged.this_is_a_char = 'M';
-    else
-        data_to_be_logged.this_is_a_char = 'R';
-    data_to_be_logged.this_is_a_float = data_to_be_logged.this_is_a_float/2;
-    data_to_be_logged.this_is_a_double = data_to_be_logged.this_is_a_double/4; 
+
+    int32_t diff_channel2 = sample_data.channel2 - this->last_channel2;
+    if (diff_channel2 > 8192) diff_channel2 -= 16384;
+    else if (diff_channel2 < -8192) diff_channel2 += 16384;
+    last_channel2 = sample_data.channel2;
+
+    // The negative sign is because the right motor encoder is inverted
+    int32_t diff_channel1 = -(sample_data.channel1 - this->last_channel1); 
+    if (diff_channel1 > 8192) diff_channel1 -= 16384;
+    else if (diff_channel1 < -8192) diff_channel1 += 16384;
+    last_channel1 = sample_data.channel1;
+
+    pos_left += (diff_channel2 / (1024.0 * gear_ratio * 4)) * (2 * 3.14159); 
+    pos_right += (diff_channel1 / (1024.0 * gear_ratio * 4)) * (2 * 3.14159);
+
+    u[0] = pos_left;
+    u[1] = pos_right;
+
+    u[2] = ros_msg.left_wheel_vel;  
+    u[3] = ros_msg.right_wheel_vel;
+
 
     controller.Calculate(u, y);
+
+    double output2 = y[0]; 
+    double output1 = y[1]; 
+
+    // Clamp values to the 12-bit physical limits so we don't fry the motors
+    if (output1 < -2047) output1 = -2047;
+    else if (output1 > 2047) output1 = 2047;
+
+    if (output2 < -2047) output2 = -2047;
+    else if (output2 > 2047) output2 = 2047;
+
+    // Actuate the physical hardware! (Right motor PWM is inverted)
+    actuate_data.pwm1 = -output1; 
+    actuate_data.pwm2 = output2;
+
     if(controller.IsFinished())
         return 1;
-
 
     return 0;
 }

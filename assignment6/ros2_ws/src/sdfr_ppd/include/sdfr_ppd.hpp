@@ -26,8 +26,13 @@ private:
     struct ThisIsAStruct data_to_be_logged;
     LoopController controller;
 
-    double u[2];
+    double u[4];
     double y[2];
+
+    int32_t last_channel2 = 0; 
+    int32_t last_channel1 = 0;
+    float pos_left = 0; 
+    float pos_right = 0;
 protected:
     //Functions
     int initialising() override;

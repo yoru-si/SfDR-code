@@ -8,14 +8,7 @@ def generate_launch_description():
             executable='cam2image',
             name='cam2image'
         ),
-        Node(
-            package='relbot_adapter',
-            executable='relbot_adapter',
-            name='relbot_adapter',
-            parameters=[{'robotmode':'real',
-			            'use_twist_cmd':True}]
-            ),
-        Node(
+            Node(
             package='relbot_sequence_controller',
             executable='colour_detector',
             name='colour_detector'
@@ -29,5 +22,20 @@ def generate_launch_description():
             package='relbot_sequence_controller',
             executable='relbot_sequence_controller',
             name='relbot_sequence_controller',
-        ),      
+        ),
+        Node(
+            package='relbot2turtlesim',
+            executable='relbot2turtlesim',
+            name='relbot2turtlesim',
+        ),
+        Node(
+            package='turtlesim',
+            executable='turtlesim_node',
+            name='turtlesim_node',
+        ),
+        Node(
+            package='image_tools',
+            executable='showimage',
+            name='showimage',
+        ),
     ])
