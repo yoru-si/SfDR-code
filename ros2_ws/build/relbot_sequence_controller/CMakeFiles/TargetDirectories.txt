@@ -1,0 +1,11 @@
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/uninstall.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/relbot_sequence_controller_uninstall.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/relbot_sequence_controller.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/colour_detector.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/test.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/edit_cache.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/rebuild_cache.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/list_install_components.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/install.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/install/local.dir
+/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller/CMakeFiles/install/strip.dir

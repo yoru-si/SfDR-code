@@ -1,0 +1,19 @@
+[0.035s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[0.691s] [  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o[0m
+[0.693s] [ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o[0m
+[0.694s] [  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[0.962s] [ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o[0m
+[3.577s] [ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o[0m
+[3.885s] [ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o[0m
+[3.955s] [ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o[0m
+[4.298s] [ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/LoopController.cpp.o[0m
+[5.173s] [ 40%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/EulerAngles.cpp.o[0m
+[5.248s] [ 45%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/MotionProfiles.cpp.o[0m
+[5.328s] [ 50%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxfuncs.cpp.o[0m
+[6.216s] [ 54%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinteg.cpp.o[0m
+[7.111s] [ 59%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinverse.cpp.o[0m
+[7.261s] [ 63%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxmatrix.cpp.o[0m
+[8.086s] [ 68%] [32m[1mLinking CXX executable sdfr_ppd[0m
+[8.458s] [100%] Built target sdfr_ppd
+[8.490s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

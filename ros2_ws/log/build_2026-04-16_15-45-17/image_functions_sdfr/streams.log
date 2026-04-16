@@ -1,0 +1,53 @@
+[0.059s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr -- -j3 -l3
+[0.163s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.363s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.392s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.618s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.640s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.668s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.098s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.166s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.742s] -- Configuring done
+[3.815s] -- Generating done
+[4.121s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr
+[4.243s] [35m[1mConsolidate compiler generated dependencies of target image_functions[0m
+[4.397s] [ 50%] [32mBuilding CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o[0m
+[18.879s] [100%] [32m[1mLinking CXX shared library libimage_functions.so[0m
+[19.538s] [100%] Built target image_functions
+[19.573s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr -- -j3 -l3
+[19.579s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr
+[19.608s] -- Install configuration: ""
+[19.610s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/include
+[19.613s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr
+[19.615s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h
+[19.618s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp
+[19.622s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib/libimage_functions.so
+[19.631s] -- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib/libimage_functions.so" to ""
+[19.633s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh
+[19.636s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv
+[19.640s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr
+[19.644s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr
+[19.647s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh
+[19.651s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv
+[19.655s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh
+[19.658s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv
+[19.662s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash
+[19.666s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh
+[19.670s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh
+[19.674s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv
+[19.677s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv
+[19.681s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr
+[19.685s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake
+[19.689s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake
+[19.693s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.697s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake
+[19.701s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake
+[19.706s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.710s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake
+[19.713s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake
+[19.717s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.xml
+[19.728s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/image_functions_sdfr

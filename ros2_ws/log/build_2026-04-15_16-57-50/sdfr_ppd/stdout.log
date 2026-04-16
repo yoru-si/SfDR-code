@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o[0m
+[  9%] [32m[1mLinking CXX executable sdfr_ppd[0m
+[100%] Built target sdfr_ppd

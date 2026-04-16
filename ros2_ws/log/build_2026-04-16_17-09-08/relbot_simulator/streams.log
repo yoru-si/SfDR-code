@@ -1,0 +1,37 @@
+[0.076s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator -- -j3 -l3
+[0.478s] [100%] Built target relbot_simulator
+[0.615s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator -- -j3 -l3
+[0.625s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator
+[0.647s] -- Install configuration: ""
+[0.660s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/lib/relbot_simulator/relbot_simulator
+[0.666s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include
+[0.673s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmatrix.cpp
+[0.675s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/MotionProfiles.h
+[0.676s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxfuncs.h
+[0.678s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/EulerAngles.h
+[0.680s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmatrix.h
+[0.683s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinverse.cpp
+[0.684s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinteg.cpp
+[0.686s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinteg.h
+[0.689s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmodel.h
+[0.691s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/EulerAngles.cpp
+[0.693s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinverse.h
+[0.694s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/MotionProfiles.cpp
+[0.697s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxtypes.h
+[0.699s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxfuncs.cpp
+[0.706s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/package_run_dependencies/relbot_simulator
+[0.711s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/parent_prefix_path/relbot_simulator
+[0.716s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.sh
+[0.720s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.dsv
+[0.723s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.sh
+[0.727s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.dsv
+[0.731s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.bash
+[0.733s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.sh
+[0.736s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.zsh
+[0.741s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.dsv
+[0.746s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.dsv
+[0.749s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/packages/relbot_simulator
+[0.756s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig.cmake
+[0.758s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig-version.cmake
+[0.759s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.xml
+[0.840s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator

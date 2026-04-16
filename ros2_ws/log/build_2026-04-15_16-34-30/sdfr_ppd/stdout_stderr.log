@@ -1,0 +1,19 @@
+[  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o[0m
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:[m[K In function ‘[01m[Kvoid* XenoThread(void*)[m[K’:
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTemplate20sim[m[K’ was not declared in this scope
+   13 |     [01;31m[KTemplate20sim[m[K example_rt(1,1);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_rt[m[K’ was not declared in this scope
+   15 |     [01;31m[Kexample_rt[m[K.loop();
+      |     [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:76: CMakeFiles/sdfr_ppd.dir/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2

@@ -1,0 +1,24 @@
+[0.179s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller -- -j3 -l3
+[0.483s] [ 50%] Built target colour_detector
+[0.511s] [100%] Built target relbot_sequence_controller
+[0.551s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller -- -j3 -l3
+[0.570s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller
+[0.597s] -- Install configuration: ""
+[0.609s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[0.622s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/colour_detector
+[0.635s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[0.640s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[0.644s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[0.658s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[0.660s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[0.661s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[0.663s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[0.664s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[0.666s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[0.667s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[0.669s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[0.670s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[0.672s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[0.673s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[0.683s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller

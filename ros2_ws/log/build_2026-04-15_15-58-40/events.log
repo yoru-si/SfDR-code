@@ -1,0 +1,1305 @@
+[0.000000] (-) TimerEvent: {}
+[0.001684] (image_functions_sdfr) JobQueued: {'identifier': 'image_functions_sdfr', 'dependencies': OrderedDict()}
+[0.002229] (relbot2turtlesim) JobQueued: {'identifier': 'relbot2turtlesim', 'dependencies': OrderedDict()}
+[0.002742] (relbot_adapter) JobQueued: {'identifier': 'relbot_adapter', 'dependencies': OrderedDict()}
+[0.003006] (relbot_launch) JobQueued: {'identifier': 'relbot_launch', 'dependencies': OrderedDict()}
+[0.003225] (relbot_msgs) JobQueued: {'identifier': 'relbot_msgs', 'dependencies': OrderedDict()}
+[0.003579] (xrf2_msgs) JobQueued: {'identifier': 'xrf2_msgs', 'dependencies': OrderedDict()}
+[0.003957] (relbot_sequence_controller) JobQueued: {'identifier': 'relbot_sequence_controller', 'dependencies': OrderedDict([('image_functions_sdfr', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr')])}
+[0.004385] (relbot_simulator) JobQueued: {'identifier': 'relbot_simulator', 'dependencies': OrderedDict([('relbot_msgs', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs')])}
+[0.004653] (ros_xeno_bridge) JobQueued: {'identifier': 'ros_xeno_bridge', 'dependencies': OrderedDict([('xrf2_msgs', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs')])}
+[0.005014] (sdfr_ppd) JobQueued: {'identifier': 'sdfr_ppd', 'dependencies': OrderedDict([('xrf2_msgs', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs')])}
+[0.005575] (xrf2_msgs) JobStarted: {'identifier': 'xrf2_msgs'}
+[0.022327] (image_functions_sdfr) JobStarted: {'identifier': 'image_functions_sdfr'}
+[0.034910] (relbot_msgs) JobStarted: {'identifier': 'relbot_msgs'}
+[0.053903] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'cmake'}
+[0.056175] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'build'}
+[0.058476] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.068003] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'cmake'}
+[0.070688] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/image_functions_sdfr/image_functions_sdfr', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.097727] (relbot_msgs) JobProgress: {'identifier': 'relbot_msgs', 'progress': 'cmake'}
+[0.098261] (relbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.104562] (-) TimerEvent: {}
+[0.206490] (-) TimerEvent: {}
+[0.207785] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.277532] (xrf2_msgs) StdoutLine: {'line': b'[  2%] Built target xrf2_msgs__cpp\n'}
+[0.306712] (-) TimerEvent: {}
+[0.335254] (image_functions_sdfr) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.358283] (xrf2_msgs) StdoutLine: {'line': b'[ 12%] Built target xrf2_msgs__rosidl_generator_c\n'}
+[0.382734] (xrf2_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_xrf2_msgs\n'}
+[0.387966] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.396333] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.407033] (-) TimerEvent: {}
+[0.413163] (relbot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.463033] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.507306] (-) TimerEvent: {}
+[0.608521] (-) TimerEvent: {}
+[0.623456] (xrf2_msgs) StdoutLine: {'line': b'[ 23%] Built target xrf2_msgs__rosidl_typesupport_cpp\n'}
+[0.645040] (image_functions_sdfr) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.708703] (-) TimerEvent: {}
+[0.710894] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.789694] (xrf2_msgs) StdoutLine: {'line': b'[ 33%] Built target xrf2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.808945] (-) TimerEvent: {}
+[0.810256] (xrf2_msgs) StdoutLine: {'line': b'[ 43%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.816679] (relbot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.853456] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.881507] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.901893] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.909210] (-) TimerEvent: {}
+[1.006817] (xrf2_msgs) StdoutLine: {'line': b'[ 53%] Built target xrf2_msgs__rosidl_typesupport_introspection_c\n'}
+[1.009403] (-) TimerEvent: {}
+[1.106205] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.109561] (-) TimerEvent: {}
+[1.126829] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.164565] (image_functions_sdfr) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.166339] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.168023] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.189277] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.209795] (-) TimerEvent: {}
+[1.242599] (xrf2_msgs) StdoutLine: {'line': b'[ 64%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.264387] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs__rosidl_typesupport_c\n'}
+[1.310091] (-) TimerEvent: {}
+[1.364479] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.372568] (xrf2_msgs) StdoutLine: {'line': b'[ 74%] Built target xrf2_msgs\n'}
+[1.400102] (relbot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.410269] (-) TimerEvent: {}
+[1.415863] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.419262] (relbot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.431550] (xrf2_msgs) StdoutLine: {'line': b'[ 76%] Built target xrf2_msgs__py\n'}
+[1.448339] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.462502] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_generator_py\x1b[0m\n'}
+[1.510428] (-) TimerEvent: {}
+[1.611318] (-) TimerEvent: {}
+[1.688465] (xrf2_msgs) StdoutLine: {'line': b'[ 84%] Built target xrf2_msgs__rosidl_generator_py\n'}
+[1.693484] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.712338] (-) TimerEvent: {}
+[1.722538] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.756375] (image_functions_sdfr) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.761595] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.775487] (image_functions_sdfr) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.787378] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.793324] (image_functions_sdfr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.812818] (-) TimerEvent: {}
+[1.913811] (-) TimerEvent: {}
+[1.958893] (xrf2_msgs) StdoutLine: {'line': b'[ 89%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.013627] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.015303] (-) TimerEvent: {}
+[2.036313] (xrf2_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.061461] (relbot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.064076] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.067509] (relbot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.084506] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.115509] (-) TimerEvent: {}
+[2.135075] (xrf2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.138724] (xrf2_msgs) StdoutLine: {'line': b'writing xrf2_msgs.egg-info/PKG-INFO\n'}
+[2.140922] (xrf2_msgs) StdoutLine: {'line': b'writing dependency_links to xrf2_msgs.egg-info/dependency_links.txt\n'}
+[2.142171] (xrf2_msgs) StdoutLine: {'line': b'writing top-level names to xrf2_msgs.egg-info/top_level.txt\n'}
+[2.143685] (xrf2_msgs) StdoutLine: {'line': b'[ 94%] Built target xrf2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.153272] (xrf2_msgs) StdoutLine: {'line': b"reading manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[2.155514] (xrf2_msgs) StdoutLine: {'line': b"writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'\n"}
+[2.215797] (-) TimerEvent: {}
+[2.317115] (-) TimerEvent: {}
+[2.326206] (xrf2_msgs) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_xrf2_msgs_egg\n'}
+[2.360873] (xrf2_msgs) StdoutLine: {'line': b'[100%] Built target xrf2_msgs__rosidl_typesupport_c__pyext\n'}
+[2.400453] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[2.402946] (xrf2_msgs) JobProgress: {'identifier': 'xrf2_msgs', 'progress': 'install'}
+[2.417309] (-) TimerEvent: {}
+[2.447265] (xrf2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/xrf2_msgs'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[2.483182] (xrf2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.485717] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/rosidl_interfaces/xrf2_msgs\n'}
+[2.487775] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.489898] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.492204] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.494299] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.h\n'}
+[2.496343] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.498668] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.h\n'}
+[2.501745] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.h\n'}
+[2.503067] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.c\n'}
+[2.504470] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.h\n'}
+[2.505935] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.h\n'}
+[2.507145] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.h\n'}
+[2.516185] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.c\n'}
+[2.519158] (-) TimerEvent: {}
+[2.524916] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.h\n'}
+[2.526358] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.h\n'}
+[2.527821] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.sh\n'}
+[2.530096] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.dsv\n'}
+[2.531975] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so\n'}
+[2.534464] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.550968] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.553344] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.556090] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_c.h\n'}
+[2.558200] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_c.h\n'}
+[2.559727] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.561305] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.563040] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.564767] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.566278] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.567857] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.575482] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.c\n'}
+[2.578774] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.c\n'}
+[2.580079] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_c.h\n'}
+[2.581605] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_c.h\n'}
+[2.583248] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.584545] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so\n'}
+[2.586073] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.587815] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.589252] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.hpp\n'}
+[2.590590] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.591901] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__traits.hpp\n'}
+[2.593313] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.hpp\n'}
+[2.594542] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.hpp\n'}
+[2.595756] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.hpp\n'}
+[2.597297] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__builder.hpp\n'}
+[2.599160] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.hpp\n'}
+[2.600682] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp\n'}
+[2.601995] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__traits.hpp\n'}
+[2.603567] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.605018] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.hpp\n'}
+[2.606328] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.607459] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.608812] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.610262] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/dds_fastrtps\n'}
+[2.611506] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.612886] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.614176] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.615416] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.616837] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs\n'}
+[2.618120] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg\n'}
+[2.619455] (-) TimerEvent: {}
+[2.620533] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail\n'}
+[2.622762] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.624674] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.626270] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp\n'}
+[2.627538] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp\n'}
+[2.629149] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.630391] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so\n'}
+[2.631608] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.sh\n'}
+[2.632967] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.dsv\n'}
+[2.634431] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info\n'}
+[2.635609] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.637013] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.638391] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.640128] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.641541] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs\n'}
+[2.642775] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.644358] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.645673] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.646931] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.648702] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg\n'}
+[2.650082] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno_s.c\n'}
+[2.651473] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py\n'}
+[2.652831] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros_s.c\n'}
+[2.654126] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py\n'}
+[2.655279] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py\n'}
+[2.656705] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.658855] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py\n'}
+[2.660190] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so\n'}
+[2.661904] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.719759] (-) TimerEvent: {}
+[2.729379] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs'...\n"}
+[2.732765] (xrf2_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg'...\n"}
+[2.766126] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.767692] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.769312] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.770679] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so\n'}
+[2.771919] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.idl\n'}
+[2.773376] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.idl\n'}
+[2.774833] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.msg\n'}
+[2.776122] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.msg\n'}
+[2.777433] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/package_run_dependencies/xrf2_msgs\n'}
+[2.779204] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/parent_prefix_path/xrf2_msgs\n'}
+[2.792896] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.sh\n'}
+[2.794360] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.dsv\n'}
+[2.795498] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.sh\n'}
+[2.796996] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.dsv\n'}
+[2.798634] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.bash\n'}
+[2.821165] (-) TimerEvent: {}
+[2.822548] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.sh\n'}
+[2.823857] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.zsh\n'}
+[2.825224] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.dsv\n'}
+[2.826489] (xrf2_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.dsv\n'}
+[2.827709] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/packages/xrf2_msgs\n'}
+[2.829257] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport.cmake\n'}
+[2.830430] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.831635] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.845810] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.848225] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.850443] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.852544] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.854533] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.856039] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.872679] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.875100] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.877157] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.878780] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.893936] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.895530] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.897110] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.898534] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.900225] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.901663] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.903080] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.904959] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.906219] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.907362] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.908656] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.910081] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig.cmake\n'}
+[2.911378] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig-version.cmake\n'}
+[2.932913] (-) TimerEvent: {}
+[2.933999] (xrf2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.xml\n'}
+[2.935365] (xrf2_msgs) CommandEnded: {'returncode': 0}
+[2.938602] (image_functions_sdfr) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.012652] (xrf2_msgs) JobEnded: {'identifier': 'xrf2_msgs', 'rc': 0}
+[3.014999] (relbot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.017396] (relbot2turtlesim) JobStarted: {'identifier': 'relbot2turtlesim'}
+[3.033771] (-) TimerEvent: {}
+[3.046752] (relbot2turtlesim) JobProgress: {'identifier': 'relbot2turtlesim', 'progress': 'cmake'}
+[3.050218] (relbot2turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot2turtlesim/relbot2turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot2turtlesim'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[3.134127] (-) TimerEvent: {}
+[3.235449] (-) TimerEvent: {}
+[3.293106] (image_functions_sdfr) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.297283] (relbot2turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.323214] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.335781] (-) TimerEvent: {}
+[3.437101] (-) TimerEvent: {}
+[3.442365] (relbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.453053] (relbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.472600] (relbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.497020] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.515860] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.542667] (-) TimerEvent: {}
+[3.543600] (relbot2turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.550748] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.565809] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.591020] (image_functions_sdfr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.598040] (relbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.642920] (-) TimerEvent: {}
+[3.646090] (image_functions_sdfr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.720503] (relbot_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.743181] (-) TimerEvent: {}
+[3.816957] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.842897] (relbot2turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.844378] (-) TimerEvent: {}
+[3.846267] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.849134] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.855284] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.862973] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.867590] (image_functions_sdfr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.944606] (-) TimerEvent: {}
+[4.045612] (-) TimerEvent: {}
+[4.146688] (-) TimerEvent: {}
+[4.191559] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.222282] (relbot2turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.225591] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.227408] (relbot2turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.233793] (image_functions_sdfr) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.238606] (relbot2turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.246864] (-) TimerEvent: {}
+[4.331052] (image_functions_sdfr) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.347100] (-) TimerEvent: {}
+[4.448054] (-) TimerEvent: {}
+[4.468712] (image_functions_sdfr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.530296] (image_functions_sdfr) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.548259] (-) TimerEvent: {}
+[4.649304] (-) TimerEvent: {}
+[4.750404] (-) TimerEvent: {}
+[4.851674] (-) TimerEvent: {}
+[4.872552] (image_functions_sdfr) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.874602] (image_functions_sdfr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.951859] (-) TimerEvent: {}
+[4.992021] (relbot2turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.052086] (-) TimerEvent: {}
+[5.153877] (-) TimerEvent: {}
+[5.214942] (image_functions_sdfr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.219042] (image_functions_sdfr) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.254042] (-) TimerEvent: {}
+[5.296911] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[5.307166] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[5.321556] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[5.334099] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.354287] (-) TimerEvent: {}
+[5.417935] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.454488] (-) TimerEvent: {}
+[5.472900] (image_functions_sdfr) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.546955] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.563466] (-) TimerEvent: {}
+[5.573293] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.606237] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.656516] (relbot2turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.663676] (-) TimerEvent: {}
+[5.721115] (relbot2turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.763908] (-) TimerEvent: {}
+[5.865608] (-) TimerEvent: {}
+[5.898130] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.906079] (relbot2turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.965807] (-) TimerEvent: {}
+[6.067410] (-) TimerEvent: {}
+[6.130717] (image_functions_sdfr) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.167643] (-) TimerEvent: {}
+[6.195687] (image_functions_sdfr) StdoutLine: {'line': b'-- Generating done\n'}
+[6.210999] (relbot2turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.225382] (image_functions_sdfr) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr\n'}
+[6.268090] (-) TimerEvent: {}
+[6.285642] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[6.287937] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'build'}
+[6.288369] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[6.321832] (relbot2turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.368356] (-) TimerEvent: {}
+[6.384550] (relbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.441383] (relbot2turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.462942] (image_functions_sdfr) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_functions.dir/src/image_functions.cpp.o\x1b[0m\n'}
+[6.468059] (relbot2turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.469455] (-) TimerEvent: {}
+[6.570895] (-) TimerEvent: {}
+[6.672225] (-) TimerEvent: {}
+[6.761664] (relbot2turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.763555] (relbot2turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.772504] (-) TimerEvent: {}
+[6.875765] (-) TimerEvent: {}
+[6.977390] (-) TimerEvent: {}
+[7.055281] (relbot2turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.059414] (relbot2turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.077539] (-) TimerEvent: {}
+[7.178903] (-) TimerEvent: {}
+[7.279779] (-) TimerEvent: {}
+[7.284630] (relbot2turtlesim) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[7.379994] (-) TimerEvent: {}
+[7.481141] (-) TimerEvent: {}
+[7.561255] (relbot2turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.581307] (-) TimerEvent: {}
+[7.628646] (relbot2turtlesim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.681545] (-) TimerEvent: {}
+[7.763916] (relbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.781771] (-) TimerEvent: {}
+[7.882096] (relbot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.883504] (-) TimerEvent: {}
+[7.889689] (relbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.983740] (-) TimerEvent: {}
+[8.031596] (relbot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.034181] (relbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.036045] (relbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.037817] (relbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.045521] (relbot2turtlesim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.047037] (relbot2turtlesim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot2turtlesim/relbot2turtlesim/include\n'}
+[8.048763] (relbot2turtlesim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.050382] (relbot2turtlesim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.054478] (relbot2turtlesim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.056025] (relbot2turtlesim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.057450] (relbot2turtlesim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.067205] (relbot2turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.083986] (-) TimerEvent: {}
+[8.131213] (relbot2turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[8.160673] (relbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.168749] (relbot2turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim\n'}
+[8.184418] (-) TimerEvent: {}
+[8.216160] (relbot2turtlesim) CommandEnded: {'returncode': 0}
+[8.218480] (relbot2turtlesim) JobProgress: {'identifier': 'relbot2turtlesim', 'progress': 'build'}
+[8.218831] (relbot2turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot2turtlesim'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[8.284481] (-) TimerEvent: {}
+[8.385942] (-) TimerEvent: {}
+[8.394494] (relbot2turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/relbot2turtlesim.dir/src/convert.cpp.o\x1b[0m\n'}
+[8.430245] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[8.436823] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[8.446319] (relbot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.486154] (-) TimerEvent: {}
+[8.510700] (relbot_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.512814] (relbot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.532495] (relbot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.586380] (-) TimerEvent: {}
+[8.687623] (-) TimerEvent: {}
+[8.789290] (-) TimerEvent: {}
+[8.796211] (relbot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.881534] (relbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs\n'}
+[8.889646] (-) TimerEvent: {}
+[8.934449] (relbot_msgs) CommandEnded: {'returncode': 0}
+[8.936673] (relbot_msgs) JobProgress: {'identifier': 'relbot_msgs', 'progress': 'build'}
+[8.937172] (relbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[8.989855] (-) TimerEvent: {}
+[9.091235] (-) TimerEvent: {}
+[9.103945] (relbot_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.165937] (relbot_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.191561] (-) TimerEvent: {}
+[9.211359] (relbot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_relbot_msgs\n'}
+[9.291762] (-) TimerEvent: {}
+[9.393481] (-) TimerEvent: {}
+[9.494842] (-) TimerEvent: {}
+[9.596312] (-) TimerEvent: {}
+[9.697598] (-) TimerEvent: {}
+[9.798975] (-) TimerEvent: {}
+[9.900268] (-) TimerEvent: {}
+[10.001714] (-) TimerEvent: {}
+[10.102992] (-) TimerEvent: {}
+[10.203980] (-) TimerEvent: {}
+[10.305026] (-) TimerEvent: {}
+[10.405972] (-) TimerEvent: {}
+[10.507333] (-) TimerEvent: {}
+[10.608885] (-) TimerEvent: {}
+[10.713037] (-) TimerEvent: {}
+[10.814399] (-) TimerEvent: {}
+[10.915758] (-) TimerEvent: {}
+[11.017790] (-) TimerEvent: {}
+[11.119464] (-) TimerEvent: {}
+[11.221075] (-) TimerEvent: {}
+[11.322490] (-) TimerEvent: {}
+[11.424053] (-) TimerEvent: {}
+[11.525922] (-) TimerEvent: {}
+[11.557052] (relbot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[11.562681] (relbot_msgs) StdoutLine: {'line': b'creating relbot_msgs.egg-info\n'}
+[11.574165] (relbot_msgs) StdoutLine: {'line': b'writing relbot_msgs.egg-info/PKG-INFO\n'}
+[11.578450] (relbot_msgs) StdoutLine: {'line': b'writing dependency_links to relbot_msgs.egg-info/dependency_links.txt\n'}
+[11.582274] (relbot_msgs) StdoutLine: {'line': b'writing top-level names to relbot_msgs.egg-info/top_level.txt\n'}
+[11.586012] (relbot_msgs) StdoutLine: {'line': b"writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'\n"}
+[11.608064] (relbot_msgs) StdoutLine: {'line': b"reading manifest file 'relbot_msgs.egg-info/SOURCES.txt'\n"}
+[11.620243] (relbot_msgs) StdoutLine: {'line': b"writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'\n"}
+[11.626186] (-) TimerEvent: {}
+[11.727741] (-) TimerEvent: {}
+[11.829316] (-) TimerEvent: {}
+[11.852766] (relbot_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_relbot_msgs_egg\n'}
+[11.895879] (relbot_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.c.o\x1b[0m\n'}
+[11.929561] (-) TimerEvent: {}
+[11.960597] (relbot_msgs) StdoutLine: {'line': b'[  7%] Built target relbot_msgs__cpp\n'}
+[11.975974] (relbot_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c.o\x1b[0m\n'}
+[11.993508] (relbot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.029841] (-) TimerEvent: {}
+[12.131649] (-) TimerEvent: {}
+[12.232959] (-) TimerEvent: {}
+[12.268720] (relbot_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.333163] (-) TimerEvent: {}
+[12.419840] (relbot_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library librelbot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[12.433422] (-) TimerEvent: {}
+[12.534999] (-) TimerEvent: {}
+[12.636015] (-) TimerEvent: {}
+[12.737044] (-) TimerEvent: {}
+[12.762133] (relbot_msgs) StdoutLine: {'line': b'[ 17%] Built target relbot_msgs__rosidl_generator_c\n'}
+[12.837279] (-) TimerEvent: {}
+[12.850110] (relbot_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.937559] (-) TimerEvent: {}
+[13.038576] (-) TimerEvent: {}
+[13.139615] (-) TimerEvent: {}
+[13.240629] (-) TimerEvent: {}
+[13.341804] (-) TimerEvent: {}
+[13.443033] (-) TimerEvent: {}
+[13.544017] (-) TimerEvent: {}
+[13.644981] (-) TimerEvent: {}
+[13.745958] (-) TimerEvent: {}
+[13.847332] (-) TimerEvent: {}
+[13.948972] (-) TimerEvent: {}
+[14.050131] (-) TimerEvent: {}
+[14.151487] (-) TimerEvent: {}
+[14.253108] (-) TimerEvent: {}
+[14.337069] (relbot_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors__type_support.cpp.o\x1b[0m\n'}
+[14.353366] (-) TimerEvent: {}
+[14.454697] (-) TimerEvent: {}
+[14.556223] (-) TimerEvent: {}
+[14.657893] (-) TimerEvent: {}
+[14.759311] (-) TimerEvent: {}
+[14.860774] (-) TimerEvent: {}
+[14.962266] (-) TimerEvent: {}
+[14.979973] (relbot_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors__type_support.cpp.o\x1b[0m\n'}
+[15.062533] (-) TimerEvent: {}
+[15.164050] (-) TimerEvent: {}
+[15.265634] (-) TimerEvent: {}
+[15.367098] (-) TimerEvent: {}
+[15.396123] (relbot_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors__type_support.cpp.o\x1b[0m\n'}
+[15.467356] (-) TimerEvent: {}
+[15.568877] (-) TimerEvent: {}
+[15.670342] (-) TimerEvent: {}
+[15.771853] (-) TimerEvent: {}
+[15.873416] (-) TimerEvent: {}
+[15.974972] (-) TimerEvent: {}
+[16.076577] (-) TimerEvent: {}
+[16.178194] (-) TimerEvent: {}
+[16.279872] (-) TimerEvent: {}
+[16.381392] (-) TimerEvent: {}
+[16.483201] (-) TimerEvent: {}
+[16.584389] (-) TimerEvent: {}
+[16.597678] (relbot_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.684639] (-) TimerEvent: {}
+[16.786351] (-) TimerEvent: {}
+[16.887876] (-) TimerEvent: {}
+[16.989601] (-) TimerEvent: {}
+[17.091411] (-) TimerEvent: {}
+[17.192931] (-) TimerEvent: {}
+[17.294866] (-) TimerEvent: {}
+[17.397023] (-) TimerEvent: {}
+[17.498654] (-) TimerEvent: {}
+[17.598980] (relbot_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors_stamped__type_support.cpp.o\x1b[0m\n'}
+[17.600804] (-) TimerEvent: {}
+[17.702260] (-) TimerEvent: {}
+[17.803889] (-) TimerEvent: {}
+[17.905391] (-) TimerEvent: {}
+[18.006979] (-) TimerEvent: {}
+[18.108580] (-) TimerEvent: {}
+[18.202498] (relbot_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp.o\x1b[0m\n'}
+[18.208838] (-) TimerEvent: {}
+[18.310400] (-) TimerEvent: {}
+[18.412055] (-) TimerEvent: {}
+[18.513108] (-) TimerEvent: {}
+[18.531553] (relbot_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.613329] (-) TimerEvent: {}
+[18.714489] (-) TimerEvent: {}
+[18.816122] (-) TimerEvent: {}
+[18.865631] (relbot_msgs) StdoutLine: {'line': b'[ 38%] Built target relbot_msgs__rosidl_typesupport_cpp\n'}
+[18.916474] (-) TimerEvent: {}
+[18.964583] (relbot_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.016631] (-) TimerEvent: {}
+[19.118087] (-) TimerEvent: {}
+[19.219651] (-) TimerEvent: {}
+[19.321076] (-) TimerEvent: {}
+[19.422467] (-) TimerEvent: {}
+[19.523639] (-) TimerEvent: {}
+[19.624739] (-) TimerEvent: {}
+[19.726030] (-) TimerEvent: {}
+[19.827191] (-) TimerEvent: {}
+[19.928355] (-) TimerEvent: {}
+[20.029931] (-) TimerEvent: {}
+[20.131735] (-) TimerEvent: {}
+[20.233236] (-) TimerEvent: {}
+[20.334865] (-) TimerEvent: {}
+[20.436549] (-) TimerEvent: {}
+[20.537624] (-) TimerEvent: {}
+[20.638701] (-) TimerEvent: {}
+[20.739892] (-) TimerEvent: {}
+[20.764098] (relbot_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.840139] (-) TimerEvent: {}
+[20.899431] (relbot_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.940402] (-) TimerEvent: {}
+[21.041678] (-) TimerEvent: {}
+[21.143325] (-) TimerEvent: {}
+[21.244470] (-) TimerEvent: {}
+[21.345513] (-) TimerEvent: {}
+[21.363669] (relbot_msgs) StdoutLine: {'line': b'[ 46%] Built target relbot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[21.445769] (-) TimerEvent: {}
+[21.460241] (relbot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.546018] (-) TimerEvent: {}
+[21.630958] (relbot_msgs) StdoutLine: {'line': b'[ 48%] Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[21.646285] (-) TimerEvent: {}
+[21.728479] (relbot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.746519] (-) TimerEvent: {}
+[21.848126] (-) TimerEvent: {}
+[21.859850] (relbot_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors__type_support_c.cpp.o\x1b[0m\n'}
+[21.948424] (-) TimerEvent: {}
+[22.049869] (-) TimerEvent: {}
+[22.151329] (-) TimerEvent: {}
+[22.253006] (-) TimerEvent: {}
+[22.354677] (-) TimerEvent: {}
+[22.456337] (-) TimerEvent: {}
+[22.557546] (-) TimerEvent: {}
+[22.658721] (-) TimerEvent: {}
+[22.759692] (-) TimerEvent: {}
+[22.860656] (-) TimerEvent: {}
+[22.961695] (-) TimerEvent: {}
+[23.063255] (-) TimerEvent: {}
+[23.164753] (-) TimerEvent: {}
+[23.266240] (-) TimerEvent: {}
+[23.293262] (relbot_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors__type_support.c.o\x1b[0m\n'}
+[23.366467] (-) TimerEvent: {}
+[23.421265] (relbot_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c.o\x1b[0m\n'}
+[23.466695] (-) TimerEvent: {}
+[23.567884] (-) TimerEvent: {}
+[23.664118] (relbot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library librelbot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.668085] (-) TimerEvent: {}
+[23.769339] (-) TimerEvent: {}
+[23.838429] (relbot_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors__type_support.cpp.o\x1b[0m\n'}
+[23.869581] (-) TimerEvent: {}
+[23.893134] (relbot_msgs) StdoutLine: {'line': b'[ 64%] Built target relbot_msgs__rosidl_typesupport_introspection_c\n'}
+[23.956096] (relbot_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o\x1b[0m\n'}
+[23.969835] (-) TimerEvent: {}
+[24.005541] (relbot_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[24.070083] (-) TimerEvent: {}
+[24.120420] (relbot_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.170358] (-) TimerEvent: {}
+[24.272018] (-) TimerEvent: {}
+[24.373512] (-) TimerEvent: {}
+[24.450738] (relbot_msgs) StdoutLine: {'line': b'[ 71%] Built target relbot_msgs__rosidl_typesupport_c\n'}
+[24.473761] (-) TimerEvent: {}
+[24.575255] (-) TimerEvent: {}
+[24.676928] (-) TimerEvent: {}
+[24.778457] (-) TimerEvent: {}
+[24.880207] (-) TimerEvent: {}
+[24.981714] (-) TimerEvent: {}
+[25.083163] (-) TimerEvent: {}
+[25.184633] (-) TimerEvent: {}
+[25.286062] (-) TimerEvent: {}
+[25.387549] (-) TimerEvent: {}
+[25.488975] (-) TimerEvent: {}
+[25.590448] (-) TimerEvent: {}
+[25.691941] (-) TimerEvent: {}
+[25.731018] (relbot_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.792225] (-) TimerEvent: {}
+[25.894231] (-) TimerEvent: {}
+[25.996919] (-) TimerEvent: {}
+[26.067055] (relbot_msgs) StdoutLine: {'line': b'[ 74%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[26.097154] (-) TimerEvent: {}
+[26.129784] (relbot_msgs) StdoutLine: {'line': b'[ 74%] Built target relbot_msgs\n'}
+[26.193859] (relbot_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.197389] (-) TimerEvent: {}
+[26.298908] (-) TimerEvent: {}
+[26.400366] (-) TimerEvent: {}
+[26.501727] (-) TimerEvent: {}
+[26.603059] (-) TimerEvent: {}
+[26.704408] (-) TimerEvent: {}
+[26.805805] (-) TimerEvent: {}
+[26.907192] (-) TimerEvent: {}
+[27.008463] (-) TimerEvent: {}
+[27.109798] (-) TimerEvent: {}
+[27.211159] (-) TimerEvent: {}
+[27.312474] (-) TimerEvent: {}
+[27.413785] (-) TimerEvent: {}
+[27.515129] (-) TimerEvent: {}
+[27.616542] (-) TimerEvent: {}
+[27.717997] (-) TimerEvent: {}
+[27.819455] (-) TimerEvent: {}
+[27.920994] (-) TimerEvent: {}
+[28.004076] (image_functions_sdfr) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libimage_functions.so\x1b[0m\n'}
+[28.021206] (-) TimerEvent: {}
+[28.122524] (-) TimerEvent: {}
+[28.224827] (-) TimerEvent: {}
+[28.326471] (-) TimerEvent: {}
+[28.377040] (relbot_msgs) StdoutLine: {'line': b'[ 76%] Built target relbot_msgs__py\n'}
+[28.426701] (-) TimerEvent: {}
+[28.435674] (relbot_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o\x1b[0m\n'}
+[28.457775] (relbot_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o\x1b[0m\n'}
+[28.526954] (-) TimerEvent: {}
+[28.628554] (-) TimerEvent: {}
+[28.682844] (image_functions_sdfr) StdoutLine: {'line': b'[100%] Built target image_functions\n'}
+[28.729456] (-) TimerEvent: {}
+[28.761060] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[28.763282] (image_functions_sdfr) JobProgress: {'identifier': 'image_functions_sdfr', 'progress': 'install'}
+[28.763675] (image_functions_sdfr) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/image_functions_sdfr'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[28.808138] (image_functions_sdfr) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.809808] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/include\n'}
+[28.811075] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr\n'}
+[28.812353] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr/visibility_control.h\n'}
+[28.813864] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/include/image_functions_sdfr/image_functions.hpp\n'}
+[28.815436] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/lib/libimage_functions.so\n'}
+[28.826939] (image_functions_sdfr) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/lib/libimage_functions.so" to ""\n'}
+[28.828574] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.sh\n'}
+[28.831181] (-) TimerEvent: {}
+[28.841286] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/library_path.dsv\n'}
+[28.842974] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/package_run_dependencies/image_functions_sdfr\n'}
+[28.844444] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/parent_prefix_path/image_functions_sdfr\n'}
+[28.845776] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.sh\n'}
+[28.847192] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/ament_prefix_path.dsv\n'}
+[28.848502] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.sh\n'}
+[28.850719] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/environment/path.dsv\n'}
+[28.852207] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.bash\n'}
+[28.853628] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.sh\n'}
+[28.865330] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.zsh\n'}
+[28.867003] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/local_setup.dsv\n'}
+[28.868621] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv\n'}
+[28.870063] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/ament_index/resource_index/packages/image_functions_sdfr\n'}
+[28.871669] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport.cmake\n'}
+[28.873255] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/export_image_functions_sdfrExport-noconfig.cmake\n'}
+[28.876060] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.877623] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.885530] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.887129] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.888772] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig.cmake\n'}
+[28.890203] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake/image_functions_sdfrConfig-version.cmake\n'}
+[28.897371] (image_functions_sdfr) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.xml\n'}
+[28.915890] (image_functions_sdfr) CommandEnded: {'returncode': 0}
+[28.931354] (-) TimerEvent: {}
+[29.027705] (image_functions_sdfr) JobEnded: {'identifier': 'image_functions_sdfr', 'rc': 0}
+[29.031176] (relbot_adapter) JobStarted: {'identifier': 'relbot_adapter'}
+[29.031782] (-) TimerEvent: {}
+[29.049425] (relbot_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[29.074531] (relbot_adapter) JobProgress: {'identifier': 'relbot_adapter', 'progress': 'cmake'}
+[29.075033] (relbot_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot_adapter', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_adapter'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_adapter'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[29.132046] (-) TimerEvent: {}
+[29.233378] (-) TimerEvent: {}
+[29.239347] (relbot_msgs) StdoutLine: {'line': b'[ 84%] Built target relbot_msgs__rosidl_generator_py\n'}
+[29.328253] (relbot_adapter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[29.333615] (-) TimerEvent: {}
+[29.358993] (relbot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.397243] (relbot_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.411271] (relbot_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.433834] (-) TimerEvent: {}
+[29.535286] (-) TimerEvent: {}
+[29.636801] (-) TimerEvent: {}
+[29.748471] (-) TimerEvent: {}
+[29.757899] (relbot_adapter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[29.811840] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.849201] (-) TimerEvent: {}
+[29.939059] (relbot_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.949360] (-) TimerEvent: {}
+[30.051051] (-) TimerEvent: {}
+[30.115520] (relbot_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[30.129495] (relbot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[30.151269] (-) TimerEvent: {}
+[30.227467] (relbot_msgs) StdoutLine: {'line': b'[100%] Built target relbot_msgs__rosidl_typesupport_c__pyext\n'}
+[30.251603] (-) TimerEvent: {}
+[30.353530] (-) TimerEvent: {}
+[30.358373] (relbot_msgs) StdoutLine: {'line': b'[100%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.417530] (relbot_msgs) StdoutLine: {'line': b'[100%] Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[30.423163] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[30.454633] (relbot_msgs) CommandEnded: {'returncode': 0}
+[30.457081] (-) TimerEvent: {}
+[30.458625] (relbot_msgs) JobProgress: {'identifier': 'relbot_msgs', 'progress': 'install'}
+[30.458999] (relbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_msgs'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[30.463866] (relbot_adapter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[30.465383] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[30.466722] (relbot_adapter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[30.469502] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[30.493719] (relbot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.495492] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/rosidl_interfaces/relbot_msgs\n'}
+[30.497156] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.498960] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.500638] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.502112] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.503785] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.h\n'}
+[30.505484] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.h\n'}
+[30.506752] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.h\n'}
+[30.507996] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c\n'}
+[30.509409] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.c\n'}
+[30.512252] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.h\n'}
+[30.515477] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.h\n'}
+[30.519047] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.h\n'}
+[30.521858] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.h\n'}
+[30.523441] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.h\n'}
+[30.525106] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.sh\n'}
+[30.526686] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.dsv\n'}
+[30.528220] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so\n'}
+[30.531031] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so" to ""\n'}
+[30.532866] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.534519] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.536306] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.537992] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[30.541320] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_c.h\n'}
+[30.542851] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.544361] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[30.545808] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.547257] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.548589] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.550440] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.551676] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.553634] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_c.h\n'}
+[30.555211] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_c.h\n'}
+[30.556691] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.c\n'}
+[30.559606] (-) TimerEvent: {}
+[30.560372] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c\n'}
+[30.564418] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[30.571493] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.573099] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so\n'}
+[30.574652] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[30.575862] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.580129] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.585765] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.hpp\n'}
+[30.587000] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.588698] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.hpp\n'}
+[30.589919] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.hpp\n'}
+[30.594903] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__traits.hpp\n'}
+[30.603280] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.hpp\n'}
+[30.604827] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__traits.hpp\n'}
+[30.606226] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__builder.hpp\n'}
+[30.607896] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__builder.hpp\n'}
+[30.609802] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.hpp\n'}
+[30.612228] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[30.614104] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.hpp\n'}
+[30.615537] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.616870] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.618538] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.619875] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/dds_fastrtps\n'}
+[30.621196] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.625862] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.627376] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.628966] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.630575] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.631821] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs\n'}
+[30.633346] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg\n'}
+[30.634741] (relbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail\n'}
+[30.636176] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp\n'}
+[30.638091] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.cpp\n'}
+[30.639793] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.641313] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.642680] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[30.644179] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.645876] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so\n'}
+[30.647408] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[30.648899] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.sh\n'}
+[30.650284] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.dsv\n'}
+[30.651638] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info\n'}
+[30.653111] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[30.654866] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/PKG-INFO\n'}
+[30.656184] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[30.657460] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/top_level.txt\n'}
+[30.658664] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs\n'}
+[30.659942] (-) TimerEvent: {}
+[30.660739] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.662144] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[30.663581] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.665111] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg\n'}
+[30.666810] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_s.c\n'}
+[30.668735] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped_s.c\n'}
+[30.670686] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py\n'}
+[30.672110] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py\n'}
+[30.673564] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py\n'}
+[30.674808] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/librelbot_msgs__rosidl_generator_py.so\n'}
+[30.676072] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py\n'}
+[30.677488] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.678760] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.680252] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.760170] (-) TimerEvent: {}
+[30.830362] (relbot_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs'...\n"}
+[30.833026] (relbot_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py'...\n"}
+[30.835333] (relbot_msgs) StdoutLine: {'line': b"Listing '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg'...\n"}
+[30.837719] (relbot_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py'...\n"}
+[30.839946] (relbot_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py'...\n"}
+[30.854300] (relbot_msgs) StdoutLine: {'line': b"Compiling '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py'...\n"}
+[30.860464] (-) TimerEvent: {}
+[30.868570] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.871505] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.873256] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.875472] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.877386] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.879348] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.880964] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so\n'}
+[30.883393] (relbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so" to ""\n'}
+[30.885079] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.idl\n'}
+[30.888356] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.idl\n'}
+[30.892230] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.msg\n'}
+[30.895696] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.msg\n'}
+[30.899193] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/package_run_dependencies/relbot_msgs\n'}
+[30.902610] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/parent_prefix_path/relbot_msgs\n'}
+[30.904175] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.sh\n'}
+[30.907467] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.dsv\n'}
+[30.911107] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.sh\n'}
+[30.914577] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.dsv\n'}
+[30.917780] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.bash\n'}
+[30.920808] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.sh\n'}
+[30.925676] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.zsh\n'}
+[30.929383] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.dsv\n'}
+[30.930958] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.dsv\n'}
+[30.935512] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/packages/relbot_msgs\n'}
+[30.938518] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport.cmake\n'}
+[30.941685] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.943654] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.962090] (-) TimerEvent: {}
+[30.962962] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.964777] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.966590] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.967864] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[30.969533] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.970830] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cppExport.cmake\n'}
+[30.972081] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.973647] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.975203] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.976731] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.978111] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[30.979748] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.981505] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport.cmake\n'}
+[30.982921] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.985744] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[30.987855] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.989266] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.991130] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.992515] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.993821] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.995012] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.996226] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig.cmake\n'}
+[30.998251] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig-version.cmake\n'}
+[31.000866] (relbot_msgs) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.xml\n'}
+[31.002746] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[31.004049] (relbot_msgs) CommandEnded: {'returncode': 0}
+[31.015644] (relbot_adapter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[31.018485] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[31.023798] (relbot_adapter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[31.033849] (relbot_adapter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.062813] (-) TimerEvent: {}
+[31.102228] (relbot_msgs) JobEnded: {'identifier': 'relbot_msgs', 'rc': 0}
+[31.106041] (relbot_launch) JobStarted: {'identifier': 'relbot_launch'}
+[31.146809] (relbot_launch) JobProgress: {'identifier': 'relbot_launch', 'progress': 'cmake'}
+[31.150664] (relbot_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot_launch/relbot_launch', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[31.163036] (-) TimerEvent: {}
+[31.264420] (-) TimerEvent: {}
+[31.366011] (-) TimerEvent: {}
+[31.399762] (relbot_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[31.466254] (-) TimerEvent: {}
+[31.567941] (-) TimerEvent: {}
+[31.651951] (relbot_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[31.668412] (-) TimerEvent: {}
+[31.686824] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[31.768491] (-) TimerEvent: {}
+[31.829166] (relbot_adapter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[31.868667] (-) TimerEvent: {}
+[31.970317] (-) TimerEvent: {}
+[31.974033] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.002126] (relbot_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.003519] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.005294] (relbot_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.020465] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.070548] (-) TimerEvent: {}
+[32.171686] (-) TimerEvent: {}
+[32.262851] (relbot_adapter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[32.271956] (-) TimerEvent: {}
+[32.357603] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[32.372172] (-) TimerEvent: {}
+[32.389264] (relbot_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[32.391966] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[32.395395] (relbot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[32.405950] (relbot_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[32.407467] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[32.422816] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[32.454055] (relbot_adapter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[32.472406] (-) TimerEvent: {}
+[32.506172] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.572780] (-) TimerEvent: {}
+[32.582978] (relbot_adapter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.673193] (-) TimerEvent: {}
+[32.774795] (-) TimerEvent: {}
+[32.785958] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[32.797493] (relbot_adapter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[32.874975] (-) TimerEvent: {}
+[32.976506] (-) TimerEvent: {}
+[33.077567] (-) TimerEvent: {}
+[33.105931] (relbot_adapter) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[33.177774] (-) TimerEvent: {}
+[33.179864] (relbot_launch) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[33.196595] (relbot_adapter) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[33.277997] (-) TimerEvent: {}
+[33.320246] (relbot_adapter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[33.353960] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[33.378333] (-) TimerEvent: {}
+[33.479761] (-) TimerEvent: {}
+[33.581974] (-) TimerEvent: {}
+[33.589789] (relbot_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[33.676258] (relbot_adapter) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[33.681396] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[33.683120] (-) TimerEvent: {}
+[33.784779] (-) TimerEvent: {}
+[33.886388] (-) TimerEvent: {}
+[33.987708] (-) TimerEvent: {}
+[34.000050] (relbot_adapter) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[34.005528] (relbot_adapter) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[34.016471] (relbot_launch) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[34.018778] (relbot_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.021344] (relbot_launch) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[34.025455] (relbot_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.034142] (relbot_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.057750] (relbot_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[34.073845] (relbot_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch\n'}
+[34.087941] (-) TimerEvent: {}
+[34.095382] (relbot_launch) CommandEnded: {'returncode': 0}
+[34.098115] (relbot_launch) JobProgress: {'identifier': 'relbot_launch', 'progress': 'build'}
+[34.098556] (relbot_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch', '--', '-j3', '-l3'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[34.188181] (-) TimerEvent: {}
+[34.220192] (relbot_launch) CommandEnded: {'returncode': 0}
+[34.222495] (relbot_launch) JobProgress: {'identifier': 'relbot_launch', 'progress': 'install'}
+[34.222884] (relbot_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_launch'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[34.249279] (relbot_adapter) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[34.250767] (relbot_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.252029] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch//launch\n'}
+[34.253473] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_to_turtle.launch.py\n'}
+[34.254627] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_system_joystick.launch.py\n'}
+[34.255816] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_sequence_controller.launch.py\n'}
+[34.257181] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_system.launch.py\n'}
+[34.258352] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/ament_index/resource_index/package_run_dependencies/relbot_launch\n'}
+[34.259488] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/ament_index/resource_index/parent_prefix_path/relbot_launch\n'}
+[34.273052] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.sh\n'}
+[34.274295] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.dsv\n'}
+[34.275660] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/environment/path.sh\n'}
+[34.276924] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/environment/path.dsv\n'}
+[34.278097] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.bash\n'}
+[34.279384] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.sh\n'}
+[34.281008] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.zsh\n'}
+[34.301570] (-) TimerEvent: {}
+[34.302383] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.dsv\n'}
+[34.303732] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/package.dsv\n'}
+[34.305163] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/ament_index/resource_index/packages/relbot_launch\n'}
+[34.306469] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig.cmake\n'}
+[34.307684] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig-version.cmake\n'}
+[34.309146] (relbot_launch) StdoutLine: {'line': b'-- Installing: /home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_launch/share/relbot_launch/package.xml\n'}
+[34.310449] (relbot_launch) CommandEnded: {'returncode': 0}
+[34.378447] (relbot_launch) JobEnded: {'identifier': 'relbot_launch', 'rc': 0}
+[34.382031] (relbot_sequence_controller) JobStarted: {'identifier': 'relbot_sequence_controller'}
+[34.401881] (-) TimerEvent: {}
+[34.426033] (relbot_sequence_controller) JobProgress: {'identifier': 'relbot_sequence_controller', 'progress': 'cmake'}
+[34.429970] (relbot_sequence_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller', '-DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/relbot_sequence_controller'], 'cwd': '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_sequence_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sdfr-ppd-16'), ('SSH_CLIENT', '10.0.100.217 56058 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sdfr-ppd-16'), ('OLDPWD', '/home/sdfr-ppd-16/SfDR-code/assignment6'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1117/bus'), ('COLCON_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sdfr-ppd-16'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('XDG_RUNTIME_DIR', '/run/user/1117'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_sequence_controller'), ('SSH_CONNECTION', '10.0.100.217 56058 10.0.28.112 22'), ('PYTHONPATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/install/xrf2_msgs:/opt/ros/humble')]), 'shell': False}
+[34.437435] (relbot_adapter) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[34.502159] (-) TimerEvent: {}
+[34.513025] (relbot_adapter) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[34.514513] (relbot_adapter) StderrLine: {'line': b'  By not providing "Findrelbot_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[34.515709] (relbot_adapter) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[34.517283] (relbot_adapter) StderrLine: {'line': b'  "relbot_msgs", but CMake did not find one.\n'}
+[34.518859] (relbot_adapter) StderrLine: {'line': b'\n'}
+[34.520595] (relbot_adapter) StderrLine: {'line': b'  Could not find a package configuration file provided by "relbot_msgs" with\n'}
+[34.522088] (relbot_adapter) StderrLine: {'line': b'  any of the following names:\n'}
+[34.523655] (relbot_adapter) StderrLine: {'line': b'\n'}
+[34.525902] (relbot_adapter) StderrLine: {'line': b'    relbot_msgsConfig.cmake\n'}
+[34.527707] (relbot_adapter) StderrLine: {'line': b'    relbot_msgs-config.cmake\n'}
+[34.542490] (relbot_adapter) StderrLine: {'line': b'\n'}
+[34.544618] (relbot_adapter) StderrLine: {'line': b'  Add the installation prefix of "relbot_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[34.548211] (relbot_adapter) StderrLine: {'line': b'  "relbot_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[34.562271] (relbot_adapter) StderrLine: {'line': b'  "relbot_msgs" provides a separate development package or SDK, be sure it\n'}
+[34.564242] (relbot_adapter) StderrLine: {'line': b'  has been installed.\n'}
+[34.567816] (relbot_adapter) StderrLine: {'line': b'\n'}
+[34.570730] (relbot_adapter) StderrLine: {'line': b'\x1b[0m\n'}
+[34.572202] (relbot_adapter) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[34.573806] (relbot_adapter) StdoutLine: {'line': b'See also "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_adapter/CMakeFiles/CMakeOutput.log".\n'}
+[34.575314] (relbot_adapter) CommandEnded: {'returncode': 1}
+[34.602458] (-) TimerEvent: {}
+[34.641528] (relbot_adapter) JobEnded: {'identifier': 'relbot_adapter', 'rc': 1}
+[34.675659] (relbot_sequence_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[34.702644] (-) TimerEvent: {}
+[34.803570] (-) TimerEvent: {}
+[34.881345] (relbot_sequence_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[34.903507] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.905075] (-) TimerEvent: {}
+[35.006597] (-) TimerEvent: {}
+[35.108209] (-) TimerEvent: {}
+[35.143371] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[35.170192] (relbot_sequence_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[35.172440] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[35.174878] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[35.189583] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[35.208413] (-) TimerEvent: {}
+[35.310066] (-) TimerEvent: {}
+[35.412011] (-) TimerEvent: {}
+[35.468672] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[35.496015] (relbot_sequence_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[35.497661] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[35.499297] (relbot_sequence_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[35.508673] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[35.512165] (-) TimerEvent: {}
+[35.613737] (-) TimerEvent: {}
+[35.715133] (-) TimerEvent: {}
+[35.816672] (-) TimerEvent: {}
+[35.918320] (-) TimerEvent: {}
+[36.020997] (-) TimerEvent: {}
+[36.124494] (-) TimerEvent: {}
+[36.185262] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[36.224722] (-) TimerEvent: {}
+[36.326468] (-) TimerEvent: {}
+[36.427962] (-) TimerEvent: {}
+[36.530049] (-) TimerEvent: {}
+[36.576965] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[36.630239] (-) TimerEvent: {}
+[36.706879] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[36.723471] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[36.730420] (-) TimerEvent: {}
+[36.751825] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[36.795077] (relbot_sequence_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[36.830625] (-) TimerEvent: {}
+[36.852988] (relbot_sequence_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.930805] (-) TimerEvent: {}
+[37.005905] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[37.014091] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[37.030989] (-) TimerEvent: {}
+[37.132505] (-) TimerEvent: {}
+[37.234104] (-) TimerEvent: {}
+[37.259454] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[37.329548] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[37.334274] (-) TimerEvent: {}
+[37.434871] (relbot_sequence_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[37.436429] (-) TimerEvent: {}
+[37.461954] (relbot_sequence_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.536661] (-) TimerEvent: {}
+[37.638310] (-) TimerEvent: {}
+[37.739264] (-) TimerEvent: {}
+[37.758135] (relbot_sequence_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[37.760075] (relbot_sequence_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[37.839517] (-) TimerEvent: {}
+[37.940996] (-) TimerEvent: {}
+[38.013250] (relbot_sequence_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[38.016872] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[38.041173] (-) TimerEvent: {}
+[38.142678] (-) TimerEvent: {}
+[38.209908] (relbot_sequence_controller) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[38.242861] (-) TimerEvent: {}
+[38.344344] (-) TimerEvent: {}
+[38.387578] (relbot_sequence_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[38.390118] (relbot_sequence_controller) StderrLine: {'line': b'  By not providing "Findrelbot_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[38.392244] (relbot_sequence_controller) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[38.394369] (relbot_sequence_controller) StderrLine: {'line': b'  "relbot_msgs", but CMake did not find one.\n'}
+[38.396865] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[38.399107] (relbot_sequence_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by "relbot_msgs" with\n'}
+[38.401910] (relbot_sequence_controller) StderrLine: {'line': b'  any of the following names:\n'}
+[38.404505] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[38.407019] (relbot_sequence_controller) StderrLine: {'line': b'    relbot_msgsConfig.cmake\n'}
+[38.409761] (relbot_sequence_controller) StderrLine: {'line': b'    relbot_msgs-config.cmake\n'}
+[38.412993] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[38.415892] (relbot_sequence_controller) StderrLine: {'line': b'  Add the installation prefix of "relbot_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[38.418487] (relbot_sequence_controller) StderrLine: {'line': b'  "relbot_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[38.421772] (relbot_sequence_controller) StderrLine: {'line': b'  "relbot_msgs" provides a separate development package or SDK, be sure it\n'}
+[38.424872] (relbot_sequence_controller) StderrLine: {'line': b'  has been installed.\n'}
+[38.427708] (relbot_sequence_controller) StderrLine: {'line': b'\n'}
+[38.430611] (relbot_sequence_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[38.433172] (relbot_sequence_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[38.434782] (relbot_sequence_controller) StdoutLine: {'line': b'See also "/home/sdfr-ppd-16/SfDR-code/assignment6/ros2_ws/build/relbot_sequence_controller/CMakeFiles/CMakeOutput.log".\n'}
+[38.439919] (relbot_sequence_controller) JobEnded: {'identifier': 'relbot_sequence_controller', 'rc': 'SIGINT'}
+[38.444441] (-) TimerEvent: {}
+[38.545197] (-) TimerEvent: {}
+[38.645983] (-) TimerEvent: {}
+[38.746761] (-) TimerEvent: {}
+[38.847580] (-) TimerEvent: {}
+[38.948446] (-) TimerEvent: {}
+[39.049299] (-) TimerEvent: {}
+[39.150213] (-) TimerEvent: {}
+[39.251249] (-) TimerEvent: {}
+[39.352502] (-) TimerEvent: {}
+[39.453577] (-) TimerEvent: {}
+[39.554420] (-) TimerEvent: {}
+[39.655454] (-) TimerEvent: {}
+[39.756370] (-) TimerEvent: {}
+[39.857234] (-) TimerEvent: {}
+[39.958095] (-) TimerEvent: {}
+[40.058939] (-) TimerEvent: {}
+[40.159807] (-) TimerEvent: {}
+[40.260905] (-) TimerEvent: {}
+[40.361954] (-) TimerEvent: {}
+[40.463272] (-) TimerEvent: {}
+[40.564102] (-) TimerEvent: {}
+[40.665015] (-) TimerEvent: {}
+[40.765896] (-) TimerEvent: {}
+[40.866764] (-) TimerEvent: {}
+[40.967644] (-) TimerEvent: {}
+[41.068507] (-) TimerEvent: {}
+[41.169324] (-) TimerEvent: {}
+[41.270167] (-) TimerEvent: {}
+[41.371008] (-) TimerEvent: {}
+[41.471852] (-) TimerEvent: {}
+[41.572760] (-) TimerEvent: {}
+[41.673629] (-) TimerEvent: {}
+[41.774544] (-) TimerEvent: {}
+[41.875412] (-) TimerEvent: {}
+[41.976299] (-) TimerEvent: {}
+[42.077129] (-) TimerEvent: {}
+[42.178001] (-) TimerEvent: {}
+[42.278864] (-) TimerEvent: {}
+[42.379699] (-) TimerEvent: {}
+[42.480529] (-) TimerEvent: {}
+[42.581491] (-) TimerEvent: {}
+[42.688493] (-) TimerEvent: {}
+[42.789325] (-) TimerEvent: {}
+[42.890195] (-) TimerEvent: {}
+[42.991064] (-) TimerEvent: {}
+[43.091924] (-) TimerEvent: {}
+[43.192803] (-) TimerEvent: {}
+[43.293613] (-) TimerEvent: {}
+[43.394425] (-) TimerEvent: {}
+[43.495262] (-) TimerEvent: {}
+[43.596101] (-) TimerEvent: {}
+[43.696979] (-) TimerEvent: {}
+[43.797809] (-) TimerEvent: {}
+[43.898641] (-) TimerEvent: {}
+[43.999491] (-) TimerEvent: {}
+[44.100364] (-) TimerEvent: {}
+[44.201266] (-) TimerEvent: {}
+[44.302087] (-) TimerEvent: {}
+[44.402931] (-) TimerEvent: {}
+[44.503784] (-) TimerEvent: {}
+[44.604684] (-) TimerEvent: {}
+[44.705540] (-) TimerEvent: {}
+[44.806363] (-) TimerEvent: {}
+[44.907210] (-) TimerEvent: {}
+[45.008074] (-) TimerEvent: {}
+[45.108971] (-) TimerEvent: {}
+[45.209819] (-) TimerEvent: {}
+[45.310697] (-) TimerEvent: {}
+[45.411530] (-) TimerEvent: {}
+[45.512373] (-) TimerEvent: {}
+[45.613199] (-) TimerEvent: {}
+[45.714063] (-) TimerEvent: {}
+[45.814955] (-) TimerEvent: {}
+[45.915834] (-) TimerEvent: {}
+[46.016731] (-) TimerEvent: {}
+[46.117542] (-) TimerEvent: {}
+[46.218372] (-) TimerEvent: {}
+[46.319185] (-) TimerEvent: {}
+[46.420033] (-) TimerEvent: {}
+[46.520993] (-) TimerEvent: {}
+[46.621834] (-) TimerEvent: {}
+[46.722691] (-) TimerEvent: {}
+[46.823501] (-) TimerEvent: {}
+[46.924348] (-) TimerEvent: {}
+[47.025183] (-) TimerEvent: {}
+[47.125995] (-) TimerEvent: {}
+[47.226802] (-) TimerEvent: {}
+[47.327664] (-) TimerEvent: {}
+[47.428535] (-) TimerEvent: {}
+[47.529391] (-) TimerEvent: {}
+[47.630237] (-) TimerEvent: {}
+[47.731082] (-) TimerEvent: {}
+[47.832123] (-) TimerEvent: {}
+[47.932992] (-) TimerEvent: {}
+[48.033831] (-) TimerEvent: {}
+[48.134656] (-) TimerEvent: {}
+[48.235499] (-) TimerEvent: {}
+[48.336374] (-) TimerEvent: {}
+[48.437203] (-) TimerEvent: {}
+[48.538035] (-) TimerEvent: {}
+[48.638870] (-) TimerEvent: {}
+[48.739729] (-) TimerEvent: {}
+[48.840632] (-) TimerEvent: {}
+[48.941478] (-) TimerEvent: {}
+[49.042331] (-) TimerEvent: {}
+[49.143177] (-) TimerEvent: {}
+[49.244015] (-) TimerEvent: {}
+[49.344905] (-) TimerEvent: {}
+[49.445759] (-) TimerEvent: {}
+[49.546567] (-) TimerEvent: {}
+[49.647392] (-) TimerEvent: {}
+[49.748244] (-) TimerEvent: {}
+[49.849138] (-) TimerEvent: {}
+[49.949955] (-) TimerEvent: {}
+[50.050856] (-) TimerEvent: {}
+[50.152120] (-) TimerEvent: {}
+[50.253235] (-) TimerEvent: {}
+[50.354126] (-) TimerEvent: {}
+[50.455229] (-) TimerEvent: {}
+[50.556405] (-) TimerEvent: {}
+[50.657501] (-) TimerEvent: {}
+[50.758575] (-) TimerEvent: {}
+[50.859669] (-) TimerEvent: {}
+[50.960767] (-) TimerEvent: {}
+[51.061853] (-) TimerEvent: {}
+[51.162897] (-) TimerEvent: {}
+[51.263988] (-) TimerEvent: {}
+[51.365143] (-) TimerEvent: {}
+[51.466228] (-) TimerEvent: {}
+[51.567358] (-) TimerEvent: {}
+[51.668437] (-) TimerEvent: {}
+[51.769508] (-) TimerEvent: {}
+[51.870642] (-) TimerEvent: {}
+[51.972042] (-) TimerEvent: {}
+[52.073583] (-) TimerEvent: {}
+[52.174804] (-) TimerEvent: {}
+[52.276213] (-) TimerEvent: {}
+[52.378028] (-) TimerEvent: {}
+[52.479419] (-) TimerEvent: {}
+[52.580174] (-) TimerEvent: {}
+[52.681036] (-) TimerEvent: {}
+[52.781759] (-) TimerEvent: {}
+[52.882509] (-) TimerEvent: {}
+[52.983273] (-) TimerEvent: {}
+[53.045915] (relbot2turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable relbot2turtlesim\x1b[0m\n'}
+[53.083524] (-) TimerEvent: {}
+[53.184598] (-) TimerEvent: {}
+[53.285577] (-) TimerEvent: {}
+[53.386783] (-) TimerEvent: {}
+[53.488014] (-) TimerEvent: {}
+[53.589425] (-) TimerEvent: {}
+[53.690487] (-) TimerEvent: {}
+[53.791503] (-) TimerEvent: {}
+[53.892695] (-) TimerEvent: {}
+[53.993795] (-) TimerEvent: {}
+[54.094778] (-) TimerEvent: {}
+[54.195663] (-) TimerEvent: {}
+[54.296434] (-) TimerEvent: {}
+[54.397623] (-) TimerEvent: {}
+[54.498362] (-) TimerEvent: {}
+[54.599127] (-) TimerEvent: {}
+[54.700144] (-) TimerEvent: {}
+[54.801754] (-) TimerEvent: {}
+[54.902453] (-) TimerEvent: {}
+[55.003170] (-) TimerEvent: {}
+[55.104047] (-) TimerEvent: {}
+[55.204798] (-) TimerEvent: {}
+[55.272040] (relbot2turtlesim) StdoutLine: {'line': b'[100%] Built target relbot2turtlesim\n'}
+[55.305323] (relbot2turtlesim) JobEnded: {'identifier': 'relbot2turtlesim', 'rc': 'SIGINT'}
+[55.309156] (-) TimerEvent: {}
+[55.319648] (relbot_simulator) JobSkipped: {'identifier': 'relbot_simulator'}
+[55.320493] (ros_xeno_bridge) JobSkipped: {'identifier': 'ros_xeno_bridge'}
+[55.321178] (sdfr_ppd) JobSkipped: {'identifier': 'sdfr_ppd'}
+[55.321789] (-) EventReactorShutdown: {}

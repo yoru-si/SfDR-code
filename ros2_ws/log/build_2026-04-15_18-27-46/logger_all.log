@@ -1,0 +1,1034 @@
+[0.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-skip', 'sdfr_ppd']
+[0.051s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=['sdfr_ppd'], packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6b3b16a500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6b3b2d34f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6b3b2d34f0>>, mixin_verb=('build',))
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/srik/ros_ubuntu/ros2_ws'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/Template) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/Template) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/Template) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XRF2_msgs) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/XRF2/XenoRosFramework/Common/XRF2_msgs' with type 'ros.ament_cmake' and name 'xrf2_msgs'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/XenoFrtLogger_decoder) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/include) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/python_script) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Common/xbuf_dev_rule) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge' with type 'ros.ament_cmake' and name 'ros_xeno_bridge'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/IcoIo) ignored
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Logger) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Logger) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Logger) ignored
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Monitor) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Unit-Tests/Monitor) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/include) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/XRF2/XenoRosFramework/Xenomai/src) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_functions_sdfr/image_functions_sdfr) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_functions_sdfr/image_functions_sdfr' with type 'ros.ament_cmake' and name 'image_functions_sdfr'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/__MACOSX/relbot2turtlesim/include) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot2turtlesim/relbot2turtlesim) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot2turtlesim/relbot2turtlesim' with type 'ros.ament_cmake' and name 'relbot2turtlesim'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_adapter) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_adapter' with type 'ros.ament_cmake' and name 'relbot_adapter'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/__MACOSX/relbot_launch/launch) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_launch/relbot_launch) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_launch/relbot_launch' with type 'ros.ament_cmake' and name 'relbot_launch'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_msgs) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_msgs' with type 'ros.ament_cmake' and name 'relbot_msgs'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/__MACOSX/relbot_sequence_controller/include) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_sequence_controller/relbot_sequence_controller) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_sequence_controller/relbot_sequence_controller' with type 'ros.ament_cmake' and name 'relbot_sequence_controller'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/relbot_simulator) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/relbot_simulator' with type 'ros.ament_cmake' and name 'relbot_simulator'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdfr_ppd) by extension 'python'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sdfr_ppd' with type 'cmake' and name 'sdfr_ppd'
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] INFO:colcon.colcon_core.package_selection:Skipping package 'sdfr_ppd' in 'src/sdfr_ppd'
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/srik/ros_ubuntu/ros2_ws/install
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'image_functions_sdfr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'image_functions_sdfr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/image_functions_sdfr/image_functions_sdfr', 'symlink_install': False, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot2turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'relbot2turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'relbot_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot_adapter', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'xrf2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'xrf2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'relbot_sequence_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_sequence_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'relbot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'relbot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/relbot_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'ros_xeno_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'ros_xeno_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge', 'merge_install': False, 'path': '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/image_functions_sdfr/image_functions_sdfr' with build type 'ament_cmake'
+[0.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/image_functions_sdfr/image_functions_sdfr'
+[0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs' with build type 'ament_cmake'
+[0.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs'
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.198s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim' with build type 'ament_cmake'
+[0.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot2turtlesim/relbot2turtlesim'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_adapter'
+[0.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_launch/relbot_launch'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr -- -j32 -l32
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs -- -j32 -l32
+[0.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs -- -j32 -l32
+[0.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_adapter -- -j32 -l32
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch -- -j32 -l32
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch -- -j32 -l32
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr -- -j32 -l32
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr
+[0.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_launch)
+[0.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim -- -j32 -l32
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_launch
+[0.261s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch' for CMake module files
+[0.262s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch' for CMake config files
+[0.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_launch', 'cmake_prefix_path')
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.ps1'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.dsv'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.sh'
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/bin'
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/lib/pkgconfig/relbot_launch.pc'
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/lib/python3.10/site-packages'
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/bin'
+[0.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.sh'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.bash'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.zsh'
+[0.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/colcon-core/packages/relbot_launch)
+[0.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_launch)
+[0.267s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch' for CMake module files
+[0.267s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch' for CMake config files
+[0.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_launch', 'cmake_prefix_path')
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.ps1'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.dsv'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/hook/cmake_prefix_path.sh'
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/bin'
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/lib/pkgconfig/relbot_launch.pc'
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/lib/python3.10/site-packages'
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/bin'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.ps1'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.dsv'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.sh'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.bash'
+[0.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/relbot_launch/package.zsh'
+[0.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_launch/share/colcon-core/packages/relbot_launch)
+[0.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[0.270s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr' for CMake module files
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/image_functions_sdfr
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr' for CMake config files
+[0.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[0.272s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib'
+[0.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[0.273s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/bin'
+[0.273s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[0.273s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib/python3.10/site-packages'
+[0.273s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/bin'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[0.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[0.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[0.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_functions_sdfr)
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr' for CMake module files
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr' for CMake config files
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'cmake_prefix_path')
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.ps1'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.dsv'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/cmake_prefix_path.sh'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib'
+[0.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_functions_sdfr', 'ld_library_path_lib')
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.dsv'
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/hook/ld_library_path_lib.sh'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/bin'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib/pkgconfig/image_functions_sdfr.pc'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib/python3.10/site-packages'
+[0.276s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/bin'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.sh'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.bash'
+[0.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/package.zsh'
+[0.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/share/colcon-core/packages/image_functions_sdfr)
+[0.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[0.277s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim' for CMake module files
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot2turtlesim
+[0.278s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim' for CMake config files
+[0.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[0.279s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib'
+[0.279s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/bin'
+[0.279s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[0.279s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/python3.10/site-packages'
+[0.279s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/bin'
+[0.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[0.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[0.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[0.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[0.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[0.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot2turtlesim)
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim' for CMake module files
+[0.280s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim' for CMake config files
+[0.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot2turtlesim', 'cmake_prefix_path')
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.ps1'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.dsv'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/hook/cmake_prefix_path.sh'
+[0.281s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib'
+[0.281s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/bin'
+[0.281s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/pkgconfig/relbot2turtlesim.pc'
+[0.281s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/lib/python3.10/site-packages'
+[0.282s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/bin'
+[0.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.ps1'
+[0.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv'
+[0.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.sh'
+[0.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.bash'
+[0.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.zsh'
+[0.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot2turtlesim/share/colcon-core/packages/relbot2turtlesim)
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller -- -j32 -l32
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
+[0.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_sequence_controller)
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller' for CMake module files
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_sequence_controller
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller' for CMake config files
+[0.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_sequence_controller', 'cmake_prefix_path')
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.ps1'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.sh'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/bin'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/pkgconfig/relbot_sequence_controller.pc'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/python3.10/site-packages'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/bin'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.sh'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.bash'
+[0.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.zsh'
+[0.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/colcon-core/packages/relbot_sequence_controller)
+[0.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_sequence_controller)
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller' for CMake module files
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller' for CMake config files
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_sequence_controller', 'cmake_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/hook/cmake_prefix_path.sh'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/bin'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/pkgconfig/relbot_sequence_controller.pc'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/lib/python3.10/site-packages'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/bin'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.bash'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.zsh'
+[0.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_sequence_controller/share/colcon-core/packages/relbot_sequence_controller)
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs -- -j32 -l32
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+[0.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs' for CMake module files
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs' for CMake config files
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib'
+[0.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/bin'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/python3.10/site-packages'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/bin'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.bash'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[0.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[0.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_msgs)
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs' for CMake module files
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs' for CMake config files
+[0.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'cmake_prefix_path')
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/cmake_prefix_path.sh'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib'
+[0.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_msgs', 'ld_library_path_lib')
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/hook/ld_library_path_lib.sh'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/bin'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/pkgconfig/relbot_msgs.pc'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/python3.10/site-packages'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/bin'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.sh'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.bash'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.zsh'
+[0.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/colcon-core/packages/relbot_msgs)
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_simulator' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/relbot_simulator'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator -- -j32 -l32
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator -- -j32 -l32
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator
+[0.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_simulator)
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator' for CMake module files
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_simulator
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator' for CMake config files
+[0.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_simulator', 'cmake_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.ps1'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.sh'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/bin'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/pkgconfig/relbot_simulator.pc'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/python3.10/site-packages'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/bin'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.sh'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.bash'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.zsh'
+[0.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/colcon-core/packages/relbot_simulator)
+[0.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(relbot_simulator)
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator' for CMake module files
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator' for CMake config files
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('relbot_simulator', 'cmake_prefix_path')
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/bin'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/pkgconfig/relbot_simulator.pc'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/lib/python3.10/site-packages'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/bin'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.bash'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.zsh'
+[0.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/relbot_simulator/share/colcon-core/packages/relbot_simulator)
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs -- -j32 -l32
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs
+[0.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xrf2_msgs)
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs' for CMake module files
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/xrf2_msgs
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs' for CMake config files
+[0.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('xrf2_msgs', 'cmake_prefix_path')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.sh'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib'
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('xrf2_msgs', 'ld_library_path_lib')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.sh'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/bin'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib/pkgconfig/xrf2_msgs.pc'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib/python3.10/site-packages'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/bin'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.sh'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.bash'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.zsh'
+[0.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/colcon-core/packages/xrf2_msgs)
+[0.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xrf2_msgs)
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs' for CMake module files
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs' for CMake config files
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('xrf2_msgs', 'cmake_prefix_path')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib'
+[0.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('xrf2_msgs', 'ld_library_path_lib')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/hook/ld_library_path_lib.sh'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/bin'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib/pkgconfig/xrf2_msgs.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib/python3.10/site-packages'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.sh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/share/colcon-core/packages/xrf2_msgs)
+[0.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge' with build type 'ament_cmake'
+[0.493s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srik/ros_ubuntu/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge'
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge -- -j32 -l32
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge' returned '2': CMAKE_PREFIX_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org LD_LIBRARY_PATH=/home/srik/ros_ubuntu/ros2_ws/install/xrf2_msgs/lib:/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/ros_xeno_bridge -- -j32 -l32
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_xeno_bridge)
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge' for CMake module files
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge' for CMake config files
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/lib/pkgconfig/ros_xeno_bridge.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/lib/python3.10/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/bin'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.bash'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.zsh'
+[0.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srik/ros_ubuntu/ros2_ws/install/ros_xeno_bridge/share/colcon-core/packages/ros_xeno_bridge)
+[4.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.519s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.523s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.523s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.531s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srik/ros_ubuntu/ros2_ws/install/local_setup.ps1'
+[4.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srik/ros_ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[4.533s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srik/ros_ubuntu/ros2_ws/install/setup.ps1'
+[4.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srik/ros_ubuntu/ros2_ws/install/local_setup.sh'
+[4.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srik/ros_ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[4.534s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srik/ros_ubuntu/ros2_ws/install/setup.sh'
+[4.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srik/ros_ubuntu/ros2_ws/install/local_setup.bash'
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srik/ros_ubuntu/ros2_ws/install/setup.bash'
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srik/ros_ubuntu/ros2_ws/install/local_setup.zsh'
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srik/ros_ubuntu/ros2_ws/install/setup.zsh'

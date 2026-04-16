@@ -1,0 +1,262 @@
+[0.004s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs
+[0.027s] -- The C compiler identification is GNU 11.4.0
+[0.051s] -- The CXX compiler identification is GNU 11.4.0
+[0.055s] -- Detecting C compiler ABI info
+[0.082s] -- Detecting C compiler ABI info - done
+[0.086s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.086s] -- Detecting C compile features
+[0.087s] -- Detecting C compile features - done
+[0.088s] -- Detecting CXX compiler ABI info
+[0.121s] -- Detecting CXX compiler ABI info - done
+[0.124s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.124s] -- Detecting CXX compile features
+[0.125s] -- Detecting CXX compile features - done
+[0.126s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.225s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.409s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.410s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.410s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.411s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.647s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.648s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.659s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.659s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.659s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.668s] -- Found PythonExtra: .so  
+[0.689s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[0.689s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[0.690s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.699s] -- Added test 'lint_cmake' to check CMake code style
+[0.699s] -- Added test 'xmllint' to check XML markup files
+[0.701s] -- Configuring done
+[0.717s] -- Generating done
+[0.723s] -- Build files have been written to: /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+[0.729s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake /home/srik/ros_ubuntu/ros2_ws/src/relbot_msgs -DCMAKE_INSTALL_PREFIX=/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs
+[0.729s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs -- -j32 -l32
+[0.745s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.749s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.752s] [  5%] Built target ament_cmake_python_copy_relbot_msgs
+[0.871s] running egg_info
+[0.872s] creating relbot_msgs.egg-info
+[0.872s] writing relbot_msgs.egg-info/PKG-INFO
+[0.872s] writing dependency_links to relbot_msgs.egg-info/dependency_links.txt
+[0.872s] writing top-level names to relbot_msgs.egg-info/top_level.txt
+[0.872s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[0.873s] reading manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[0.873s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[0.888s] [  5%] Built target ament_cmake_python_build_relbot_msgs_egg
+[0.911s] [ 10%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c.o[0m
+[0.911s] [ 10%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/relbot_msgs/msg/detail/relbot_motors__functions.c.o[0m
+[0.917s] [ 10%] Built target relbot_msgs__cpp
+[0.922s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.922s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.922s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.938s] [ 20%] [32m[1mLinking C shared library librelbot_msgs__rosidl_generator_c.so[0m
+[0.956s] [ 20%] Built target relbot_msgs__rosidl_generator_c
+[0.960s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.960s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.960s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.068s] [ 30%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors__type_support.cpp.o[0m
+[1.068s] [ 33%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o[0m
+[1.080s] [ 35%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp.o[0m
+[1.081s] [ 38%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/relbot_msgs/msg/detail/relbot_motors__type_support.cpp.o[0m
+[1.093s] [ 41%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors_stamped__type_support.cpp.o[0m
+[1.094s] [ 43%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/relbot_msgs/msg/detail/dds_fastrtps/relbot_motors__type_support.cpp.o[0m
+[1.133s] [ 48%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors__type_support.cpp.o[0m
+[1.133s] [ 48%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/relbot_msgs/msg/relbot_motors_stamped__type_support.cpp.o[0m
+[1.143s] [ 51%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors__type_support_c.cpp.o[0m
+[1.143s] [ 53%] [32mBuilding CXX object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support_c.cpp.o[0m
+[1.152s] [ 56%] [32m[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_c.so[0m
+[1.158s] [ 58%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors__type_support.c.o[0m
+[1.158s] [ 61%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c.o[0m
+[1.181s] [ 61%] Built target relbot_msgs__rosidl_typesupport_c
+[1.190s] [ 64%] [32m[1mLinking C shared library librelbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.220s] [ 64%] Built target relbot_msgs__rosidl_typesupport_introspection_c
+[1.227s] [ 66%] [32m[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_cpp.so[0m
+[1.255s] [ 66%] Built target relbot_msgs__rosidl_typesupport_cpp
+[1.316s] [ 69%] [32m[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.357s] [ 69%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c
+[1.379s] [ 71%] [32m[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.380s] [ 74%] [32m[1mLinking CXX shared library librelbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.415s] [ 74%] Built target relbot_msgs__rosidl_typesupport_introspection_cpp
+[1.419s] [ 74%] Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.432s] [ 74%] Built target relbot_msgs
+[1.445s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.729s] [ 76%] Built target relbot_msgs__py
+[1.742s] [ 79%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_s.c.o[0m
+[1.742s] [ 82%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/relbot_msgs/msg/_relbot_motors_stamped_s.c.o[0m
+[1.808s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/relbot_msgs/librelbot_msgs__rosidl_generator_py.so[0m
+[1.839s] [ 84%] Built target relbot_msgs__rosidl_generator_py
+[1.852s] [ 89%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.852s] [ 89%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.852s] [ 92%] [32mBuilding C object CMakeFiles/relbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.919s] [100%] [32m[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.919s] [100%] [32m[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.919s] [100%] [32m[1mLinking C shared library rosidl_generator_py/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.938s] [100%] Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext
+[1.945s] [100%] Built target relbot_msgs__rosidl_typesupport_c__pyext
+[1.945s] [100%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.950s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --build /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs -- -j32 -l32
+[1.955s] Invoking command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs
+[1.958s] -- Install configuration: ""
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/rosidl_interfaces/relbot_msgs
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.h
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.958s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.c
+[1.959s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.h
+[1.959s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.h
+[1.959s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.h
+[1.959s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c
+[1.960s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.h
+[1.960s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.h
+[1.960s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.h
+[1.960s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.h
+[1.960s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.sh
+[1.961s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.dsv
+[1.961s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so
+[1.961s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so" to ""
+[1.961s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.961s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.962s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.962s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.962s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_c.h
+[1.962s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_c.h
+[1.962s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so
+[1.962s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.962s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.962s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.963s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_c.h
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.c
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_c.h
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c
+[1.963s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so
+[1.964s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.964s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so
+[1.965s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so" to ""
+[1.965s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.965s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.965s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.965s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.hpp
+[1.965s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.965s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__builder.hpp
+[1.965s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.hpp
+[1.966s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__traits.hpp
+[1.966s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.hpp
+[1.966s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__builder.hpp
+[1.966s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.hpp
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__traits.hpp
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.hpp
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.hpp
+[1.967s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.967s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.967s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_cpp.hpp
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/dds_fastrtps
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.967s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.968s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.968s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[1.968s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[1.968s] -- Up-to-date: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[1.968s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_cpp.hpp
+[1.968s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.cpp
+[1.969s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.969s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp
+[1.969s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so
+[1.970s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.970s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so
+[1.971s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so" to ""
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.sh
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.dsv
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/PKG-INFO
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/dependency_links.txt
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/top_level.txt
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/SOURCES.txt
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py
+[1.971s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_s.c
+[1.972s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py
+[1.972s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped_s.c
+[1.972s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py
+[1.972s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.972s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.973s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c
+[1.973s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/librelbot_msgs__rosidl_generator_py.so
+[1.973s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.974s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.974s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.990s] Listing '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs'...
+[1.991s] Compiling '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py'...
+[1.991s] Listing '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg'...
+[1.991s] Compiling '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py'...
+[1.991s] Compiling '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py'...
+[1.991s] Compiling '/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py'...
+[1.993s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.993s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.994s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.994s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.994s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.995s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so
+[1.995s] -- Set runtime path of "/home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so" to ""
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.idl
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.idl
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.msg
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.msg
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/package_run_dependencies/relbot_msgs
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/parent_prefix_path/relbot_msgs
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.sh
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.dsv
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.sh
+[1.995s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.dsv
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.bash
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.sh
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.zsh
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.dsv
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.dsv
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/packages/relbot_msgs
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport.cmake
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.996s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.997s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.997s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport.cmake
+[1.997s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.997s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cppExport.cmake
+[1.998s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.998s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.998s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.998s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake-extras.cmake
+[1.999s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig-version.cmake
+[2.000s] -- Installing: /home/srik/ros_ubuntu/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.xml
+[2.001s] Invoked command in '/home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org https://debuginfod.cachyos.org /usr/bin/cmake --install /home/srik/ros_ubuntu/ros2_ws/build/relbot_msgs

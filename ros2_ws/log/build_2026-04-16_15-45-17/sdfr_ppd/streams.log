@@ -1,0 +1,40 @@
+[0.048s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[0.354s] [0mTIME_STEP_SIZE_VALUE = 0.01[0m
+[0.363s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[1.087s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.121s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.251s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.411s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.776s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.029s] -- Configuring done
+[2.101s] -- Generating done
+[2.131s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd
+[2.232s] [35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[3.280s] [  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[7.447s] [  9%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/IcoIo.cpp.o[0m
+[7.752s] [ 13%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFileHandler.cpp.o[0m
+[10.427s] [ 18%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLogger.cpp.o[0m
+[13.060s] [ 22%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtLoop.cpp.o[0m
+[14.265s] [ 27%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtMonitor.cpp.o[0m
+[14.568s] [ 31%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrtRosIco.cpp.o[0m
+[19.016s] [ 36%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommunication.cpp.o[0m
+[19.312s] [ 40%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosCommandBridge.cpp.o[0m
+[22.811s] [ 45%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoRosDataBridge.cpp.o[0m
+[25.801s] [ 50%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoSpiControllerHandler.cpp.o[0m
+[26.169s] [ 54%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/XenoFrt20Sim.cpp.o[0m
+[29.705s] [ 59%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/src/sdfr_ppd.cpp.o[0m
+[34.204s] [ 63%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/LoopController.cpp.o[0m
+[35.165s] [ 68%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/EulerAngles.cpp.o[0m
+[35.246s] [ 72%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/MotionProfiles.cpp.o[0m
+[35.326s] [ 77%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxfuncs.cpp.o[0m
+[36.210s] [ 81%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinteg.cpp.o[0m
+[37.159s] [ 86%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxinverse.cpp.o[0m
+[38.013s] [ 90%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/controller/common/xxmatrix.cpp.o[0m
+[39.027s] [ 95%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Xenomai/src/FullStateMachine.cpp.o[0m
+[40.320s] [100%] [32m[1mLinking CXX executable sdfr_ppd[0m
+[40.782s] [100%] Built target sdfr_ppd
+[40.830s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

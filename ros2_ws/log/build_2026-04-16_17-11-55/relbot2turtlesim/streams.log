@@ -1,0 +1,22 @@
+[0.058s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim -- -j3 -l3
+[0.535s] [100%] Built target relbot2turtlesim
+[0.583s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim -- -j3 -l3
+[0.606s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim
+[0.648s] -- Install configuration: ""
+[0.666s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[0.673s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[0.676s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[0.680s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[0.684s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[0.685s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[0.688s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[0.690s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[0.691s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[0.693s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[0.696s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[0.699s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[0.707s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[0.709s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[0.710s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[0.732s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[0.748s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot2turtlesim

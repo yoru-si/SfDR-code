@@ -1,0 +1,46 @@
+[0.041s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/sdfr_ppd
+[0.269s] -- The C compiler identification is GNU 11.4.0
+[0.492s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.794s] -- Detecting C compiler ABI info - done
+[0.823s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.826s] -- Detecting C compile features
+[0.829s] -- Detecting C compile features - done
+[0.842s] -- Detecting CXX compiler ABI info
+[1.161s] -- Detecting CXX compiler ABI info - done
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.198s] -- Detecting CXX compile features
+[1.202s] -- Detecting CXX compile features - done
+[1.402s] [0mTIME_STEP_SIZE_VALUE = 0.01[0m
+[1.411s] -- Looking for pthread.h
+[1.717s] -- Looking for pthread.h - found
+[1.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.014s] -- Found Threads: TRUE  
+[2.018s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[2.830s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.439s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.461s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.500s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.686s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.896s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.909s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.208s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.294s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.701s] -- Configuring done
+[4.793s] -- Generating done
+[4.825s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd
+[4.867s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/sdfr_ppd
+[4.872s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[5.038s] [  4%] [32mBuilding CXX object CMakeFiles/sdfr_ppd.dir/main.cpp.o[0m
+[5.292s] [01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KTemplate20sim.hpp: No such file or directory
+[5.293s]     7 | #include [01;31m[K"Template20sim.hpp"[m[K
+[5.295s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.296s] compilation terminated.
+[5.298s] gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:76: CMakeFiles/sdfr_ppd.dir/main.cpp.o] Error 1
+[5.300s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+[5.304s] gmake: *** [Makefile:101: all] Error 2
+[5.306s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '2': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

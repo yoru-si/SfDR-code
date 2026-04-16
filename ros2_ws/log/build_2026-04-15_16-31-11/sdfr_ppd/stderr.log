@@ -1,0 +1,8 @@
+[0mTIME_STEP_SIZE_VALUE = 0.01[0m
+[01m[K/home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd/main.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KTemplate20sim.hpp: No such file or directory
+    7 | #include [01;31m[K"Template20sim.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sdfr_ppd.dir/build.make:76: CMakeFiles/sdfr_ppd.dir/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sdfr_ppd.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2

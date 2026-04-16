@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-65451dcb7e8443491692.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "relbot_sequence_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_detector-cef8b439725be119bea2.json",
+					"name" : "colour_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_sequence_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_sequence_controller-00b568bfd7bda34b83a2.json",
+					"name" : "relbot_sequence_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relbot_sequence_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relbot_sequence_controller_uninstall-307d5a35ff497f1737d0.json",
+					"name" : "relbot_sequence_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e8203ec8b6f28468cfc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller",
+		"source" : "/home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
