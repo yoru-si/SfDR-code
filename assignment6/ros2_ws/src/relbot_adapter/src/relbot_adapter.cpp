@@ -95,7 +95,7 @@ void RELbotAdapter::create_topics()
 
 // Input from Subscriptions
 
-void RELbotAdapter::twistCallback(const relbot_msgs::msg::RelbotMotors motor_velocity_cmd)
+void RELbotAdapter::twistCallback(const relbot_msgs::msg::RelbotMotors::SharedPtr msg)
 {
 
   double left_wheel_vel;
@@ -105,8 +105,8 @@ void RELbotAdapter::twistCallback(const relbot_msgs::msg::RelbotMotors motor_vel
   // Don't forget: everything is right hand defined, so w_L CCW = FW
   /* Hi students, code author here. Twists and reference frames are confusing and need rigid definitions. Even ChatGPT struggled with comprehending this 😃.
   Also, just using separate wheel velocities is totally okay and the originally intended way to control this sim 😉 */
-  left_wheel_vel = motor_velocity_cmd.left_wheel_vel;
-  right_wheel_vel = motor_velocity_cmd.right_wheel_vel;
+  left_wheel_vel = msg->left_wheel_vel;
+  right_wheel_vel = msg->right_wheel_vel;
 
   storage_buffer[0] = left_wheel_vel;
   storage_buffer[1] = right_wheel_vel;

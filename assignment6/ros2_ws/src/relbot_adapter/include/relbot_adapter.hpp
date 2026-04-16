@@ -111,7 +111,7 @@ private:
      *
      * @param twist Velocity (in rad/s and m/s) for motor to be set
      */
-    void twistCallback(const relbot_msgs::msg::RelbotMotors motor_velocity_cmd);
+    void twistCallback(const relbot_msgs::msg::RelbotMotors::SharedPtr msg);
 
     /**
      * @brief Callback upon receiving the right motor command velocity. Stores this command internally for the next
