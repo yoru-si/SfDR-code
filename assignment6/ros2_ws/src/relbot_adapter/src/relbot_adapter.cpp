@@ -68,9 +68,8 @@ void RELbotAdapter::create_topics()
   {
     RCLCPP_INFO(get_logger(), "Using Twist Command mode");
 
-    RELbotAdapter::twistSubscriber_ = create_subscription<geometry_msgs::msg::Twist>(
-        RELbotAdapter::TWIST_TOPIC, rclcpp::SensorDataQoS().reliable(),
-        std::bind(&RELbotAdapter::twistCallback, this, std::placeholders::_1));
+    RELbotAdapter::twistSubscriber_ = create_subscription<relbot_msgs::msg::RelbotMotors>("/input/motor_cmd", 10,
+    std::bind(&RELbotAdapter::twistCallback, this, std::placeholders::_1));
     RCLCPP_INFO(get_logger(), "Subscribed to topic %s", RELbotAdapter::TWIST_TOPIC.c_str());
   }
   else
