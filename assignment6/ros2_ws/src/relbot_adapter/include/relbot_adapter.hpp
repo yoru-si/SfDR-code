@@ -64,7 +64,7 @@ private:
     double wheelRadius_ = DEFAULT_WHEEL_RADIUS;
 
     // Subscribers for motor commands
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr twistSubscriber_;
+    rclcpp::Subscription<relbot_msgs::msg::RelbotMotors>::SharedPtr twistSubscriber_;
     rclcpp::Subscription<example_interfaces::msg::Float64>::SharedPtr rightMotorSetpointVelSubscriber_;
     rclcpp::Subscription<example_interfaces::msg::Float64>::SharedPtr leftMotorSetpointVelSubscriber_;
 
