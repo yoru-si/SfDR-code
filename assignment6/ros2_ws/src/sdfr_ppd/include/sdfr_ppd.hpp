@@ -1,3 +1,11 @@
+/*
+file: sdfr_ppd.hpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description:Defines the sdfr_ppd class for real-time differential drive 
+robot control, including state management, logging, and controller interfacing.
+*/
 #ifndef TEMPLATE20SIM_HPP
 #define TEMPLATE20SIM_HPP
 

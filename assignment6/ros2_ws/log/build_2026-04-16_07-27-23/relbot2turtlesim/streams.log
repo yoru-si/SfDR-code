@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target relbot2turtlesim[0m
+[0.076s] [100%] Built target relbot2turtlesim
+[0.092s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim -- -j8 -l8
+[0.095s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim
+[0.107s] -- Install configuration: ""
+[0.107s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/lib/relbot2turtlesim/relbot2turtlesim
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/package_run_dependencies/relbot2turtlesim
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/parent_prefix_path/relbot2turtlesim
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.sh
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.sh
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/environment/path.dsv
+[0.113s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.bash
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.sh
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.zsh
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/local_setup.dsv
+[0.114s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.dsv
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/ament_index/resource_index/packages/relbot2turtlesim
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig.cmake
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/cmake/relbot2turtlesimConfig-version.cmake
+[0.114s] -- Up-to-date: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot2turtlesim/share/relbot2turtlesim/package.xml
+[0.138s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot2turtlesim

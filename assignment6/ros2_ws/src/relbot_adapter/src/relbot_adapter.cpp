@@ -1,3 +1,12 @@
+/*
+file: relbot_adapter.cpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Code to bridge between ROS2 and Xenomai, recieves the motor velocities
+to be communicated between the nodes
+*/
+
 #include "relbot_adapter.hpp"
 
 // Constructor + Setting up Topics

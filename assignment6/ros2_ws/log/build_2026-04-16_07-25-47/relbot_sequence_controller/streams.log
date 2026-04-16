@@ -1,0 +1,76 @@
+[0.007s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.432s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.468s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.626s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.669s] -- Looking for pthread.h
+[0.724s] -- Looking for pthread.h - found
+[0.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.782s] -- Found Threads: TRUE  
+[0.824s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.857s] -- Found relbot_msgs: 2025.2.0 (/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[0.867s] -- Found image_functions_sdfr: 2.1.0 (/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake)
+[0.899s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.962s] -- Configured cppcheck include dirs: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/include
+[0.962s] -- Configured cppcheck exclude dirs and/or files: 
+[0.963s] -- Added test 'lint_cmake' to check CMake code style
+[0.963s] -- Added test 'uncrustify' to check C / C++ code style
+[0.964s] -- Configured uncrustify additional arguments: 
+[0.964s] -- Added test 'xmllint' to check XML markup files
+[0.965s] -- Configuring done
+[0.977s] -- Generating done
+[0.982s] -- Build files have been written to: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller
+[0.990s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller
+[0.991s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller -- -j8 -l8
+[1.028s] [ 50%] [32mBuilding CXX object CMakeFiles/relbot_sequence_controller.dir/src/relbot_sequence_controller.cpp.o[0m
+[1.029s] [ 50%] [32mBuilding CXX object CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o[0m
+[8.160s] [ 75%] [32m[1mLinking CXX executable colour_detector[0m
+[8.358s] [100%] [32m[1mLinking CXX executable relbot_sequence_controller[0m
+[8.539s] [100%] Built target colour_detector
+[8.756s] [100%] Built target relbot_sequence_controller
+[8.764s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller -- -j8 -l8
+[8.766s] Invoking command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller
+[8.771s] -- Install configuration: ""
+[8.771s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[8.773s] -- Set runtime path of "/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller" to ""
+[8.773s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/colour_detector
+[8.776s] -- Set runtime path of "/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/colour_detector" to ""
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[8.776s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[8.777s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[8.777s] -- Installing: /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[8.778s] Invoked command in '/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller' returned '0': AMENT_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/xrf2_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_simulator:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_sequence_controller:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot2turtlesim:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/image_functions_sdfr:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_msgs:/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/src/install/relbot_launch:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav742/SDfR/Assignments/assignment6/ros2_ws/install/image_functions_sdfr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/raghav742/SDfR/Assignments/assignment6/ros2_ws/build/relbot_sequence_controller

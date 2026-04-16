@@ -1,3 +1,12 @@
+/*
+file: steering.hpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Header file with variable declarations and function prototypes of the sequence controller
+and colour detection codes.
+*/
+
 #ifndef STEER_RELBOT_HPP_
 #define STEER_RELBOT_HPP_
 

@@ -1,3 +1,11 @@
+/*
+file: colour_detector.cpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Code to handle green object detection based on thresholding and find centroid of it.
+*/
+
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include "example_interfaces/msg/float64.hpp"

@@ -1,3 +1,11 @@
+/*
+file: relbot_adapter.hpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Header file containing variable declarations and function prototypes relbot_adapter node
+*/
+
 #ifndef RELBOT_ADAPTER_HPP_
 #define RELBOT_ADAPTER_HPP_
 

@@ -1,3 +1,10 @@
+/*
+file: sdfr_ppd.cpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Implements real-time control of a differential drive robot using encoder feedback, ROS inputs, and PWM motor actuation.
+*/
 #include "sdfr_ppd.hpp"
 
 sdfr_ppd::sdfr_ppd(uint write_decimator_freq, uint monitor_freq) :
