@@ -1,2 +1,0 @@
-float64 steer_left
-float64 steer_right

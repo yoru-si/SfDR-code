@@ -2,7 +2,9 @@ SSH into the Relbot with the -X flag and follow the instructions
 
 Build Instructions:
 Packages which the tester must provide to build this workspace:
-relbot_simulator, relbot_msgs, relbot2turtlesim, XRF2
+relbot_simulator, relbot_msgs, XRF2
+
+Please note that we modified relbot_adapter a bit (the topic it subscribes to) and will only work with our version of it.
 
 # on the same terminal:
 cd ~/ros2_ws  #to your ros workspace
