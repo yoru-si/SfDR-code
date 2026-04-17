@@ -3,6 +3,9 @@ Package relbot_adapter
 ### Description: 
 This package implements an adapter to connect to either the real of simulated relbot.
 
+### Modifications:
+This packages listens to `/input/motor_cmd` for both left and right motors.
+
 ### Functionality:
 Package creates a standardised adapter/adapter to communicate with `relbot_sim` or real RELbot. Package handles checking if communicating with real RELbot is possible, otherwise defaults to the sim state.
 Package clips incoming commands to within default limits (0.25 m/s or 5 rad/s). Limits can be expressed in m/s or rad/s (for the wheels) and will adapt whichever of the two values evaluates to be lower.
@@ -20,9 +23,8 @@ To remove `XRF2` support:
 
 
 ### Inputs:
-`/input/left_motor/setpoint_vel`  
-`/input/right_motor/setpoint_vel`  
-        Type: example_interfaces/msg/Float64
+`/input/motor_cmd`  
+Type: example_interfaces/msg/Float64
 
 If use_twist_cmd = true:  
 `/input/twist`  

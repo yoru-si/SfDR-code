@@ -45,5 +45,15 @@ ros2 topic pub --once /XenoCmd std_msgs/msg/Int32 "{data: 1}"
 # once hello from initialised is visible on terminal, run this: 
 ros2 topic pub --once /XenoCmd std_msgs/msg/Int32 "{data: 2}"
 
+# different terminal to test input:
+## left motor only
+ros2 topic pub /input/motor_cmd relbot_msgs/msg/RelbotMotors "{left_wheel_vel: 1.0, right_wheel_vel: 0.0}" 
+
+## right motor only
+ros2 topic pub /input/motor_cmd relbot_msgs/msg/RelbotMotors "{left_wheel_vel: 0.0, right_wheel_vel: 1.0}" 
+
+## straight
+ros2 topic pub /input/motor_cmd relbot_msgs/msg/RelbotMotors "{left_wheel_vel: 1.0, right_wheel_vel: 1.0}"
+
 
 
