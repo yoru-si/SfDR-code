@@ -9,8 +9,8 @@ Description: Code which handles velocity control of the motors based on the obje
 #include "steering.hpp"
 #include "relbot_msgs/msg/relbot_motors.hpp"  
 
-#define Linear_velocity 0.5
-#define radius 0.05
+#define Linear_velocity 0.2
+#define radius 0.5
 #define wheel2wheel_distance 0.20
 
 using std::placeholders::_1;
@@ -55,8 +55,8 @@ void SteerRelbot::calculate_velocity() {
     double tau = 1.0;  // time constant
 
     // first order controller
-    double x_dot = error_y / tau;      // forward velocity 
-    double theta_dot = error_x / tau;  // angular velocity
+    double x_dot = -error_y / tau;      // forward velocity 
+    double theta_dot = -error_x / tau;  // angular velocity
 
     // scale down 
     double scale = 0.05;

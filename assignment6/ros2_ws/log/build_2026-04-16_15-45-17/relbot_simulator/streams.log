@@ -1,0 +1,76 @@
+[0.151s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator -- -j3 -l3
+[0.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.160s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.274s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.285s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.310s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.562s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.296s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.419s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.588s] -- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[2.750s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.821s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.605s] -- Configured cppcheck include dirs: /home/sdfr-ppd-16/ros2_ws/src/relbot_simulator/include;/home/sdfr-ppd-16/ros2_ws/src/relbot_simulator/common;$<BUILD_INTERFACE:/home/sdfr-ppd-16/ros2_ws/src/relbot_simulator/include>;$<BUILD_INTERFACE:/home/sdfr-ppd-16/ros2_ws/src/relbot_simulator/common>
+[3.607s] -- Configured cppcheck exclude dirs and/or files: 
+[3.615s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.626s] -- Configured cpplint exclude dirs and/or files: 
+[3.632s] -- Added test 'lint_cmake' to check CMake code style
+[3.640s] -- Added test 'uncrustify' to check C / C++ code style
+[3.653s] -- Configured uncrustify additional arguments: 
+[3.657s] -- Added test 'xmllint' to check XML markup files
+[3.664s] -- Configuring done
+[3.774s] -- Generating done
+[3.812s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator
+[4.024s] [35m[1mConsolidate compiler generated dependencies of target relbot_simulator[0m
+[4.988s] [ 11%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/src/relbot_simulator.cpp.o[0m
+[75.094s] [ 22%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/EulerAngles.cpp.o[0m
+[75.162s] [ 33%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/MotionProfiles.cpp.o[0m
+[75.231s] [ 44%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxfuncs.cpp.o[0m
+[75.968s] [ 55%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxinteg.cpp.o[0m
+[76.738s] [ 66%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxinverse.cpp.o[0m
+[79.497s] [ 77%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/common/xxmatrix.cpp.o[0m
+[80.508s] [ 88%] [32mBuilding CXX object CMakeFiles/relbot_simulator.dir/src/Plant.cpp.o[0m
+[81.523s] [100%] [32m[1mLinking CXX executable relbot_simulator[0m
+[87.156s] [100%] Built target relbot_simulator
+[87.191s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator -- -j3 -l3
+[87.201s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator
+[87.223s] -- Install configuration: ""
+[87.224s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/lib/relbot_simulator/relbot_simulator
+[87.469s] -- Set runtime path of "/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/lib/relbot_simulator/relbot_simulator" to ""
+[87.470s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include
+[87.471s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmatrix.cpp
+[87.472s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/MotionProfiles.h
+[87.473s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxfuncs.h
+[87.474s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/EulerAngles.h
+[87.475s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmatrix.h
+[87.476s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinverse.cpp
+[87.477s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinteg.cpp
+[87.479s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinteg.h
+[87.480s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxmodel.h
+[87.481s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/EulerAngles.cpp
+[87.482s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxinverse.h
+[87.483s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/MotionProfiles.cpp
+[87.484s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxtypes.h
+[87.485s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/include/xxfuncs.cpp
+[87.486s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/package_run_dependencies/relbot_simulator
+[87.487s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/parent_prefix_path/relbot_simulator
+[87.488s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.sh
+[87.490s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/ament_prefix_path.dsv
+[87.491s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.sh
+[87.492s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/environment/path.dsv
+[87.493s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.bash
+[87.494s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.sh
+[87.495s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.zsh
+[87.496s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/local_setup.dsv
+[87.497s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.dsv
+[87.498s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/ament_index/resource_index/packages/relbot_simulator
+[87.499s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig.cmake
+[87.500s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/cmake/relbot_simulatorConfig-version.cmake
+[87.501s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_simulator/share/relbot_simulator/package.xml
+[87.507s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_simulator' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_simulator

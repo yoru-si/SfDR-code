@@ -1,0 +1,72 @@
+[0.090s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller
+[0.338s] -- The C compiler identification is GNU 11.4.0
+[0.581s] -- The CXX compiler identification is GNU 11.4.0
+[0.612s] -- Detecting C compiler ABI info
+[0.906s] -- Detecting C compiler ABI info - done
+[0.932s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.934s] -- Detecting C compile features
+[0.936s] -- Detecting C compile features - done
+[0.947s] -- Detecting CXX compiler ABI info
+[1.267s] -- Detecting CXX compiler ABI info - done
+[1.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.306s] -- Detecting CXX compile features
+[1.311s] -- Detecting CXX compile features - done
+[1.330s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.091s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.547s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.720s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.743s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.779s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.837s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.124s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.138s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.460s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.555s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.710s] -- Looking for pthread.h
+[3.992s] -- Looking for pthread.h - found
+[3.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.327s] -- Found Threads: TRUE  
+[4.577s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.780s] -- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[4.835s] -- Found image_functions_sdfr: 2.1.0 (/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/share/image_functions_sdfr/cmake)
+[5.000s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.396s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.397s] -- Configured cppcheck include dirs: /home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller/include
+[5.399s] -- Configured cppcheck exclude dirs and/or files: 
+[5.401s] -- Added test 'lint_cmake' to check CMake code style
+[5.406s] -- Added test 'uncrustify' to check C / C++ code style
+[5.407s] -- Configured uncrustify additional arguments: 
+[5.409s] -- Added test 'xmllint' to check XML markup files
+[5.415s] -- Configuring done
+[5.504s] -- Generating done
+[5.544s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller
+[5.600s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_sequence_controller/relbot_sequence_controller -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller
+[5.603s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller -- -j3 -l3
+[5.752s] [35m[1mConsolidate compiler generated dependencies of target colour_detector[0m
+[5.764s] [35m[1mConsolidate compiler generated dependencies of target relbot_sequence_controller[0m
+[6.254s] [ 50%] Built target colour_detector
+[6.368s] [100%] Built target relbot_sequence_controller
+[6.412s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller -- -j3 -l3
+[6.415s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller
+[6.446s] -- Install configuration: ""
+[6.448s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/relbot_sequence_controller
+[6.452s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/lib/relbot_sequence_controller/colour_detector
+[6.454s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/package_run_dependencies/relbot_sequence_controller
+[6.457s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/parent_prefix_path/relbot_sequence_controller
+[6.459s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.sh
+[6.461s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/ament_prefix_path.dsv
+[6.464s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.sh
+[6.467s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/environment/path.dsv
+[6.471s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.bash
+[6.474s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.sh
+[6.476s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.zsh
+[6.480s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/local_setup.dsv
+[6.484s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.dsv
+[6.485s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/ament_index/resource_index/packages/relbot_sequence_controller
+[6.491s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig.cmake
+[6.492s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/cmake/relbot_sequence_controllerConfig-version.cmake
+[6.493s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller/share/relbot_sequence_controller/package.xml
+[6.515s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr/lib:/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_sequence_controller

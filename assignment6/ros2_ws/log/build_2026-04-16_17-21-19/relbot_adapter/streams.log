@@ -1,0 +1,70 @@
+[0.058s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.743s] -- The CXX compiler identification is GNU 11.4.0
+[0.866s] -- Detecting C compiler ABI info
+[1.070s] -- Detecting C compiler ABI info - done
+[1.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.102s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.114s] -- Detecting CXX compiler ABI info
+[1.416s] -- Detecting CXX compiler ABI info - done
+[1.444s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.445s] -- Detecting CXX compile features
+[1.447s] -- Detecting CXX compile features - done
+[1.459s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.217s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.734s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.939s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.964s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.003s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.334s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.350s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.670s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.757s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.002s] -- Looking for pthread.h
+[4.322s] -- Looking for pthread.h - found
+[4.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.626s] -- Found Threads: TRUE  
+[4.896s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.124s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.193s] -- Found relbot_msgs: 2025.2.0 (/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake)
+[5.313s] -- xrf2_msgs found, enabling related features
+[5.334s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.824s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.827s] -- Configured cppcheck include dirs: /home/sdfr-ppd-16/ros2_ws/src/relbot_adapter/include;$<BUILD_INTERFACE:/home/sdfr-ppd-16/ros2_ws/src/relbot_adapter/include>
+[5.828s] -- Configured cppcheck exclude dirs and/or files: 
+[5.835s] -- Added test 'lint_cmake' to check CMake code style
+[5.841s] -- Added test 'uncrustify' to check C / C++ code style
+[5.844s] -- Configured uncrustify additional arguments: 
+[5.848s] -- Added test 'xmllint' to check XML markup files
+[5.856s] -- Configuring done
+[6.109s] -- Generating done
+[6.221s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter
+[6.282s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter
+[6.284s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter -- -j3 -l3
+[6.449s] [35m[1mConsolidate compiler generated dependencies of target relbot_adapter[0m
+[6.850s] [100%] Built target relbot_adapter
+[6.903s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter -- -j3 -l3
+[6.906s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter
+[6.932s] -- Install configuration: ""
+[6.936s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/lib/relbot_adapter/relbot_adapter
+[6.938s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/package_run_dependencies/relbot_adapter
+[6.940s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/parent_prefix_path/relbot_adapter
+[6.943s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.sh
+[6.945s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/ament_prefix_path.dsv
+[6.948s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/path.sh
+[6.950s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/environment/path.dsv
+[6.954s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.bash
+[6.956s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.sh
+[6.958s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.zsh
+[6.962s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/local_setup.dsv
+[6.964s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/package.dsv
+[6.971s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/ament_index/resource_index/packages/relbot_adapter
+[6.977s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig.cmake
+[6.999s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/cmake/relbot_adapterConfig-version.cmake
+[7.002s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_adapter/share/relbot_adapter/package.xml
+[7.008s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter

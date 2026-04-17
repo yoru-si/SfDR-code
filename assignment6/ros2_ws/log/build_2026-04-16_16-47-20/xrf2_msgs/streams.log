@@ -1,0 +1,215 @@
+[0.065s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs
+[0.304s] -- The C compiler identification is GNU 11.4.0
+[0.568s] -- The CXX compiler identification is GNU 11.4.0
+[0.596s] -- Detecting C compiler ABI info
+[0.901s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.935s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.298s] -- Detecting CXX compiler ABI info - done
+[1.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.329s] -- Detecting CXX compile features
+[1.330s] -- Detecting CXX compile features - done
+[1.344s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.167s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.650s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.693s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.290s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.510s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.520s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.641s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.645s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.647s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.771s] -- Found PythonExtra: .so  
+[6.971s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.056s] -- Added test 'lint_cmake' to check CMake code style
+[7.064s] -- Added test 'xmllint' to check XML markup files
+[7.079s] -- Configuring done
+[7.327s] -- Generating done
+[7.416s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs
+[7.440s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Common/XRF2_msgs -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs
+[7.443s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs -- -j3 -l3
+[7.624s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_generator_c[0m
+[7.657s] [  2%] Built target xrf2_msgs__cpp
+[7.692s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_cpp[0m
+[7.816s] [ 12%] Built target xrf2_msgs__rosidl_generator_c
+[7.829s] [ 12%] Built target ament_cmake_python_copy_xrf2_msgs
+[7.902s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.938s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.955s] [ 23%] Built target xrf2_msgs__rosidl_typesupport_cpp
+[8.141s] [ 33%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_cpp
+[8.253s] [ 43%] Built target xrf2_msgs__rosidl_typesupport_introspection_cpp
+[8.257s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_c[0m
+[8.353s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_c[0m
+[8.569s] [ 53%] Built target xrf2_msgs__rosidl_typesupport_introspection_c
+[8.588s] [ 64%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c
+[8.657s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_c[0m
+[8.794s] [ 74%] Built target xrf2_msgs__rosidl_typesupport_c
+[8.907s] [ 74%] Built target xrf2_msgs
+[9.185s] [ 76%] Built target xrf2_msgs__py
+[9.233s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_generator_py[0m
+[9.591s] [ 84%] Built target xrf2_msgs__rosidl_generator_py
+[9.696s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.726s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[10.057s] [ 89%] Built target xrf2_msgs__rosidl_typesupport_introspection_c__pyext
+[10.114s] [ 94%] Built target xrf2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.180s] [35m[1mConsolidate compiler generated dependencies of target xrf2_msgs__rosidl_typesupport_c__pyext[0m
+[10.404s] running egg_info
+[10.424s] writing xrf2_msgs.egg-info/PKG-INFO
+[10.425s] writing dependency_links to xrf2_msgs.egg-info/dependency_links.txt
+[10.427s] writing top-level names to xrf2_msgs.egg-info/top_level.txt
+[10.462s] reading manifest file 'xrf2_msgs.egg-info/SOURCES.txt'
+[10.481s] writing manifest file 'xrf2_msgs.egg-info/SOURCES.txt'
+[10.648s] [100%] Built target xrf2_msgs__rosidl_typesupport_c__pyext
+[10.709s] [100%] Built target ament_cmake_python_build_xrf2_msgs_egg
+[10.763s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs -- -j3 -l3
+[10.766s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs
+[10.800s] -- Install configuration: ""
+[10.802s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/rosidl_interfaces/xrf2_msgs
+[10.803s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.804s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.806s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.807s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.h
+[10.808s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.815s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.h
+[10.817s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.h
+[10.819s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__functions.c
+[10.822s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.h
+[10.823s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.h
+[10.827s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.h
+[10.828s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__functions.c
+[10.830s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.h
+[10.847s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.h
+[10.849s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.sh
+[10.850s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/library_path.dsv
+[10.851s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_c.so
+[10.852s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.854s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.855s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.857s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_c.h
+[10.870s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_c.h
+[10.871s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.873s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_c.so
+[10.874s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.875s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.877s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.878s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.879s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.c
+[10.880s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.c
+[10.882s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_c.h
+[10.883s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_c.h
+[10.899s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_c.so
+[10.900s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_c.so
+[10.901s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.902s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.904s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/xeno2_ros.hpp
+[10.905s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.906s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__traits.hpp
+[10.907s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__struct.hpp
+[10.908s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.hpp
+[10.918s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__struct.hpp
+[10.920s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__builder.hpp
+[10.921s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.hpp
+[10.922s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__builder.hpp
+[10.923s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__traits.hpp
+[10.925s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.926s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/ros2_xeno.hpp
+[10.928s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.929s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.942s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.954s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/dds_fastrtps
+[10.955s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_fastrtps_cpp.hpp
+[10.956s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_fastrtps_cpp.hpp
+[10.958s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.959s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.960s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs
+[10.961s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg
+[10.963s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail
+[10.964s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__rosidl_typesupport_introspection_cpp.hpp
+[10.974s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__rosidl_typesupport_introspection_cpp.hpp
+[10.975s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/ros2_xeno__type_support.cpp
+[10.977s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/include/xrf2_msgs/xrf2_msgs/msg/detail/xeno2_ros__type_support.cpp
+[10.978s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_introspection_cpp.so
+[10.979s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_typesupport_cpp.so
+[10.981s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.sh
+[10.983s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/pythonpath.dsv
+[10.984s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info
+[10.995s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.996s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.998s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.999s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[11.001s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs
+[11.002s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.004s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.005s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[11.016s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_c.c
+[11.023s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.026s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.029s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[11.031s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg
+[11.050s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno_s.c
+[11.051s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros.py
+[11.052s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_xeno2_ros_s.c
+[11.054s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/__init__.py
+[11.066s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg/_ros2_xeno.py
+[11.067s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[11.068s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py
+[11.070s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/libxrf2_msgs__rosidl_generator_py.so
+[11.071s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/_xrf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.075s] Listing '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs'...
+[11.090s] Compiling '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/__init__.py'...
+[11.091s] Listing '/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/msg'...
+[11.095s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[11.097s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[11.099s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/local/lib/python3.10/dist-packages/xrf2_msgs/xrf2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[11.100s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/lib/libxrf2_msgs__rosidl_generator_py.so
+[11.101s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.idl
+[11.102s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.idl
+[11.103s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Ros2Xeno.msg
+[11.104s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/msg/Xeno2Ros.msg
+[11.122s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/package_run_dependencies/xrf2_msgs
+[11.123s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/parent_prefix_path/xrf2_msgs
+[11.124s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.sh
+[11.126s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/ament_prefix_path.dsv
+[11.127s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.sh
+[11.128s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/environment/path.dsv
+[11.138s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.bash
+[11.139s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.sh
+[11.141s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.zsh
+[11.142s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/local_setup.dsv
+[11.144s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.dsv
+[11.145s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/ament_index/resource_index/packages/xrf2_msgs
+[11.158s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport.cmake
+[11.159s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.160s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.161s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.162s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.163s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.164s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport.cmake
+[11.165s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.187s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_cppExport.cmake
+[11.188s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.190s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.193s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.195s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.197s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport.cmake
+[11.218s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.220s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport.cmake
+[11.222s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/export_xrf2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.223s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake-extras.cmake
+[11.225s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.248s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.249s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.251s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.252s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.253s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.278s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig.cmake
+[11.280s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake/xrf2_msgsConfig-version.cmake
+[11.281s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/package.xml
+[11.282s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/xrf2_msgs

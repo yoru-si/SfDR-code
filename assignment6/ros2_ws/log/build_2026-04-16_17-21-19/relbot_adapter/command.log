@@ -1,0 +1,6 @@
+Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter
+Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/relbot_adapter -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter
+Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter -- -j3 -l3
+Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter -- -j3 -l3
+Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter
+Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_adapter

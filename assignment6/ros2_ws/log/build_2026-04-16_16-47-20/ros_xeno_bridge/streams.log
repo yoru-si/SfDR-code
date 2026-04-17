@@ -1,0 +1,59 @@
+[0.066s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge
+[0.294s] -- The C compiler identification is GNU 11.4.0
+[0.537s] -- The CXX compiler identification is GNU 11.4.0
+[0.561s] -- Detecting C compiler ABI info
+[0.865s] -- Detecting C compiler ABI info - done
+[0.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.899s] -- Detecting C compile features
+[0.902s] -- Detecting C compile features - done
+[0.915s] -- Detecting CXX compiler ABI info
+[1.230s] -- Detecting CXX compiler ABI info - done
+[1.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.260s] -- Detecting CXX compile features - done
+[1.274s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.044s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.524s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.696s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.721s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.764s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.126s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.137s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.454s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.559s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.719s] -- Looking for pthread.h
+[4.030s] -- Looking for pthread.h - found
+[4.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.304s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.312s] -- Found Threads: TRUE  
+[4.551s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[4.908s] -- Configuring done
+[4.956s] -- Generating done
+[4.988s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge
+[5.028s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/XRF2/XenoRosFramework/Ros/ros_xeno_bridge -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge
+[5.034s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge -- -j3 -l3
+[5.147s] [35m[1mConsolidate compiler generated dependencies of target RosXenoBridge[0m
+[5.527s] [100%] Built target RosXenoBridge
+[5.556s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge -- -j3 -l3
+[5.561s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge
+[5.581s] -- Install configuration: ""
+[5.582s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/lib/ros_xeno_bridge/RosXenoBridge
+[5.583s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/package_run_dependencies/ros_xeno_bridge
+[5.585s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/parent_prefix_path/ros_xeno_bridge
+[5.586s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.sh
+[5.588s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/ament_prefix_path.dsv
+[5.589s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.sh
+[5.591s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/environment/path.dsv
+[5.613s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.bash
+[5.614s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.sh
+[5.617s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.zsh
+[5.619s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/local_setup.dsv
+[5.621s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.dsv
+[5.624s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ament_index/resource_index/packages/ros_xeno_bridge
+[5.625s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig.cmake
+[5.628s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/cmake/ros_xeno_bridgeConfig-version.cmake
+[5.630s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge/share/ros_xeno_bridge/package.xml
+[5.632s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/ros_xeno_bridge

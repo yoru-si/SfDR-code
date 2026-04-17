@@ -1,0 +1,178 @@
+[0.074s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_msgs -- -j3 -l3
+[0.319s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_generator_c[0m
+[0.410s] [  2%] Built target relbot_msgs__cpp
+[0.522s] [ 12%] Built target relbot_msgs__rosidl_generator_c
+[0.540s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_cpp[0m
+[0.555s] [ 12%] Built target ament_cmake_python_copy_relbot_msgs
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.081s] [ 23%] Built target relbot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.091s] [ 43%] Built target relbot_msgs__rosidl_typesupport_introspection_cpp
+[1.100s] [ 38%] Built target relbot_msgs__rosidl_typesupport_cpp
+[1.213s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_introspection_c[0m
+[1.224s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.422s] [ 53%] Built target relbot_msgs__rosidl_typesupport_introspection_c
+[1.495s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_c[0m
+[1.580s] [ 64%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c
+[1.620s] [ 74%] Built target relbot_msgs__rosidl_typesupport_c
+[1.808s] [ 74%] Built target relbot_msgs
+[1.972s] [ 76%] Built target relbot_msgs__py
+[2.065s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_generator_py[0m
+[2.493s] [ 84%] Built target relbot_msgs__rosidl_generator_py
+[2.547s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.587s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.876s] [ 89%] Built target relbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.934s] [ 94%] Built target relbot_msgs__rosidl_typesupport_introspection_c__pyext
+[2.959s] [35m[1mConsolidate compiler generated dependencies of target relbot_msgs__rosidl_typesupport_c__pyext[0m
+[3.138s] [100%] Built target relbot_msgs__rosidl_typesupport_c__pyext
+[3.237s] running egg_info
+[3.238s] writing relbot_msgs.egg-info/PKG-INFO
+[3.239s] writing dependency_links to relbot_msgs.egg-info/dependency_links.txt
+[3.240s] writing top-level names to relbot_msgs.egg-info/top_level.txt
+[3.251s] reading manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[3.257s] writing manifest file 'relbot_msgs.egg-info/SOURCES.txt'
+[3.632s] [100%] Built target ament_cmake_python_build_relbot_msgs_egg
+[3.719s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_msgs -- -j3 -l3
+[3.723s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_msgs
+[3.843s] -- Install configuration: ""
+[3.845s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/rosidl_interfaces/relbot_msgs
+[3.846s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[3.849s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[3.851s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.853s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[3.863s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.h
+[3.865s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.h
+[3.868s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.h
+[3.877s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__functions.c
+[3.879s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.c
+[3.880s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__functions.h
+[3.882s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.h
+[3.883s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.h
+[3.887s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.h
+[3.889s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.h
+[3.895s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.sh
+[3.898s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/library_path.dsv
+[3.900s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_c.so
+[3.905s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[3.907s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[3.909s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[3.912s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_c.h
+[3.915s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_c.h
+[3.916s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.917s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_c.so
+[3.919s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[3.921s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[3.922s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.924s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[3.926s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_c.h
+[3.947s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_c.h
+[3.948s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.c
+[3.949s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.c
+[3.949s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_c.so
+[3.950s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_c.so
+[3.951s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[3.952s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[3.954s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors_stamped.hpp
+[3.964s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[3.965s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.hpp
+[3.966s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__struct.hpp
+[3.967s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__traits.hpp
+[3.968s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.hpp
+[3.969s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__traits.hpp
+[3.970s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__builder.hpp
+[3.971s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__builder.hpp
+[3.973s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__struct.hpp
+[3.974s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.980s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/relbot_motors.hpp
+[3.987s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[3.989s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[3.991s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[3.995s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/dds_fastrtps
+[3.996s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.998s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.001s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.015s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.016s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs
+[4.022s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg
+[4.023s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail
+[4.024s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__type_support.cpp
+[4.025s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__type_support.cpp
+[4.026s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors__rosidl_typesupport_introspection_cpp.hpp
+[4.027s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/include/relbot_msgs/relbot_msgs/msg/detail/relbot_motors_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.028s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_introspection_cpp.so
+[4.029s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_typesupport_cpp.so
+[4.030s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.sh
+[4.036s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/pythonpath.dsv
+[4.037s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info
+[4.038s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/dependency_links.txt
+[4.043s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/PKG-INFO
+[4.044s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/SOURCES.txt
+[4.045s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs-2025.2.0-py3.10.egg-info/top_level.txt
+[4.046s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs
+[4.047s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.048s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.049s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.059s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_c.c
+[4.060s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.061s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg
+[4.062s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_s.c
+[4.063s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped_s.c
+[4.064s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/__init__.py
+[4.065s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors_stamped.py
+[4.083s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg/_relbot_motors.py
+[4.084s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/librelbot_msgs__rosidl_generator_py.so
+[4.085s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.086s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/__init__.py
+[4.087s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.088s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.089s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/_relbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.090s] Listing '/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs'...
+[4.091s] Listing '/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/msg'...
+[4.092s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.094s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.103s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/local/lib/python3.10/dist-packages/relbot_msgs/relbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.105s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/lib/librelbot_msgs__rosidl_generator_py.so
+[4.107s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.idl
+[4.108s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.idl
+[4.109s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotors.msg
+[4.110s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/msg/RelbotMotorsStamped.msg
+[4.119s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/package_run_dependencies/relbot_msgs
+[4.120s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/parent_prefix_path/relbot_msgs
+[4.121s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.sh
+[4.122s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/ament_prefix_path.dsv
+[4.140s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.sh
+[4.141s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/environment/path.dsv
+[4.142s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.bash
+[4.145s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.sh
+[4.151s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.zsh
+[4.153s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/local_setup.dsv
+[4.154s] -- Installing: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.dsv
+[4.164s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/ament_index/resource_index/packages/relbot_msgs
+[4.165s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport.cmake
+[4.166s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.169s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.170s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.171s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.172s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.174s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport.cmake
+[4.175s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.176s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_cppExport.cmake
+[4.177s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.178s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.191s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.192s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.193s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport.cmake
+[4.196s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.197s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport.cmake
+[4.198s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/export_relbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.200s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake-extras.cmake
+[4.201s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.202s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.203s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.204s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.205s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.205s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.210s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig.cmake
+[4.219s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/cmake/relbot_msgsConfig-version.cmake
+[4.221s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_msgs/share/relbot_msgs/package.xml
+[4.227s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_msgs

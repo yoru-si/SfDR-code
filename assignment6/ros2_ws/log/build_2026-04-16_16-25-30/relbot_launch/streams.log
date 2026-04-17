@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_launch -- -j3 -l3
+[0.164s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/relbot_launch -- -j3 -l3
+[0.167s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_launch
+[0.196s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch
+[0.200s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_turtlesim_launch.py
+[0.202s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch/webcam_test_launch.py
+[0.204s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_launch.py
+[0.206s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch/relbot_test_launch.py
+[0.208s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch//launch/colour_detector_launch.py
+[0.210s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/ament_index/resource_index/package_run_dependencies/relbot_launch
+[0.213s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/ament_index/resource_index/parent_prefix_path/relbot_launch
+[0.215s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/environment/ament_prefix_path.dsv
+[0.227s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/environment/path.sh
+[0.228s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/environment/path.dsv
+[0.229s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.bash
+[0.231s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.sh
+[0.232s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.zsh
+[0.250s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/local_setup.dsv
+[0.251s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/package.dsv
+[0.252s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/ament_index/resource_index/packages/relbot_launch
+[0.254s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig.cmake
+[0.255s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/cmake/relbot_launchConfig-version.cmake
+[0.256s] -- Up-to-date: /home/sdfr-ppd-16/ros2_ws/install/relbot_launch/share/relbot_launch/package.xml
+[0.267s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/relbot_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sdfr-ppd-16/ros2_ws/build/relbot_launch

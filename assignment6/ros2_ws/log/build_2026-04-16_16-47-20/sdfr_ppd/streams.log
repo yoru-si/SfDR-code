@@ -1,0 +1,40 @@
+[0.066s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/sdfr_ppd
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.514s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.803s] -- Detecting C compiler ABI info - done
+[0.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.836s] -- Detecting C compile features
+[0.839s] -- Detecting C compile features - done
+[0.855s] -- Detecting CXX compiler ABI info
+[1.231s] -- Detecting CXX compiler ABI info - done
+[1.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.268s] -- Detecting CXX compile features
+[1.272s] -- Detecting CXX compile features - done
+[1.442s] -- Looking for pthread.h
+[1.443s] [0mTIME_STEP_SIZE_VALUE = 0.01[0m
+[1.717s] -- Looking for pthread.h - found
+[1.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.003s] -- Found Threads: TRUE  
+[2.014s] -- Found xrf2_msgs: 0.0.0 (/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs/share/xrf2_msgs/cmake)
+[2.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.158s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.179s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.216s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.377s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.574s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.575s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.815s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.898s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.999s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.195s] -- Configuring done
+[4.242s] -- Generating done
+[4.264s] -- Build files have been written to: /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd
+[4.300s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake /home/sdfr-ppd-16/ros2_ws/src/sdfr_ppd -DCMAKE_INSTALL_PREFIX=/home/sdfr-ppd-16/ros2_ws/install/sdfr_ppd
+[4.308s] Invoking command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3
+[4.426s] [35m[1mConsolidate compiler generated dependencies of target sdfr_ppd[0m
+[5.348s] [100%] Built target sdfr_ppd
+[5.384s] Invoked command in '/home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd' returned '0': CMAKE_PREFIX_PATH=/home/sdfr-ppd-16/ros2_ws/install/xrf2_msgs:/home/sdfr-ppd-16/ros2_ws/install/ros_xeno_bridge:/home/sdfr-ppd-16/ros2_ws/install/relbot_simulator:/home/sdfr-ppd-16/ros2_ws/install/relbot_sequence_controller:/home/sdfr-ppd-16/ros2_ws/install/relbot_msgs:/home/sdfr-ppd-16/ros2_ws/install/relbot_launch:/home/sdfr-ppd-16/ros2_ws/install/relbot_adapter:/home/sdfr-ppd-16/ros2_ws/install/relbot2turtlesim:/home/sdfr-ppd-16/ros2_ws/install/image_functions_sdfr /usr/bin/cmake --build /home/sdfr-ppd-16/ros2_ws/build/sdfr_ppd -- -j3 -l3

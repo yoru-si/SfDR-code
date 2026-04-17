@@ -1,3 +1,11 @@
+/*
+file: main.cpp
+Author: Raghavendran Srinivasan(s3656721), Srikrishnan Srinivasan(s3603288)
+Group number: SDfR-PPD 16
+
+Description: Initializes XenoThread, only changes were name of the header file to be included.
+*/
+
 #include <iostream>
 #include <string>
 #include <sys/types.h>

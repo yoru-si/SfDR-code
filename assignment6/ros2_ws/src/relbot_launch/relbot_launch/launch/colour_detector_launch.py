@@ -22,4 +22,9 @@ def generate_launch_description():
             executable='relbot_simulator',
             name='relbot_simulator',
         ),
+        Node(
+            package='image_tools',
+            executable='showimage',
+            name='showimage',
+            ),
     ])
